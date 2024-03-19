@@ -17,6 +17,7 @@ using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Item;
 using Content.Shared.Movement.Components;
+using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared.Physics;
 using Content.Shared.Players.RateLimiting;
@@ -257,6 +258,9 @@ namespace Content.Shared.Interaction
                 return false;
 
             if (!InRangeUnobstructed(userEntity.Value, uid, popup: true))
+                return false;
+
+            if (!TryComp(uid, out PullableComponent? pull))
                 return false;
 
             _pullSystem.TogglePull(uid, userEntity.Value);
