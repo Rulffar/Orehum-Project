@@ -11,18 +11,6 @@ namespace Content.Server.Xenoarchaeology.Equipment.Components;
 public sealed partial class TraversalDistorterComponent : Component
 {
     [ViewVariables(VVAccess.ReadWrite)]
-    public float BiasChance;
-
-    [DataField]
-    public float BaseBiasChance = 0.7f;
-
-    [DataField(customTypeSerializer: typeof(PrototypeIdSerializer<MachinePartPrototype>))]
-    public string MachinePartBiasChance = "Manipulator";
-
-    [DataField]
-    public float PartRatingBiasChance = 1.1f;
-
-    [ViewVariables(VVAccess.ReadWrite)]
     public BiasDirection BiasDirection = BiasDirection.Up;
 
     public TimeSpan NextActivation = default!;

@@ -44,7 +44,6 @@ public sealed class ArtifactAnalyzerSystem : EntitySystem
     [Dependency] private readonly ResearchSystem _research = default!;
     [Dependency] private readonly MetaDataSystem _metaSystem = default!;
     [Dependency] private readonly TraversalDistorterSystem _traversalDistorter = default!;
-    [Dependency] private readonly GlimmerSystem _glimmerSystem = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
