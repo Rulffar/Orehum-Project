@@ -248,3 +248,8 @@
     maxReagents: 5
     metabolizerTypes: [Human]
     removeEmpty: true
+  - type: Tag # goob edit
+    tags:
+    - Meat
+    - Organ
+    - Kidneys
