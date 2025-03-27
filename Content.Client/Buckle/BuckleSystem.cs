@@ -4,6 +4,7 @@ using Content.Shared.Buckle.Components;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Rotation;
 using Robust.Client.GameObjects;
+using Robust.Client.Graphics;
 using Robust.Shared.GameStates;
 
 namespace Content.Client.Buckle;
