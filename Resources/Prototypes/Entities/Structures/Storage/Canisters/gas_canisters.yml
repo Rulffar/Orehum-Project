@@ -64,6 +64,7 @@
     - type: Damageable
       damageContainer: Inorganic
       damageModifierSet: Metallic
+    - type: MobCollision
     - type: Physics
       bodyType: Dynamic
     - type: Fixtures
@@ -72,7 +73,8 @@
           shape:
             !type:PhysShapeAabb
             bounds: "-0.25,-0.25,0.25,0.25"
-          density: 380
+          density: 190
+          hard: false
           mask:
           - SmallMobMask
           layer:
