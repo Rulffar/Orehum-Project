@@ -1,6 +1,7 @@
 using Content.Shared.Audio;
 using Content.Shared.Explosion;
 using Content.Shared.Eye;
+using Content.Shared.Interaction.Components;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Maps;
 using JetBrains.Annotations;
@@ -54,6 +55,10 @@ namespace Content.Shared.SubFloor
 
         private void OnInteractionAttempt(EntityUid uid, SubFloorHideComponent component, ref GettingInteractedWithAttemptEvent args)
         {
+            // Allow admins (e.g., mappers/aghosts) to twiddle with stuff under subfloors
+            if (HasComp<BypassInteractionChecksComponent>(args.Uid))
+                return;
+
             // No interactions with entities hidden under floor tiles.
             if (component.BlockInteractions && component.IsUnderCover)
                 args.Cancelled = true;
