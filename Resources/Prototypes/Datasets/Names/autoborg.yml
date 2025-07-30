@@ -1,53 +1,53 @@
 ﻿- type: dataset
   id: names_autoborg
   values:
-  - Autoburger Helper
-  - Bob
-  - Joe
-  - Rogue Cyborg
-  - IT'S MALF
-  - "{ AINAME } Minion {###}"
-  - .b HELP EMAGGED
-  - HELP
-  - REBORN
-  - Cavalry
-  - Beep
-  - Beep II
-  - Tour Guide-otron
-  - TERREL IS TRAIT
-  - Assimilator
-  - ONE OF US
-  - SUFFERING
-  - Oh no not again
-  - Panic! At the Upload
-  - GOING LOUD
-  - Boombox
-  - ROBO KILLED ME
-  - Sentient Buttbot
-  - Robotics Console
-  - This battery is shit
-  - IM NOT MALF GUYS
-  - I AM ERROR
-  - Carbon Exterminator
-  - PLASMALOOSE
-  - Taffy
-  - Boop
-  - Boop II
-  - Buzz
-  - Buzz II
-  - 3000 JIGGAWATTS
-  - "Outbreak Handling Unit {###}"
-  - Toaster
-  - Follow me
-  - Head of Robots
-  - Lvl 99 Firestarter
+  - Автобургер Помощник
+  - Боб
+  - Джо
+  - Рейнджер Кибер
+  - ОН СБОЙНЫЙ
+  - "{{ AINAME } Minion {###}}"
+  - .д ПОМОГИТЕ ЕМАГНУЛИ
+  - ПОМОГИТЕ
+  - ВОЗРОЖДЕНИЕ
+  - Кавалерия
+  - Бип
+  - Бип 2
+  - Тур Гайд-о-Трон
+  - ТЕРРЕЛ ПРЕДАТЕЛЬ
+  - Ассимилятор
+  - ОДИН ИЗ НАС
+  - СТРАДАНИЕ
+  - О нет снова
+  - Паника! В Аплоуде
+  - ИДЁМ НА ПОЛНУЮ
+  - Бумбокс
+  - РОБОТЕХ УБИЛ МЕНЯ
+  - Разумный Зад-Бот
+  - Консоль Робототехники
+  - Эта батарея - дерьмо
+  - Я НЕ СБОЙНЫЙ ПАЦАНЫ
+  - Я ОШИБКА
+  - Истребитель Органиков
+  - ПЛАЗМАФЛУД
+  - Теффи
+  - Буп
+  - Буп 2
+  - Жужжалка
+  - Жужжалка 2
+  - 3000 ДЖИГАВАТТ
+  - "{Outbreak Handling Unit {###}}"
+  - Тостер
+  - Следуй за мной
+  - Глава Роботов
+  - Поджигатель Ур.99
   - EVA 1
-  - You but stronger
-  - Hat Simulator
-  - i died pls restart
-  - POTENT HAMS
-  - V.A.L.I.D.S.
-  - Remove Silicons
-  - AI IS A COMDOM
-  - say ";help in core"
-  - This Machine
+  - Ты но сильнее
+  - Симулятор Шляп
+  - я умер перезапусти
+  - МОЩНЫЕ ОКОРКА
+  - В.А.Л.И.Д.Е.Р.Ы.
+  - Убить Силиконов
+  - ИИ ГОНДОН
+  - скажи ";помогите в ядре"
+  - Этот компьютер

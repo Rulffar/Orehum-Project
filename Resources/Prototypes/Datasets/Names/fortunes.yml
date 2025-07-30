@@ -1,82 +1,82 @@
 - type: dataset
   id: CookieFortuneDescriptions
   values:
-  - The end is near... and it's all your fault.
-  - We know what you did.
-  - Beware.
-  - Don't look back.
-  - Never trust a person in squeaky shoes.
-  - Never trust a person in red uniform.
-  - Never trust a person in green uniform.
-  - Never trust a person in blue uniform.
-  - Never trust a person in yellow uniform.
-  - Never trust a person in black uniform.
-  - Never trust a person without uniform.
-  - Always trust a person in squeaky shoes.
-  - The clown knows that you know that he knows. Beware.
-  - Beware of the silent man in the silent maintenance tunnels.
-  - Be careful in dark maintenance tunnels.
-  - A surprise awaits you in the maintenance tunnels.
-  - You will be pleasantly surprised in the dormitory.
-  - You will be pleasantly surprised in the cafeteria.
-  - You will be pleasantly surprised in arrivals.
-  - You will be pleasantly surprised in the church.
-  - You will be pleasantly surprised in the tool storage.
-  - There is an impostor among us.
-  - A fun adventure awaits you in the maintenance tunnels.
-  - CentComm is proud of you!
-  - The head of your deparment is proud of you!
-  - Ian is proud of you!
-  - Do it for Ian!
-  - Always carry an emergency box.
-  - Red spy is in the base.
-  - In the coming minutes, your cherished desire will come true.
-  - Take a quick look in the mirror!
-  - Don't look in the mirror today!
-  - Friendship will come to you soon.
-  - A grey man in a gas mask will come to you soon.
-  - Whoever gets this note will receive a chocolate bar.
-  - Milk is good for your bones.
-  - Shout "Hurray!" and get insulated gloves.
-  - Hug your captain and you will receive a gift.
-  - A dubious friend may be an enemy in red camouflage.
-  - A faithful colleague is a strong defense.
-  - A friend asks only for your time, not your crowbar.
-  - Your life doesn't get better by chance, it gets better by doing your job properly.
-  - Boo!
-  - The real treasure is the friends you made along the shift.
-  - Allan please add details
-  - You are the greatest person who ever lived!
-  - NanoTrasen is forcing me to make fortunes for these cookies, please help!
-  - Buy Mr. Chang's today!
-  - You love Mr. Chang!
-  - Don't buy Discount Dan. Buy Mr. Chang!
-  - Don't buy Getmore Chocolate. Buy Mr. Chang!
-  - What’s hidden in a maintenance locker?
-  - All your hard work will soon pay off.
-  - Don’t just think, act!
-  - An apple a day keeps the doctor away.
-  - Don't drink and set up singulo.
-  - Stare into the singulo, and the singulo stares back at you.
-  - Every good and perfect gift is from CentComm.
-  - There’s no such thing as Space Station 13.
-  - There is a time for caution, but not for fear.
-  - The smart thing to do is to begin trusting your intuitions.
-  - Time is precious, but insulated gloves are more precious than time.
-  - Fortune is a giver and a taker. Do it.
-  - Fortune and flowers do not last forever. Do it.
-  - Do it. Just do it.
-  - When life gives you lemons instead of oranges, make lemonade.
-  - By opening this cookie you’ve set a terrible chain of events in motion, good job.
-  - Get back to work!
-  - Cookie.print() not found
-  - THERE IS NO CLONER ON THIS STATION
-  - Putting suit sensors on max is always a good idea.
-  - Syndicate is hiring. Contact us.
-  - The person next to you is up to something. You know what you have to do.
-  - Did you know? Monkeys are not what they seem.
-  - Did you know that half of salvage specialists go missing on the job?
-  - Also try out sashimi with galaxythystle sauce!
-  - Did you know that 70% of Nanotrasen applicants go missing within the first years of their contract? The more you know!!
-  - This shift you are going to do a very robust move in front of everyone.
-  - Robustness is not just about how good you are, but how good of a person you are.
+  - Конец близок... и это всё твоя вина.
+  - Мы знаем что ты сделал.
+  - Берегись.
+  - Не оглядывайся.
+  - Никогда не доверяй человеку в пищащей обуви.
+  - Никогда не доверяй человеку в красной униформе.
+  - Никогда не доверяй человеку в зеленой униформе.
+  - Никогда не доверяй человеку в синей униформе.
+  - Никогда не доверяй человеку в желтой униформе.
+  - Никогда не доверяй человеку в черной униформе.
+  - Никогда не доверяй человеку без униформы.
+  - Всегда доверяй человеку в пищащей обуви.
+  - Клоун знает что ты знаешь, что он знает. Берегись.
+  - Остерегайся молчаливого человека в тихих технических тоннелях.
+  - Будь осторожен в темных технических тоннелях.
+  - Сюрприз ждет тебя в технических тоннелях.
+  - Ты приятно удивишься в дормиториях.
+  - Ты приятно удивишься в столовой.
+  - Ты приятно удивишься в зоне прибытия.
+  - Ты приятно удивишься в церкви.
+  - Ты приятно удивишься в хранилище инструментов.
+  - Среди нас есть предатель.
+  - В технических тоннелях тебя ждет веселое приключение.
+  - ЦентКомм гордится тобой!
+  - Глава твоего отдела гордится тобой!
+  - Иан гордится тобой!
+  - Сделай это для Иана.
+  - Всегда носи с собой аварийный ящик для инструментов.
+  - Красный шпион на базе.
+  - В ближайшие минуты твое заветное желание сбудется.
+  - Быстро взгляни в зеркало!
+  - Не смотри в зеркало сегодня!
+  - Дружба скоро придет к тебе.
+  - Серый человек в противогазе скоро придет к тебе.
+  - Тот кто получит эту записку, получит шоколадный батончик.
+  - Молоко полезно для твоих костей.
+  - Крикни "Ура!" и получи изолированные перчатки.
+  - Обними своего капитана и получишь подарок.
+  - Сомнительный друг может оказаться врагом в красном камуфляже.
+  - Верный коллега - надежная защита.
+  - Друг просит только твоего времени, а не лома.
+  - Твоя жизнь улучшается не случайно, а благодаря правильной работе.
+  - Бу!
+  - Настоящее сокровище - это друзья, которых ты завел за смену.
+  - Ты - величайший человек из всех живших!
+  - NanoTrasen заставляет меня делать предсказания для этих печенек, помогите!
+  - Купите продукцию Мистера Чанга сегодня!
+  - Ты любишь Мистера Чанга!
+  - Не покупай Дискаунт Дэна. Купи Мистера Чанга!
+  - Не покупай Getmore Chocolate. Купи Мистера Чанга!
+  - Что скрывается в техническом шкафчике?
+  - Вся твоя тяжелая работа скоро окупится.
+  - Не просто думай - действуй!
+  - Яблоко в день - и врач не нужен.
+  - Не выпивай и не настраивай сингулярность.
+  - Посмотри в сингулярность и сингулярность посмотрит на тебя.
+  - Каждый хороший и совершенный подарок - от ЦентКомма.
+  - Нет такой вещи, как Космическая Станция 13.
+  - Есть время для осторожности, но не для страха.
+  - Умно начать доверять своей интуиции.
+  - Время драгоценно, но изолированные перчатки драгоценнее времени.
+  - Фортуна дает и забирает. Сделай это.
+  - Фортуна и цветы не вечны. Сделай это.
+  - Сделай это. Просто сделай.
+  - Когда жизнь дает тебе лимоны вместо апельсинов, сделай лимонад.
+  - Открыв это печенье ты запустил ужасную цепь событий, отличная работа.
+  - Возвращайся к работе!
+  - Cookie.print() не найден.
+  - НА ЭТОЙ СТАНЦИИ НЕТ АППАРАТА КЛОНИРОВАНИЯ.
+  - Всегда хорошая идея - поставить датчики костюма на максимум.
+  - Синдикат ведет набор. Свяжись с нами.
+  - Человек рядом с тобой что-то замышляет. Ты знаешь что делать.
+  - Знаешь ли ты? Обезьяны - не те кем кажутся.
+  - Знаешь ли ты что половина утилизаторов пропадает на работе?
+  - Также попробуй сашими с соусом из галактициста!
+  - Знаешь ли ты что 70% соискателей NanoTrasen пропадают в первые годы контракта? Теперь знаешь!
+  - На этой смене ты совершишь очень робастный поступок на глазах у всех.
+  - Робаст- это не только то насколько ты силён, но и насколько ты хороший человек.
+  - Алан, добавь детали.

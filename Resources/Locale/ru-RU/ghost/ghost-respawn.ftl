@@ -1,15 +1,17 @@
-ghost-respawn-minutes-left = До возможности вернуться в раунд { $time } 
+ghost-respawn-time-left = До возможности вернуться в раунд { $time }
     { $time ->
         [one] минута
         [few] минуты
        *[other] минут
     }
-ghost-respawn-seconds-left = До возможности вернуться в раунд { $time } 
+ghost-respawn-minutes-left = До возможности вернуться в раунд { $time } минут
     { $time ->
-        [one] секунда
-        [few] секунды
-       *[other] секунд
+        [one] минута
+        [few] минуты
+       *[other] минут
     }
+ghost-respawn-success = Возрождение успешно
+ghost-respawn-seconds-left = До возможности вернуться в раунд { $time } секунд
 ghost-respawn-max-players = Функция недоступна, игроков на сервере должно быть меньше { $players }.
 ghost-respawn-window-title = Правила возвращения в раунд
 ghost-respawn-window-rules-footer = Пользуясь это функцией, вы [color=#ff7700]обязуетесь[/color] [color=#ff0000]не переносить[/color] знания своего прошлого персонажа в нового. За нарушение пункта, указанного здесь, следует [color=#ff0000]бан в размере от 3-ех дней[/color].

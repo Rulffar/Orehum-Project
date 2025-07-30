@@ -44,7 +44,7 @@ ui-options-announcer-disable-multiple-sounds = Disable Overlapping Announcer Sou
 ui-options-announcer-disable-multiple-sounds-tooltip = Some announcements will not sound right, this setting isn't recommended
 ui-options-admin-sounds = Play Admin Sounds
 ui-options-volume-label = Volume
-ui-options-volume-percent = { TOSTRING($volume, "P0") }
+ui-options-volume-percent = { $volume }
 
 ## Graphics menu
 
@@ -61,9 +61,9 @@ ui-options-colorblind-friendly = Colorblind friendly mode
 ui-options-no-filters = Disable species vision filters
 ui-options-reduced-motion = Reduce motion of visual effects
 ui-options-chat-window-opacity = Chat window opacity
-ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
+ui-options-chat-window-opacity-percent = { $opacity }
 ui-options-screen-shake-intensity = Screen shake intensity
-ui-options-screen-shake-percent = { TOSTRING($intensity, "P0") }
+ui-options-screen-shake-percent = { $intensity }
 ui-options-vsync = VSync
 ui-options-fullscreen = Fullscreen
 ui-options-lighting-label = Lighting Quality:
@@ -72,7 +72,7 @@ ui-options-lighting-low = Low
 ui-options-lighting-medium = Medium
 ui-options-lighting-high = High
 ui-options-scale-label = UI Scale:
-ui-options-scale-auto = Automatic ({ TOSTRING($scale, "P0") })
+ui-options-scale-auto = Automatic ({ $scale })
 ui-options-scale-75 = 75%
 ui-options-scale-100 = 100%
 ui-options-scale-125 = 125%
