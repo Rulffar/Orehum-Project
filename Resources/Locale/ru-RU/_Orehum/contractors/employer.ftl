@@ -1,4 +1,4 @@
-humanoid-profile-editor-employer-label = Работодатель
+humanoid-profile-editor-employer-label = Наниматель
 
 character-employer-requirement = Вы должны{$inverted ->
     [true]{" "}не
