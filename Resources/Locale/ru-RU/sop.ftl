@@ -36,7 +36,7 @@ guide-entry-sop-containmentfail = Сбой Системы Сдерживания
 guide-entry-sop-firegasspill = Возгорание/Утечка Газа
 guide-entry-sop-meteorstorm = Метеоритный Шторм
 guide-entry-sop-stationdamage = Повреждение Станции
-guide-entry-sop-supermatterdelam = SM Delamination
+guide-entry-sop-supermatterdelam = Расслоение Суперматерии
 guide-entry-sop-wardeclaration = Декларация Войны
 guide-entry-sop-zombieoutbreak = Вспышка Зомби
 # - Legal
