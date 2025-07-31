@@ -46,7 +46,7 @@ guide-entry-sop-punishments = Наказания
 guide-entry-sop-searches = Поиски
 # - Cargo
 guide-entry-sop-cargotech = Карго Техника
-guide-entry-sop-salvage = Специалист По Спасению Смущества
+guide-entry-sop-salvage = Специалист По Спасению Имущества
 # - Command
 guide-entry-sop-captain = Капитан
 guide-entry-sop-hop = Глава Персонала
