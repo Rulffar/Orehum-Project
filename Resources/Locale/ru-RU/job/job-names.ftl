@@ -122,5 +122,5 @@ JobWarden = смотритель
 JobVisitor = посетитель
 JobBoxer = боксёр
 JobZookeeper = зоотехник
-job-name-senior-physician = старший физик
+job-name-senior-physician = врачебный инструктор
 job-name-senior-officer = старший офицер

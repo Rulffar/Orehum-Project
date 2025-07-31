@@ -5,7 +5,7 @@
 # Or something symbolic.
 
 - type: dataset
-  id: NamesShadowkin
+  id: names_shadowkin
   values:
   - Маар
   - Лвмар

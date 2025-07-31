@@ -1,7 +1,7 @@
 - type: job
   id: BlueshieldOfficer
-  name: Blueshield Officer
-  description: "Act as a bodyguard and advisor for Command and CentCom VIPs."
+  name: офицер "Синий Щит"
+  description: "Выступайте в качестве телохранителя и советника VIP-персон для Командования и Центрального Командования."
   playTimeTracker: JobBlueshieldOfficer
   requirements:
     - !type:CharacterDepartmentTimeRequirement
@@ -13,6 +13,9 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 54000 # 15 hours
+    - !type:CharacterDepartmentTimeRequirement
+      department: Orehum
+      min: 5 # Снять после достижения более стабильного онлайна
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

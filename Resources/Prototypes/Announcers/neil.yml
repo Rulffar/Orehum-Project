@@ -1,8 +1,6 @@
 - type: announcer
   id: NEIL
   basePath: /Audio/Announcers/NEIL
-  baseAudioParams:
-    volume: -3
   announcements:
     # Communications
     - id: announce # Communications console

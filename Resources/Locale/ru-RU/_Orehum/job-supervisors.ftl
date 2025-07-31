@@ -1,2 +1,2 @@
-job-supervisors-cj = Главному судье
+job-supervisors-cj = Судье
 job-supervisors-command = всему командному составу

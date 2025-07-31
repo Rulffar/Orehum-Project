@@ -1,1 +1,1 @@
-department-Justice-description = Следите за справделивостью на станции.
+department-Justice-description = Следите за справедливостью на станции.

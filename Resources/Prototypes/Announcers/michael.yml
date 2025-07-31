@@ -41,8 +41,6 @@
       path: alerts/delta.ogg
     - id: alertEpsilon # The station has been terminated, good luck survivors!
       path: alerts/epsilon.ogg
-      audioParams:
-        volume: -3
 
     # Events
     ## Wizard's Den

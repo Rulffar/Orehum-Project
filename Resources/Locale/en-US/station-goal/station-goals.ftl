@@ -1,17 +1,5 @@
 station-goal-fax-paper-name = Station Goal
 
-station-goal-fax-paper-header =
-    ███╗░░██╗████████╗
-    ████╗░██║╚══██╔══╝ Form NT-No.{$station}-CC
-    ██╔██╗██║░░░██║░░░ Target Order
-    ██║╚████║░░░██║░░░ Date: {$date}
-    ██║░╚███║░░░██║░░░ Signed: CCO-{$name}
-    ╚═╝░░╚══╝░░░╚═╝░░░
-    ════════════════════════════════════════
-    {$content}
-    ════════════════════════════════════════
-
-
 station-goal-xeno=
     Dear Station Command, the purpose of your shift is to build a Xenobiology Lab and then study exotic life forms.
     Two containment chambers must be constructed according to the following requirements:
