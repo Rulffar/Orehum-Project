@@ -33,21 +33,6 @@
   - WeaponPulseCarbine
 
 # Engineer Gamma
-- type: job
-  id: ERTEngineer
-  name: job-name-ertengineer
-  description: job-description-ertengineer
-  playTimeTracker: JobERTEngineer
-  setPreference: false
-  startingGear: ERTEngineerGear
-  icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-centcom
-  canBeAntag: false
-  accessGroups:
-  - AllAccess
-  access:
-  - CentralCommand
-  special:
 
 - type: startingGear
   id: ERTEngineerGAMMAGear
@@ -80,21 +65,6 @@
   - WeaponPulseCarbine
 
 # Security Gamma
-- type: job
-  id: ERTSecurity
-  name: job-name-ertsecurity
-  description: job-description-ertsecurity
-  playTimeTracker: JobERTSecurity
-  setPreference: false
-  startingGear: ERTSecurityGear
-  icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-centcom
-  canBeAntag: false
-  accessGroups:
-  - AllAccess
-  access:
-  - CentralCommand
-  special:
 
 - type: startingGear
   id: ERTSecurityGAMMAGear
@@ -125,21 +95,6 @@
   - WeaponPulseCarbine
 
 # Medical Gamma
-- type: job
-  id: ERTMedical
-  name: job-name-ertmedic
-  description: job-description-ertmedic
-  playTimeTracker: JobERTMedical
-  setPreference: false
-  startingGear: ERTMedicalGear
-  icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-centcom
-  canBeAntag: false
-  accessGroups:
-  - AllAccess
-  access:
-  - CentralCommand
-  special:
 
 - type: startingGear
   id: ERTMedicalGAMMAGear
@@ -181,10 +136,10 @@
 
 # Janitor Gamma
 - type: job
-  id: ERTJanitor
+  id: ERTJanitorUnen
   name: job-name-ertjanitor
   description: job-description-ertjanitor
-  playTimeTracker: JobERTJanitor
+  playTimeTracker: JobERTJanitorUnen
   setPreference: false
   startingGear: ERTJanitorGear
   icon: "JobIconNanotrasen"
@@ -551,11 +506,10 @@
       - NamesFirstMilitaryLeader
       - NamesLastMilitary
     - type: RandomHumanoidSpawner
-      settings: ERTLeader
+      settings: ERTLeaderUnen
 
 - type: randomHumanoidSettings
-  id: ERTLeader
-  parent: EventHumanoidMindShielded
+  id: ERTLeaderGamma
   speciesBlacklist:
     - Diona
     - Moth
@@ -577,9 +531,13 @@
     - Thaven
   randomizeName: false
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -597,7 +555,7 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTLeader
+      job: ERTLeaderUnen
     - type: Loadout
       prototypes: [ ERTLeaderGAMMAGear ]
     - type: RandomMetadata
@@ -623,7 +581,6 @@
 
 - type: randomHumanoidSettings
   id: ERTLeaderRed
-  parent: EventHumanoidMindShielded
   speciesBlacklist:
     - Diona
     - Moth
@@ -645,9 +602,13 @@
     - Thaven
   randomizeName: false
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -665,7 +626,7 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTLeader
+      job: ERTLeaderUnen
     - type: Loadout
       prototypes: [ ERTLeaderREDGear ]
     - type: RandomMetadata
@@ -691,7 +652,6 @@
 
 - type: randomHumanoidSettings
   id: ERTLeaderAmber
-  parent: EventHumanoidMindShielded
   speciesBlacklist:
     - Diona
     - Moth
@@ -713,9 +673,13 @@
     - Thaven
   randomizeName: false
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -733,7 +697,7 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTLeader
+      job: ERTLeaderUnen
     - type: Loadout
       prototypes: [ ERTLeaderAMBERGear ]
     - type: RandomMetadata
@@ -756,11 +720,10 @@
       - NamesFirstMilitary
       - NamesLastMilitary
     - type: RandomHumanoidSpawner
-      settings: ERTEngineer
+      settings: ERTEngineerGamma
 
 - type: randomHumanoidSettings
-  id: ERTEngineer
-  parent: ERTLeader
+  id: ERTEngineerGamma
   speciesBlacklist:
     - Diona
     - Moth
@@ -781,9 +744,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -828,7 +795,6 @@
 
 - type: randomHumanoidSettings
   id: ERTEngineerRed
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -849,9 +815,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -896,7 +866,6 @@
 
 - type: randomHumanoidSettings
   id: ERTEngineerAmber
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -917,9 +886,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -960,11 +933,10 @@
       - NamesFirstMilitary
       - NamesLastMilitary
     - type: RandomHumanoidSpawner
-      settings: ERTJanitor
+      settings: ERTJanitorGamma
 
 - type: randomHumanoidSettings
-  id: ERTJanitor
-  parent: ERTLeader
+  id: ERTJanitorGamma
   speciesBlacklist:
     - Diona
     - Moth
@@ -985,9 +957,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1005,7 +981,7 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTJanitor
+      job: ERTJanitorUnen
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1032,7 +1008,6 @@
 
 - type: randomHumanoidSettings
   id: ERTJanitorRed
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -1053,9 +1028,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1073,7 +1052,7 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTJanitor
+      job: ERTJanitorUnen
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1100,7 +1079,6 @@
 
 - type: randomHumanoidSettings
   id: ERTJanitorAmber
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -1121,9 +1099,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1141,7 +1123,7 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTJanitor
+      job: ERTJanitorUnen
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1164,11 +1146,10 @@
       - NamesFirstMilitary
       - NamesLastMilitary
     - type: RandomHumanoidSpawner
-      settings: ERTSecurity
+      settings: ERTSecurityGamma
 
 - type: randomHumanoidSettings
-  id: ERTSecurity
-  parent: ERTLeader
+  id: ERTSecurityGamma
   speciesBlacklist:
     - Diona
     - Moth
@@ -1189,9 +1170,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1236,7 +1221,6 @@
 
 - type: randomHumanoidSettings
   id: ERTSecurityRed
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -1245,10 +1229,26 @@
     - Vox
     - Reptilian
     - Vulpkanin
+    - Vulpkanin
+    - Shadowkin
+    - Xelthia
+    - Oni
+    - Tajaran
+    - Resomi
+    - Harpy
+    - Arachne
+    - IPC
+    - Chitinid
+    - Plasmaman
+    - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1293,7 +1293,6 @@
 
 - type: randomHumanoidSettings
   id: ERTSecurityAmber
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -1314,9 +1313,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1361,7 +1364,6 @@
 
 - type: randomHumanoidSettings
   id: ERTMedicalGamma
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -1382,9 +1384,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1429,7 +1435,6 @@
 
 - type: randomHumanoidSettings
   id: ERTMedicalRed
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -1450,9 +1455,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1497,7 +1506,6 @@
 
 - type: randomHumanoidSettings
   id: ERTMedicalAmber
-  parent: ERTLeader
   speciesBlacklist:
     - Diona
     - Moth
@@ -1518,9 +1526,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1611,7 +1623,6 @@
 
 - type: randomHumanoidSettings
   id: ERTLeaderORHM
-  parent: EventHumanoidMindShielded
   speciesBlacklist:
     - Diona
     - Moth
@@ -1631,11 +1642,14 @@
     - Chitinid
     - Plasmaman
     - Thaven
-  randomizeName: false
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1647,7 +1661,7 @@
         collection: SoldierDeath
         params:
           volume: -4
-      job: ERTLeader
+      job: ERTLeaderUnen
     - type: Loadout
       prototypes: [ ERTLeaderORHMGear ]
     - type: RandomMetadata
@@ -1699,7 +1713,6 @@
 
 - type: entity
   id: RandomHumanoidSpawnerERTSecurityORHM
-  parent: RandomHumanoidSpawnerERTLeaderGamma
   name: ОБР офицер безопасности [Orehum Legion]
   components:
     - type: Sprite
@@ -1734,9 +1747,13 @@
     - Plasmaman
     - Thaven
   components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1836,6 +1853,8 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1930,6 +1949,8 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
+      - MindShield
+      - AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1

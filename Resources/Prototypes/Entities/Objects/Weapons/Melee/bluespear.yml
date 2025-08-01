@@ -125,5 +125,8 @@
     inHandsMaxFillLevels: 2
     equippedFillBaseName: -fill-
     equippedMaxFillLevels: 2
+<<<<<<< HEAD:Resources/Prototypes/Entities/Objects/Weapons/Melee/bluespear.yml
   - type: ThrowableBlocked # Goobstation
   - type: UndetectableContraband #Goobstation-Contraband detector
+=======
+>>>>>>> 9ffe6d714d (Additional fixes, translation and rules):Resources/Prototypes/_Orehum/Entities/Objects/Weapons/Melee/bluespear.yml

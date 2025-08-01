@@ -1,15 +1,15 @@
-<Document>
-# Space Station 14
+﻿<Document>
+# Космическая станция 14
 
-This entry marks the beginning of the advanced guidebook entries. Most information found here only applies to offical Wizard's Den servers, or servers that are similar to it.
-Other servers may have their own guidebooks that you should read for relevant information.
+Добро пожаловать в пре-альфу Space Station 14! Мы надеемся, что вам понравится игра, а этот раздел поможет вам разобраться, как играть. Материала много, но SS14 — это сама по себе очень большая и глубокая игра, и мы надеемся, что эти руководства помогут вам получить от неё максимум удовольствия.
 
-If you're just here to play, that's great! The [color=#a4885c]Still new?[/color] section of this entry will help you out.
+## Что это такое
+Space Station 14 — это бесплатный (навсегда) open source ремейк знаменитой Space Station 13, призванный предоставить улучшенный опыт как для новичков, так и для ветеранов. SS14 спроектирована как полностью модифицируемая игра, которую вы можете адаптировать под себя с помощью кастомных серверов, добавляя большие объемы нового контента для исследования.
 
-## Still new?
-[textlink="Completely lost? Click here to start at the beginning." link="NewPlayer"]
+Если вы просто хотите играть — отлично! Раздел [color=#a4885c]С чего начать[/color] в этом разделе поможет вам. Если же хотите больше, вы можете присоединиться к нашему Discord и найти страницу на GitHub в лобби.
 
-[textlink="Don't know how to perform a job? Click here to jump to a list of departments." link="Jobs"]
+## С чего начать
+Рекомендуется начать с руководства по [color=#a4885c]Управлению[/color], затем прочитать руководства по [color=#a4885c]Созданию персонажа[/color], [color=#a4885c]Ролевой игре[/color] и [color=#a4885c]Должностям[/color]. Не все должности или концепции ещё имеют руководства, и мы очень приветствуем помощь опытных игроков в их создании!
 
 [textlink="Keep dying? Click here to see a survival guide." link="Survival"]
 
@@ -18,3 +18,4 @@ If you're looking to do a bit more with the game, you can join our [color=#5865f
 
 Not all jobs or concepts will have guides yet, so if you're an experienced player we strongly encourage you to [color=#a4885c]contribute[/color]!
 </Document>
+

@@ -1,45 +1,46 @@
 ﻿<Document>
-# Jobs
+# Должности
 
-SS14 has a large number of jobs, divided into seven major departments:
+В SS14 существует большое количество должностей, разделённых на семь основных отделов:
 
-## Service
-[color=#9fed58]Service[/color] is a diverse department that includes the head of personnel and other jobs who exist to serve the station.
+## Сервис
+Этот отдел включает уборщика, пассажиров, клоуна, мима, музыканта, повара, бармена, начальника персонала и другие должности, которые существуют для обслуживания станции.
 
-It primarily functions as folks who entertain, clean, and serve the rest of the crew, with the exception of passengers who have no particular job beyond getting lost in maintenance.
+В основном это люди, которые развлекают, убирают и обслуживают остальную команду, за исключением пассажиров, у которых нет конкретной работы, кроме как заблудиться в технических помещениях.
 
-## Logistics
-[color=#b18644]Logistics[/color] consists of the cargo technicians, salvage specialists, and the logistics officer. As a department, it responsible resource distribution and trade, capable of buying and selling things on the galactic market.
+## Снабжение
+В отдел логистики входят грузчики, специалисты по утилизации и квартирмейстер. Как отдел, он отвечает за распределение ресурсов и торговлю, способен покупать и продавать товары на галактическом рынке.
 
-For the most part, this means they scrounge around the station and assorted wrecks to find materials to sell and redistribute, and purchase materials other departments request.
+В основном это означает, что они ищут материалы на станции и в различных обломках для перепродажи и перераспределения, а также закупают материалы по запросам других отделов.
 
-## Security
-[color=#cb0000]Security[/color] consists of the security cadets, lawyers, detective, security officers, warden, and the head of security. As a department it is responsible for dealing with troublemakers and non-humanoid threats like giant rats and carp.
+## Охрана
+В охрану входят курсанты службы безопасности, юристы, детектив, офицеры безопасности, надзиратель и начальник охраны. Отдел отвечает за работу с нарушителями порядка и не гуманоидными угрозами, такими как гигантские крысы и карпы.
 
-As a result of this, and the need to walk a fine line, security sometimes is overwhelmed by angry crew (don't kill the clown), and it is important for its members to try and stay on their best behavior.
+В связи с этим, а также необходимостью соблюдать баланс, охрана иногда сталкивается с недовольными членами экипажа (не убивайте клоуна), и важно, чтобы её сотрудники старались вести себя как можно лучше.
 
-## Medical
-[color=#5b97bc]Medical[/color] consists of the medical interns, chemists, medical doctors, and the chief medical officer. As a department it is responsible for taking care of the crew, treat and/or clone the wounded and dead, treat disease, and prevent everyone from dying a horrible, bloody death in a closet somewhere.
+## Медицинский
+Медицинский отдел состоит из медиков-стажёров, химиков, врачей и главного медицинского офицера. Отдел отвечает за заботу о команде, лечение и/или клонирование раненых и погибших, лечение болезней и предотвращение ужасной кровавой смерти в каком-нибудь шкафу.
 
-Medical is one of the more well-equipped departments, with the ability to locate injured crew using the crew monitor, a nigh infinite supply of chems should chemistry be on-par, and the ability to rapidly diagnose and vaccinate contagious diseases.
+Медицинский отдел хорошо оснащён — может обнаруживать раненых через монитор экипажа, обладает почти неограниченным запасом химикатов при наличии соответствующей химии и способен быстро диагностировать и вакцинировать от заразных болезней.
 
-## Epistemics
-[color=#c96dbf]Epistemics[/color] consists of research assistants, scientists, and the mystagogue. As a department it is responsible for researching technologies and artifacts, upgrading machines, and printing new and useful devices.
+## Научный отдел
+В научный отдел входят научные ассистенты, учёные и научный руководитель. Отдел отвечает за исследование технологий и артефактов, модернизацию машин и печать новых полезных устройств.
 
-Scientists should seek out new artifacts to study, as well as solicit departments to help upgrade their machines.
+Учёные должны искать новые артефакты для изучения, а также привлекать другие отделы к модернизации их оборудования.
 
-## Engineering
-[color=#f39f27]Engineering[/color] consists of technical assistants, station engineers, atmospheric technicians, and the chief engineer. As a department it is responsible for keeping the station powered, its structure intact and its air supply working.
+## Инженерия
+Инженерия включает технических ассистентов, инженеров станции, атмосферных техников и главного инженера. Отдел отвечает за поддержание электропитания станции, её структурной целостности и работоспособности системы подачи воздуха.
 
-Engineering is readily equipped to go safely into space, and as such they should always attempt to repair uninhabitable parts of the station.
+Инженеры хорошо оснащены для безопасного выхода в космос, поэтому они всегда должны стараться ремонтировать непригодные для жизни участки станции.
 
-## Command
-[color=#1b67a5]Command[/color] consists of every department head. It is responsible for keeping the station and its departments running efficiently.
+## Командование
+В командование входят капитан, начальник персонала, начальник охраны, главный инженер, главный медицинский офицер, мистагог и офицер логистики. Отдел отвечает за эффективную работу станции и её отделов.
 
-Command members should always be relatively competent in their respective departments and attempt to delegate responsibility and direct work.
+Члены командования должны быть компетентны в своих областях и стараться делегировать ответственность и направлять работу.
 
 # Getting Your Job Changed
 The [color=#9fed58]Head of Personnel[/color] is the person in charge of changing ID accesses and handing out encryption keys. Head over to their office and let them know what job you'd like to work instead.
 
 Often, they'll want you to go get a paper [color=#a4885c]stamped[/color] by a department head. Don't sweat it, just find them and hand them the paper.
 </Document>
+
