@@ -371,7 +371,6 @@
       species:
         - Harpy # Harpies already have talons
         - Arachnid # Apparently they have a "piercing" bite
-        - Xelthia # Talons don't make sense on tentacle arms
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -404,7 +403,6 @@
         - Tajaran # Tajaran also have cat claws
         - Reptilian # Reptilians also have cat claws.
         - Shadowkin # Shadowkins also have claws.
-        - Xelthia # Claws don't make sense on tentacle arms
         # - Vulpkanin # Vulpkanin have "Blunt" claws. One could argue this trait "Sharpens" their claws.
     - !type:CharacterTraitRequirement
       inverted: true
@@ -479,10 +477,6 @@
       traits:
         - Claws
         - Talons
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Xelthia # this would fall off
   functions:
     - !type:TraitModifyUnarmed
       flatDamageIncrease:
@@ -505,7 +499,6 @@
         - Arachne
         - Shadowkin
         - IPC
-        - Xelthia # this would fall off
   functions:
     - !type:TraitAddComponent
       components:
@@ -537,10 +530,6 @@
       inverted: true
       traits:
         - BionicPryArm
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Xelthia # this would fall off
   functions:
     - !type:TraitCyberneticLimbReplacement
       removeBodyPart: Arm
@@ -1252,10 +1241,6 @@
       inverted: true
       traits:
         - BionicArm
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Xelthia # this would fall off
   functions:
     - !type:TraitCyberneticLimbReplacement
       removeBodyPart: Arm

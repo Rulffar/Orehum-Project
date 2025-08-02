@@ -29,6 +29,7 @@
     - PhoneInstrument
     - PinpointerNuclear
     - AirTankFilled
+    - BSOManual
   inhand:
   - WeaponPulseCarbine
 
@@ -91,6 +92,7 @@
     - PortableRecharger
     - CombatMedipen
     - AirTankFilled
+    - BSOManual
   inhand:
   - WeaponPulseCarbine
 
@@ -131,6 +133,7 @@
     - PillCanisterHyronalin
     - AirTankFilled
     - DefibrillatorCompact
+    - FieldSurgeryKit
   inhand:
   - WeaponPulseCarbine
 
@@ -208,6 +211,7 @@
     - MagazinePistolSubMachineGunTopMounted
     - MagazinePistolSubMachineGunTopMounted
     - MagazineBoxPistol
+    - BSOManual
   inhand:
   - WeaponSubMachineGunWt550
 
@@ -237,6 +241,7 @@
     - BoxMagazineRifle
     - SmokeGrenade
     - AirTankFilled
+    - BSOManual
   inhand:
   - WeaponRifleLecter
 
@@ -302,6 +307,7 @@
     - BoxLethalshot
     - AirTankFilled
     - DefibrillatorCompact
+    - FieldSurgeryKit
   inhand:
   - WeaponShotgunEnforcer
 
@@ -391,6 +397,7 @@
     - MagazinePistolSubMachineGunTopMounted
     - MagazinePistolSubMachineGunTopMounted
     - MagazineBoxPistol
+    - BSOManual
   inhand:
   - WeaponSubMachineGunWt550
 
@@ -488,6 +495,7 @@
     - PillCanisterHyronalin
     - PillCanisterIron
     - DefibrillatorCompact
+    - FieldSurgeryKit
   inhand:
   - WeaponShotgunEnforcer
 
@@ -536,8 +544,8 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
+    - type: AntagImmune
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -607,8 +615,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -678,8 +685,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -749,8 +755,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -820,8 +825,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -891,8 +895,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -962,8 +965,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1033,8 +1035,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1104,8 +1105,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1175,8 +1175,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1247,8 +1246,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1318,8 +1316,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1389,8 +1386,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1460,8 +1456,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1531,8 +1526,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1594,6 +1588,7 @@
     - MagazinePistolSubMachineGunTopMounted
     - MagazinePistolSubMachineGunTopMounted
     - MagazineBoxPistol
+    - BSOManual
     belt:
     - Truncheon
     - Zipties
@@ -1648,8 +1643,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1698,6 +1692,7 @@
     - CombatMedipen
     - CombatMedipen
     - AirTankFilled
+    - BSOManual
     belt:
     - Truncheon
     - Zipties
@@ -1752,8 +1747,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1811,6 +1805,7 @@
     - Tourniquet
     - AirTankFilled
     - DefibrillatorCompact
+    - FieldSurgeryKit
   inhand:
   - WeaponShotgunEnforcer
 
@@ -1853,8 +1848,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
@@ -1949,8 +1943,7 @@
     - type: AutoImplant
       implants:
       - TrackingImplant
-      - MindShield
-      - AntagImmune
+      - MindShieldImplant
     - type: Speech
       speechSounds: Soldier
       soundCooldownTime: 0.1
