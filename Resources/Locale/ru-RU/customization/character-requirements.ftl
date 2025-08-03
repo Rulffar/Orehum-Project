@@ -152,8 +152,8 @@ character-loadout-requirement = Вам необходимо {$inverted ->
 
 
 character-item-group-requirement = Вам необходимо {$inverted ->
-    [true] иметь {$max} или больше
-    *[other] иметь {$max} или меньше
+    [true] иметь более {$max}
+    *[other] не иметь более {$max}
 } вещей из категории [color=white]{$group}[/color]
 
 
