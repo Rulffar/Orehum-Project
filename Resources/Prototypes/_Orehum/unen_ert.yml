@@ -563,7 +563,8 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTLeaderUnen
+      job: ERTLeader
+    - type: GhostTakeoverAvailable
     - type: Loadout
       prototypes: [ ERTLeaderGAMMAGear ]
     - type: RandomMetadata
@@ -633,7 +634,8 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTLeaderUnen
+      job: ERTLeader
+    - type: GhostTakeoverAvailable
     - type: Loadout
       prototypes: [ ERTLeaderREDGear ]
     - type: RandomMetadata
@@ -703,7 +705,8 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTLeaderUnen
+      job: ERTLeader
+    - type: GhostTakeoverAvailable
     - type: Loadout
       prototypes: [ ERTLeaderAMBERGear ]
     - type: RandomMetadata
@@ -774,6 +777,7 @@
       raffle:
         settings: short
       job: ERTEngineer
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -844,6 +848,7 @@
       raffle:
         settings: short
       job: ERTEngineer
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -914,6 +919,7 @@
       raffle:
         settings: short
       job: ERTEngineer
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -983,7 +989,8 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTJanitorUnen
+      job: ERTJanitor
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1053,7 +1060,8 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTJanitorUnen
+      job: ERTJanitor
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1123,7 +1131,8 @@
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: short
-      job: ERTJanitorUnen
+      job: ERTJanitor
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1194,6 +1203,7 @@
       raffle:
         settings: short
       job: ERTSecurity
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1265,6 +1275,7 @@
       raffle:
         settings: short
       job: ERTSecurity
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1335,6 +1346,7 @@
       raffle:
         settings: short
       job: ERTSecurity
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1405,6 +1417,7 @@
       raffle:
         settings: short
       job: ERTMedical
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1475,6 +1488,7 @@
       raffle:
         settings: short
       job: ERTMedical
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1545,6 +1559,7 @@
       raffle:
         settings: short
       job: ERTMedical
+    - type: GhostTakeoverAvailable
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
@@ -1655,7 +1670,7 @@
         collection: SoldierDeath
         params:
           volume: -4
-      job: ERTLeaderUnen
+      job: ERTLeader
     - type: Loadout
       prototypes: [ ERTLeaderORHMGear ]
     - type: RandomMetadata

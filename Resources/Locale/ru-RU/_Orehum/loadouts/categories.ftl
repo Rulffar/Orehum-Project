@@ -14,7 +14,7 @@ loadout-category-JobsAUncategorized = Без Категории
 
 # Command
 loadout-category-JobsCommand = Командование
-loadout-category-JobsCommandAUncategorized = Всё Командование
+loadout-category-JobsCommandAUncategorized = Общее
 loadout-category-JobsCommandCaptain = Капитан
 loadout-category-JobsCommandHeadOfPersonnel = Глава Персонала
 loadout-category-JobsCommandAdminAssistant = Секретарь
@@ -24,16 +24,16 @@ loadout-category-JobsCommandMagistrate = Магистрат
 
 # Engineering
 loadout-category-JobsEngineering = Инженерия
-loadout-category-JobsEngineeringAAUncategorized = Все Инженеры
+loadout-category-JobsEngineeringAAUncategorized = Общее
 loadout-category-JobsEngineeringAtmosphericTechnician = Атмосферный Техник
-loadout-category-JobsEngineeringChiefEngineer = Главный Инженер
+loadout-category-JobsEngineeringChiefEngineer = Старший Инженер
 loadout-category-JobsEngineeringSeniorEngineer = Инженер-инструктор
 loadout-category-JobsEngineeringStationEngineer = Инженер
 loadout-category-JobsEngineeringTechnicalAssistant = Технический Ассистент
 
 # Epistemics
 loadout-category-JobsEpistemics = Научный
-loadout-category-JobsEpistemicsAAUncategorized = Все ученые
+loadout-category-JobsEpistemicsAAUncategorized = Общее
 loadout-category-JobsEpistemicsAcolyte = Аколит
 loadout-category-JobsEpistemicsCataloger = Библиотекарь
 loadout-category-JobsEpistemicsChaplain = Священник
@@ -45,7 +45,7 @@ loadout-category-JobsEpistemicsPsionicMantis = Псионический Мант
 
 # Logistics
 loadout-category-JobsLogistics = Снабжение
-loadout-category-JobsLogisticsAUncategorized = Все снабженцы
+loadout-category-JobsLogisticsAUncategorized = Общее
 loadout-category-JobsLogisticsCargoTechnician = Грузчик
 loadout-category-JobsLogisticsCourier = Курьер
 loadout-category-JobsLogisticsLogisticsOfficer = Квартирмейстер
@@ -53,7 +53,7 @@ loadout-category-JobsLogisticsSalvageSpecialist = Утилизатор
 
 # Medical
 loadout-category-JobsMedical = Врачи
-loadout-category-JobsMedicalAUncategorized = Все Врачи
+loadout-category-JobsMedicalAUncategorized = Общее
 loadout-category-JobsMedicalChemist = Химик
 loadout-category-JobsMedicalChiefMedicalOfficer = Главный Врач
 loadout-category-JobsMedicalMedicalDoctor = Врач
@@ -65,7 +65,7 @@ loadout-category-JobsMedicalSeniorPhysician = Врачебный инструк�
 # Security
 loadout-category-JobsSecurity = Служба Безопасности
 loadout-category-JobsSecurityWeapons = Табельное оружие
-loadout-category-JobsSecurityAUncategorized = Вся охрана
+loadout-category-JobsSecurityAUncategorized = Общее
 loadout-category-JobsSecurityCadet = Кадет
 loadout-category-JobsSecurityCorpsman = Бригмедик
 loadout-category-JobsSecurityDetective = Детектив
@@ -76,7 +76,7 @@ loadout-category-JobsSecurityWarden = Смотритель
 
 # Service
 loadout-category-JobsService = Сервис
-loadout-category-JobsServiceAUncategorized = Весь сервис
+loadout-category-JobsServiceAUncategorized = Общее
 loadout-category-JobsServiceBartender = Бармен
 loadout-category-JobsServiceBotanist = Ботаник
 loadout-category-JobsServiceChef = Шеф-повар
@@ -89,7 +89,7 @@ loadout-category-JobsServiceReporter = Репортёр
 
 # Misc
 loadout-category-JobsZMisc = Разное
-loadout-category-JobsZMiscAUncategorized = Всё разное
+loadout-category-JobsZMiscAUncategorized = Общее
 loadout-category-JobsZMiscPrisoner = Заключённый
 
 loadout-category-Mask = Маска
