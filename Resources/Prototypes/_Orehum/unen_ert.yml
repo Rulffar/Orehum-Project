@@ -473,7 +473,7 @@
     eyes: ClothingEyesNightVisionMedicalGoggles
     head: ClothingHeadHelmetERTMedic
     gloves: ClothingHandsGlovesNitrile
-    outerClothing: ClothingOuterVestArmorMedSec
+    outerClothing: ClothingOuterVestArmorSwat
     id: ERTMedicPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltMedicalFilled
@@ -514,7 +514,7 @@
       - NamesFirstMilitaryLeader
       - NamesLastMilitary
     - type: RandomHumanoidSpawner
-      settings: ERTLeaderUnen
+      settings: ERTLeaderGamma
 
 - type: randomHumanoidSettings
   id: ERTLeaderGamma
