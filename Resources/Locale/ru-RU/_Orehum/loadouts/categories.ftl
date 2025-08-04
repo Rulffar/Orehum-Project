@@ -9,7 +9,7 @@ loadout-category-Head = Голова
 loadout-category-Items = Предметы
 
 # Jobs
-loadout-category-Jobs = Работы
+loadout-category-Jobs = Должности
 loadout-category-JobsAUncategorized = Без Категории
 
 # Command
@@ -17,9 +17,9 @@ loadout-category-JobsCommand = Командование
 loadout-category-JobsCommandAUncategorized = Всё Командование
 loadout-category-JobsCommandCaptain = Капитан
 loadout-category-JobsCommandHeadOfPersonnel = Глава Персонала
-loadout-category-JobsCommandAdminAssistant = Административный Помощник
+loadout-category-JobsCommandAdminAssistant = Секретарь
 loadout-category-JobsCommandBlueshieldOfficer = Офицер "Синий Щит"
-loadout-category-JobsCommandNanorep = Представительство NanoTrasen
+loadout-category-JobsCommandNanorep = Представитель NanoTrasen
 loadout-category-JobsCommandMagistrate = Магистрат
 
 # Engineering
@@ -27,28 +27,28 @@ loadout-category-JobsEngineering = Инженерия
 loadout-category-JobsEngineeringAAUncategorized = Все Инженеры
 loadout-category-JobsEngineeringAtmosphericTechnician = Атмосферный Техник
 loadout-category-JobsEngineeringChiefEngineer = Главный Инженер
-loadout-category-JobsEngineeringSeniorEngineer = Старший Инженер
+loadout-category-JobsEngineeringSeniorEngineer = Инженер-инструктор
 loadout-category-JobsEngineeringStationEngineer = Инженер
 loadout-category-JobsEngineeringTechnicalAssistant = Технический Ассистент
 
 # Epistemics
-loadout-category-JobsEpistemics = Эпистемология
-loadout-category-JobsEpistemicsAAUncategorized = Все эпистемологи
+loadout-category-JobsEpistemics = Научный
+loadout-category-JobsEpistemicsAAUncategorized = Все ученые
 loadout-category-JobsEpistemicsAcolyte = Аколит
 loadout-category-JobsEpistemicsCataloger = Библиотекарь
 loadout-category-JobsEpistemicsChaplain = Священник
-loadout-category-JobsEpistemicsGolemancer = Големант
-loadout-category-JobsEpistemicsMystagogue = Мистагог
+loadout-category-JobsEpistemicsGolemancer = Робототехник
+loadout-category-JobsEpistemicsMystagogue = Научный руководитель
 loadout-category-JobsEpistemicsMystic = Мистик
-loadout-category-JobsEpistemicsNoviciate = Новичок
+loadout-category-JobsEpistemicsNoviciate = Послушник
 loadout-category-JobsEpistemicsPsionicMantis = Псионический Мантис
 
 # Logistics
-loadout-category-JobsLogistics = Логистика
-loadout-category-JobsLogisticsAUncategorized = Все Логисты
-loadout-category-JobsLogisticsCargoTechnician = Карготехник
+loadout-category-JobsLogistics = Снабжение
+loadout-category-JobsLogisticsAUncategorized = Все снабженцы
+loadout-category-JobsLogisticsCargoTechnician = Грузчик
 loadout-category-JobsLogisticsCourier = Курьер
-loadout-category-JobsLogisticsLogisticsOfficer = Специалист По Логистике
+loadout-category-JobsLogisticsLogisticsOfficer = Квартирмейстер
 loadout-category-JobsLogisticsSalvageSpecialist = Утилизатор
 
 # Medical
@@ -60,17 +60,17 @@ loadout-category-JobsMedicalMedicalDoctor = Врач
 loadout-category-JobsMedicalMedicalIntern = Интерн
 loadout-category-JobsMedicalParamedic = Парамедик
 loadout-category-JobsMedicalPsychologist = Психолог
-loadout-category-JobsMedicalSeniorPhysician = Старший Врач
+loadout-category-JobsMedicalSeniorPhysician = Врачебный инструктор
 
 # Security
 loadout-category-JobsSecurity = Служба Безопасности
-loadout-category-JobsSecurityWeapons = Боевое Оружие
+loadout-category-JobsSecurityWeapons = Табельное оружие
 loadout-category-JobsSecurityAUncategorized = Вся охрана
 loadout-category-JobsSecurityCadet = Кадет
 loadout-category-JobsSecurityCorpsman = Бригмедик
 loadout-category-JobsSecurityDetective = Детектив
 loadout-category-JobsSecurityHeadOfSecurity = Глава Службы Безопасности
-loadout-category-JobsSecuritySecurityOfficer = Офицер Службы Безопасности
+loadout-category-JobsSecuritySecurityOfficer = Офицер
 loadout-category-JobsSecuritySeniorOfficer = Старший Офицер
 loadout-category-JobsSecurityWarden = Смотритель
 
@@ -94,8 +94,8 @@ loadout-category-JobsZMiscPrisoner = Заключённый
 
 loadout-category-Mask = Маска
 loadout-category-Neck = Шея
-loadout-category-Outer = Внешний
+loadout-category-Outer = Верхнее
 loadout-category-Belt = Пояс
 loadout-category-Shoes = Обувь
-loadout-category-Species = Виды
+loadout-category-Species = Расы
 loadout-category-Uniform = Униформа
