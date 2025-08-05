@@ -15,7 +15,7 @@
   - type: Fixtures
     fixtures:
       fix1:
-        shape: !type:PolygonShape
+        shape:
           vertices:
             - -0.08,-0.06 # Goob edit
             - -0.06,-0.08 # Goob edit
@@ -28,7 +28,7 @@
         friction: 0.2
   - type: Sharp
   - type: Sprite
-    sprite: _Orehum/Objects/Weapons/bluespear.rsi
+    sprite: /_Orehum/Objects/Weapons/bluespear.rsi
     layers:
     - state: spear
     - state: spear1
