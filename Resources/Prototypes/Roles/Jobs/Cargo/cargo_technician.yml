@@ -13,10 +13,11 @@
   - Salvage
   - Orders
   requirements:
-  - !type:CharacterEmployerRequirement
-    employers:
-    - OrionExpress
-    - NanoTrasen
+    - !type:CharacterEmployerRequirement
+      employers:
+      - OrionExpress
+      - NanoTrasen
+      - HephaestusIndustries
 
 - type: startingGear
   id: CargoTechGear
