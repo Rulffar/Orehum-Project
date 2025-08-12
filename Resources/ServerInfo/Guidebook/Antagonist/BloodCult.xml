@@ -34,7 +34,7 @@
   ## Ритуальный кинжал
 
   <Box>
-    <GuideEntityEmbed Entity="RitualDagger" Caption="Ritual Dagger"/>
+    <GuideEntityEmbed Entity="RitualDagger" Caption="Ритуальный кинжал"/>
   </Box>
 
   Ваш кинжал — ваш самый важный инструмент, и у него есть несколько функций: 
