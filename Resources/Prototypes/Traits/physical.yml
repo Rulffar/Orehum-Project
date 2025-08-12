@@ -1006,6 +1006,7 @@
         - type: ShowJobIcons
         - type: ShowMindShieldIcons
         - type: ShowCriminalRecordIcons
+        - type: FlashImmunity
 
 - type: trait
   id: MedicalEyesModule

@@ -1,2 +1,2 @@
 battery-drinker-verb-drink = Истощение
-battery-drinker-empty = { CAPATALIZE(THE($target)) } уже пуст!
+battery-drinker-empty = { CAPITALIZE(THE($target)) } уже пуст!
