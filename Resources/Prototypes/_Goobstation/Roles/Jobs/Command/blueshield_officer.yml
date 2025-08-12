@@ -13,9 +13,6 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 54000 # 15 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Orehum
-      min: 5 # Снять после достижения более стабильного онлайна
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
