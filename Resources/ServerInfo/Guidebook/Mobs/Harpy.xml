@@ -1,122 +1,122 @@
 <Document>
-  # Harpy (Homo-Aves sapiens)
-  All Information included in this document is licensed under CC BY-SA 4.0, and is written by VMSolidus(Github), also known as raistlin_jag(Discord)
+  # Гарпия (Homo-Aves sapiens)
+  Вся информация, включенная в этот документ, лицензирована CC BY-SA 4.0 и написана компанией VMSolidus(Github), также известной как raistlin_jag(Discord).
 
   <Box>
     <GuideEntityEmbed Entity="MobHarpyDummy" Caption=""/>
   </Box>
 
-  Harpies were created during the first 100 years of the colonial period of human civilization, back when the corporations still answered to the Sol Government.
-  Their creators were a company called GenetiCorp, now long defunct.
-  During it's heyday, GenetiCorp developed processes for converting colonists into forms suitable for the lesser colonized planets with some extreme conditions.
-  For the Harpy subtype, these adaptations were created to colonize the moon of a Hycean world, Valyrian 4b(4a referring to the Hycean world itself).
-  It is a planet with an incredibly dense atmosphere, measuring just slightly over 150kpa at sea level, with a high oxygen concentration.
-  Its host star is extraordinarily rich in the UV spectrum of light, but gives off incredibly dim amounts of red light.
-  The planet's terrain features a vast ocean surrounding a single volcanically active continent, as well as extensive archipelagos.
-  Valyrian 4b is well known for its flora sporting leaves that fluoresce orange in the nearby star's UV intense light.
+ Гарпии были созданы в первые 100 лет колониального периода человеческой цивилизации, когда корпорации еще подчинялись правительству Солнечной Системы.
+  Их создателями была компания GenetiCorp, ныне давно прекратившая свое существование.
+  В период своего расцвета GenetiCorp разработала процессы преобразования колонистов в формы, подходящие для менее колонизированных планет с некоторыми экстремальными условиями.
+  Для подтипа гарпий эти приспособления были созданы для колонизации луны хайсианского мира, валирийского 4b (4a относится к самому хайсианскому миру).
+  Это планета с невероятно плотной атмосферой, давление которой на уровне моря составляет чуть более 150 кПа, и высокой концентрацией кислорода.
+  Ее звезда-хозяин обладает необычайно богатым ультрафиолетовым спектром излучения, но излучает невероятно слабое количество красного света.
+  Рельеф планеты включает в себя обширный океан, окружающий единственный вулканически активный континент, а также обширные архипелаги.
+  Валирия 4b хорошо известна своей флорой, листья которой флуоресцируют оранжевым в интенсивном ультрафиолетовом свете ближайшей звезды.
 
-  Due to persistent financial troubles, GenetiCorp was bought out by its largest competitor Interdyne long before its first colony ship arrived at the intended destination.
-  Shortly after arrival, the original Harpy colonists were repossesed by Interdyne- who had gotten to the planet first in faster ships made after the fact.
-  Some Harpy colonists remained on "the Homeworld", while others were kept by the company and gradually spread across the realms of human space.
-  Due to the costs of their radical genemodding, most Harpies today are indebted to corporations, owing vast sums of money inherited from their parents.
-  These debts are often traded between corporations like stocks, resulting in a wide Diaspora of Harpies around the galaxy, and in turn gives them their extremely diverse coloration.
+  Из-за постоянных финансовых проблем GenetiCorp была выкуплена своим крупнейшим конкурентом Interdyne задолго до того, как ее первый колониальный корабль прибыл в намеченное место назначения.
+  Вскоре после прибытия первоначальные колонисты "Гарпий" были возвращены "Интердайн", которые первыми добрались до планеты на более быстрых кораблях, созданных уже после этого.
+  Некоторые колонисты-гарпии остались на "Родной планете", в то время как другие были переданы компании и постепенно распространились по всему обитаемому космосу.
+  Из-за затрат, связанных с радикальной модификацией их генов, большинство гарпий сегодня в долгу перед корпорациями, они должны огромные суммы денег, унаследованные от своих родителей.
+  Эти долги часто обмениваются между корпорациями, как акции, что приводит к появлению широкой диаспоры гарпий по всей галактике, что, в свою очередь, придает им чрезвычайно разнообразную окраску.
 
-  ## Biology
+  ## Биология
 
-  Harpies are biologically classed as a different species than Homo-Sapiens, due to the extreme nature of their original designer genetic modifications rendering them incapable of breeding true with Sol-Standard Humans.
-  They are however not true mutants, owing to the stability of their modifications such that they breed naturally as a species.
-  However, a "GenetiCorp-Standard Harpy" is readily recognisable as being related to humans thanks in part to retaining many body parts and organs present in the standard human.
-  A typical Harpy possesses a human brain, heart, stomach, kidneys, and reproductive organs, with skin not unlike a human- though it may be partially feathered, and can have a rough texture to the touch.
+  Гарпии биологически классифицируются как другой вид, отличный от Homo Sapiens, из-за экстремальной природы их первоначальных дизайнерских генетических модификаций, делающих их неспособными к полноценному размножению с людьми Солнечного стандарта.
+  Однако они не являются настоящими мутантами из-за стабильности своих модификаций, позволяющей им размножаться естественным образом как биологическому виду.
+  Тем не менее, "гарпию стандарта GenetiCorp" легко распознать как родственницу человека, отчасти благодаря тому, что у нее сохранились многие части тела и органы, присущие обычному человеку.
+  Типичная гарпия обладает человеческим мозгом, сердцем, желудком, почками и репродуктивными органами, а ее кожа мало чем отличается от человеческой, хотя может быть частично покрыта перьями и иметь грубую текстуру на ощупь.
 
-  Their most extreme internal modifications are the possession of a second trachea, leading to a quartet of Avian lung organs.
-  A Harpy's breathing is several times more efficient than a Human's at taking in oxygen, and like a bird, they have no separation of "Inhale and Exhale".
-  Air enters a Harpy's lungs in a continuous loop via a circular motion through their four lung chambers. Listening to a Harpy breathing via a stethoscope is something like listening to the rhythm of a heartbeat, it is fast and continuous.
+  Их наиболее радикальные внутренние изменения - это наличие второй трахеи, что приводит к появлению четырех органов, напоминающих птичьи легкие.
+  Дыхание гарпий в несколько раз эффективнее, чем у человека, при потреблении кислорода, и, как у птиц, у них нет разделения на "вдох" и "выдох".
+  Воздух поступает в легкие Гарпии непрерывным циклом, совершая круговые движения через четыре камеры легких. Прослушивание дыхания Гарпии с помощью стетоскопа напоминает прослушивание ритма сердцебиения, оно быстрое и непрерывное.
 
-  This continuous-flow breathing also permits the use of a highly advanced vocal organ called a Syrinx, which is what enables Harpies to perform iconic ability to imitate nearly any sound.
-  This of course comes with a significant trade-off, one that makes for a difficult life for Harpies to live in space.
-  They require double the volume of air a human requires, burning through tanks of oxygen twice as fast as any other species.
-  They are also substantially vulnerable to air impurities of any kind, and will be readily injured by simple things such as cigarette smoke, or someone hyperventilating in their face.
+  Это непрерывное дыхание также позволяет использовать высокоразвитый голосовой орган под названием Сиринкс, который позволяет гарпиям демонстрировать культовую способность имитировать практически любой звук.
+  Конечно, это требует существенного компромисса, который усложняет жизнь гарпий в космосе.
+  Им требуется в два раза больше воздуха, чем человеку, и они сжигают кислородные баллоны в два раза быстрее, чем любой другой вид.
+  Они также в значительной степени подвержены воздействию любых загрязнений воздуха и легко могут пострадать от таких простых вещей, как сигаретный дым или чье-то учащенное дыхание прямо им в лицо.
 
-  ## Unique Languages
+  ## Уникальные языки
 - [color=#008ecc]Valyrian Standard[/color]:
-  A language descended from eastern european languages of old earth - Valyrian Standard is the commonly spoken tongue of Harpies brought up on their homeworld of Valyrian 4b.
-  It is rarely spoken outside of the worlds of its native speakers, and has in modern times been supplanted by the 'Conlangs of the Sol Alliance.
-  Its speakers are those who wish to uphold the traditions and beliefs of ancient peoples from before the colonial era.
+  Язык, произошедший от восточноевропейских языков старого земного валирийского стандарта, является общепринятым языком гарпий, выросших на своей родной планете Валирий 4b.
+  На нем редко говорят за пределами миров, где он является родным, и в наше время он был вытеснен конлангами Солнечного альянса.
+  На нем говорят те, кто желает поддерживать традиции и верования древних народов, живших до колониальной эпохи.
 
-  ## Other Notes
+  ## Другие примечания
 
-  - No, Harpies don't lay eggs.
-  - In a combination of low-gravity and high atmospheric density, a Harpy is capable of flight. They are however flightless in Terran-Standard Atmospheric conditions.
-  - Adult Harpies can be anywhere from 135cm to 190cm tall, with an average height of around 155cm(Human average being roughly 175cm, depending on ethnicity).
-  - An average adult male Harpy weighs only 24kg, while an average adult female weighs 18kg. For reference, the average weight of an adult male human is 71kg.
-  - Curiously, Harpies do not follow the pattern of sexual dimorphism present in Terran birds. Female Harpies are usually just as colorful(or lack thereof) as their male counterparts.
-  - Spacer Harpies(Those not born on the Homeworld), are typically far more colorfully diverse than those native to the Homeworld.
+  - Нет, гарпии не откладывают яйца.
+  - В сочетании с низкой гравитацией и высокой плотностью атмосферы гарпии способны летать. Однако в стандартных для Терры атмосферных условиях они не умеют летать.
+  - Взрослые гарпии могут быть ростом от 135 до 190 см, при среднем росте около 155 см (средний рост человека составляет примерно 175 см, в зависимости от этнической принадлежности).
+  - Средний взрослый самец гарпии весит всего 24 кг, в то время как средняя взрослая самка весит 18 кг. Для справки, средний вес взрослого человека мужского пола составляет 71 кг.
+  - Любопытно, что у гарпий нет полового диморфизма, присущего земным птицам. Самки гарпий обычно такие же яркие (или их отсутствие), как и их самцы.
+  - Космические гарпии (те, что родились не на Родной Планете), как правило, гораздо более красочны и разнообразны, чем те, что обитают на Родной Планете.
 
-  # Species Traits
+  # Черты расы
 
-  ## Positive Traits
-  - [color=#1e90ff]Mimicry[/color]:
-  Harpies can mimic almost any sound in the game using emotes, barring only a few exceptions. This includes the voice emotes of every other species.
-  The Harpy sound library contains nearly 700 possible sounds. This trait is unique only to Harpies.
+  ## Позитивные черты
+  - [color=#1e90ff]Мимикрия[/color]:
+  Гарпии могут имитировать практически любой звук в игре, используя эмоции, за редким исключением. Это включает в себя голосовые эмоции всех других видов.
+  Звуковая библиотека гарпий содержит около 700 возможных звуков. Эта особенность присуща только гарпиям.
 
-  - [color=#1e90ff]Runner[/color]:
-  Thanks to their incredibly light build, a Harpy's base running speed is 10% faster than that of a standard Human.
+  - [color=#1e90ff]Бегун[/color]:
+  Благодаря невероятно легкому телосложению, базовая скорость бега гарпий на 10% выше, чем у обычного человека.
 
-  - [color=#1e90ff]Singer(Advanced)[/color]:
-  Harpies have a significantly more advanced variant of the [color=#1e90ff]Singer[/color] trait. This trait gives a Harpy access to an innate Midi Player, as well as a menu for swapping instruments.
-  Right click on yourself to open the Swappable Instrument menu, and select from a list of available instruments to mimic. Any of the following conditions both stop and prevent a Harpy from singing:
+  - [color=#1e90ff]Пение(Advanced)[/color]:
+  Гарпии обладают значительно более продвинутым вариантом способности [color=#1e90ff] Петь[/color]. Эта особенность дает Гарпии доступ к встроенному Midi-плееру, а также к меню для смены инструментов.
+  Щелкните правой кнопкой мыши на себе, чтобы открыть меню инструментов с возможностью замены, и выберите из списка доступных инструментов, которые вы хотите имитировать. Любое из следующих условий как останавливает, так и не позволяет Гарпии петь:
 
-      * Being Mute
+      * Быть немым
 
-      * Being Zombified
+      * Быть зомбифицированым
 
-      * Being Dead or Crit
+      * Быть мёртвым или в крите
 
-      * Taking more than 5 damage in a single instance
+      * Получить более 5 единиц урона за один раз
 
-      * Being shoved to the ground
+      * Быть лежачим
 
 
-  - [color=#1e90ff]Zero Gravity Flight[/color]:
-  Harpies have significantly enhanced acceleration in zero gravity. This trait is shared with Nians.
+  - [color=#1e90ff]Полет в невесомости[/color]:
+  Гарпии обладают значительно большим ускорением в условиях невесомости. Эта черта присуща нианам.
 
-  - [color=#1e90ff](Limited) True Flight[/color]:
-  Harpies have an activatable ability to attempt to fly. In order to fly, a Harpy must have both of their wings unencumbered, either by carrying something in hand, or by being restrained.
-  When activated, Flight significantly increases the maximum speed and acceleration of a Harpy, while allowing them to fly over obstacles.
-  Using flight costs a significant amount of stamina.
+  - [color=#1e90ff](На время) Истинный полёт[/color]:
+  Гарпии обладают активируемой способностью пытаться летать. Чтобы летать, у гарпии должны быть свободны оба крыла, либо она должна что-то держать в руках, либо быть привязана.
+  При активации "Полет" значительно увеличивает максимальную скорость и ускорение гарпии, позволяя ей перелетать через препятствия.
+  Использование "полета" требует значительного количества выносливости.
 
-  - [color=#1e90ff]Talons[/color]:
-  Functions as per the [color=#1e90ff]Talons[/color] trait. A Harpy's unarmed attacks deal 5 points of Piercing damage.
+  - [color=#1e90ff]Когти[/color]:
+  Функционирует в соответствии с [color=#1e90ff]когти [/color] чертой. A Harpy's unarmed attacks deal 5 points of Piercing damage.
 
-  ## Negative Traits
-  - [color=#ffa500]Asthmatic[/color]:
-  Using their powerful Avian Lungs, a Harpy breathes twice as deeply, and twice as often as a standard Human. This results in two key conditions. The first is that all oxygen tanks last half as long for a Harpy.
-  The second condition, is that Harpies are uniquely vulnerable to poisonous fumes. When exposed to even a small amount of Carbon Dioxide and or Ammonia, a Harpy will shortly thereafter being to choke.
-  Choking can be ended either by moving away from the sources of poisonous fumes(such as rotting bodies, open gas tanks, or several people in an enclosed space with no scrubbers).
-  A choking Harpy can also stop themselves from choking by breathing from a tank of Pure Oxygen for at least 6 seconds.
+  ## Отрицательные черты
+  - [color=#ffa500]Астматик[/color]:
+  Используя свои мощные птичьи легкие, гарпии дышат в два раза глубже и в два раза чаще, чем обычные люди. Это приводит к выполнению двух ключевых условий. Во-первых, срок службы всех кислородных баллонов у Гарпий в два раза меньше.
+  Второе условие заключается в том, что гарпии исключительно уязвимы к ядовитым испарениям. При воздействии даже небольшого количества углекислого газа и/или аммиака гарпия вскоре начинает задыхаться.
+  От удушья можно избавиться, отойдя подальше от источников ядовитых испарений (таких как гниющие тела, открытые газовые баллоны или несколько человек в закрытом помещении без скрубберов).
+  Задыхающаяся гарпия также может предотвратить удушье, дыша из баллона с чистым кислородом не менее 6 секунд.
 
-  - [color=#ffa500]Extreme Low Density[/color]:
-  The average weight of a Harpy is only 24kg, and can be as low as 10kg, with a maximum of 31kg. Because of this, Harpies suffer from any form of Mass Contests.
-  This results in weaknesses such as- but are not limited to:
-    - Experiencing more recoil with firearms
-    - Being easier to shove down
-    - Being easy to pick up by other people
-    - Being easy to throw
-    - Having a harder time pushing or dragging heavy objects
-    - Having weaker melee damage with certain weapons
-    - Being thrown extremely easily by Space Wind
+  - [color=#ffa500]Чрезвычайно низкая плотность[/color]:
+  Средний вес гарпии составляет всего 24 кг, но может достигать 10 кг, а максимальный - 31 кг. Из-за этого гарпии страдают от любых массовых соревнований.
+  Это приводит к таким недостаткам, как, но не ограничиваясь ими:
+    - Испытывает большую отдачу при стрельбе из огнестрельного оружия
+    - Его легче сбить с ног
+    - Его легко поднять другим людям
+    - Его легко бросать
+    - Ему труднее толкать или перетаскивать тяжелые предметы
+    - У него более слабый урон в ближнем бою от некоторых видов оружия
+    - Его очень легко уносит космическим ветром
 
-  - [color=#ffa500]Hollow Bones[/color]:
-  Harpies take 15% greater damage from any source of Brute damage.
+  - [color=#ffa500]Полые кости[/color]:
+ Гарпии получают на 15% больше урона от любого источника грубого урона.
 
-  - [color=#ffa500]Ultraviolet Vision[/color]:
-  Harpies have a unique kind of eye lens that lets them see in Ultraviolet-Blue-Green, but that they cannot see the color Red. This functions as per the Ultraviolet Vision trait.
-  "Ultravision" can also be "Bought off" in character creation by taking the [color=#1e90ff]Trichromat Modification[/color] trait.
+  - [color=#ffa500]Ультрафиолетовое зрение[/color]:
+  У гарпий есть уникальный вид хрусталика, который позволяет им видеть в ультрафиолетовом -сине-зеленом - свете, но не позволяет различать красный цвет. Это свойство соответствует ультрафиолетовому зрению.
+  "Ультравидение" также можно "подкупить" при создании персонажа, используя признак [color=#1e90ff], модифицирующий трихромат[/color].
 
-  # Unique Traitor Items
+  # Уникальные предметы агента синдиката
 
-  - [color=#1e90ff]Bionic Syrinx[/color]:
-  Traitor Harpies can optionally purchase a Bionic Syrinx. This takes the form of an Implant which- when implanted in a Harpy, acts as an internal Voice Changer.
-  The Bionic Syrinx will only work on Harpies.
+  - [color=#1e90ff]Бионический сиринкс[/color]:
+  Гарпии-предательницы могут дополнительно приобрести Бионический Сиринкс. Он представляет собой имплантат, который при вживлении в Гарпию действует как внутренний преобразователь голоса.
+  Бионический Сиринкс будет работать только на гарпиях.
 
 </Document>

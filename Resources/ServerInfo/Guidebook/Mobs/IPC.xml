@@ -27,30 +27,34 @@
     <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Encryption key"/>
   </Box>
 
-  IPCs do [bold]not[/bold] use external radios because they already have one built in. They only need to get an encryption key from a radio. By clicking on an IPC with a [color=yellow]wire cutter[/color], you can remove their keys.
-  You can find new keys around the station or remove one from a sector radio using a [color=yellow]screwdriver[/color].
+  КПБ не [bold]могут[/bold] использовать внешние радиоприемники, потому что в них уже есть встроенный модуль. Им нужно только получить ключ шифрования от радиоприемника. Щелкнув по КПБ с помощью [color=желтый] кусачки[/color], вы можете удалить их ключи.
+  Вы можете найти новые клавиши по всей станции или вынуть одну из них из секторного радиоприемника с помощью [color=yellow] отвёртки[/color].
 
-  ## Repairing
+  ## Ремонт
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Welder"/>
-    Welders can be used to repair [color=yellow]Brute[/color] damage.
+    Сварочные аппараты можно использовать для устранения [color=yellow] грубых[/color] повреждений.
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="CableApcStack" Caption="Cables (any type)"/>
-    Cables can be used to repair [color=yellow]Burns[/color].
+    Кабели можно использовать для устранения [color=желтый] ожогов[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="SheetGlass" Caption="Glass Sheets (any type)"/>
-    Glass Sheets can be used to repair [color=yellow]Blindness[/color].
+   Стеклянные листы можно использовать для устранения [color=yellow] слепоты[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
+<<<<<<< HEAD:Resources/ServerInfo/Guidebook/Mobs/IPC.xml
     <GuideEntityEmbed Entity="N14MaterialCircuitry10" Caption="Circuitry"/>
     Circuitry can be used to repair [color=yellow]Brute[/color], [color=yellow]Burns[/color], and [color=yellow]Radiation[/color] damage.
   </Box>
   <Box HorizontalAlignment="Stretch">
     In the event an IPC dies, after being fully repaired, it should be restarted using the [color=yellow]"Restart"[/color] button (located by right-clicking).
+=======
+    В случае выхода из строя КПБ после полного восстановления его следует перезапустить с помощью кнопки [color=yellow] "Перезапустить"[/color] (которую можно щелкнуть правой кнопкой мыши).
+>>>>>>> c9d8431a6e (Перевод рас в guidebook):Resources/ServerInfo/Guidebook/Mobs/IPCs.xml
 
-    [color=red]NEVER ELECTROCUTE AN IPC with a defibrillator or in any other way while it is dead, as this will cause the battery to discharge energy rays outward![/color]
+    [color=красный]НИКОГДА НЕ ПЫТАЙТЕ КПБ электрическим током с помощью дефибриллятора или каким-либо другим способом, пока он не заряжен, так как это приведет к выбросу энергии из аккумулятора наружу![/color]
   </Box>
 
 </Document>

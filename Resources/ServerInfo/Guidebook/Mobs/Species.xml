@@ -1,7 +1,7 @@
 <Document>
-  # Species
+  # Расы
 
-  Nanotrasen employs a variety of sapient species.
+  В Nanotrasen используются различные разумные расы.
 
   <Box>
   <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>
@@ -20,7 +20,7 @@
   <GuideEntityEmbed Entity="MobXelthia" Caption="Xelthia"/>
   </Box>
 
-  # Parkstation specific species
+  # Специфические виды парковых станций
   <Box>
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
   </Box>
