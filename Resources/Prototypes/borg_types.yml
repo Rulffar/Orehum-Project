@@ -48,6 +48,7 @@
   - BorgModuleConstruction
   - BorgModuleRCD
   - BorgModuleCable
+  - BorgModuleFireExtinguisher
 
   lawset: Engineer # DeltaV: Custom lawset
 
