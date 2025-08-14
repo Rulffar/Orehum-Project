@@ -251,6 +251,8 @@
       species:
         - Felinid
         - Tajaran
+        - IPC
+        - Shadowkin
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -275,6 +277,8 @@
       species:
         - Felinid
         - Tajaran
+        - IPC
+        - Shadowkin
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

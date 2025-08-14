@@ -425,6 +425,12 @@
     chatsan-word-42: chatsan-replacement-42
     chatsan-word-43: chatsan-replacement-43
     chatsan-word-44: chatsan-replacement-44
+    # Orehum sanitize
+    orehum-chatsan-word-1: orehum-chatsan-replacement-1
+    orehum-chatsan-word-2: orehum-chatsan-replacement-2
+    orehum-chatsan-word-3: orehum-chatsan-replacement-3
+    orehum-chatsan-word-4: orehum-chatsan-replacement-4
+    orehum-chatsan-word-5: orehum-chatsan-replacement-5
 
 - type: accent
   id: liar
