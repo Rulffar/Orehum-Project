@@ -5,6 +5,7 @@
   description: A robust bag for salvage specialists and miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
   components:
   - type: MagnetPickup
+    slotFlags: pocket, belt
   - type: Sprite
     sprite: Objects/Specific/Mining/ore_bag.rsi
     state: icon
@@ -12,6 +13,7 @@
     sprite: Objects/Specific/Mining/ore_bag.rsi
     quickEquip: false
     slots:
+    - pocket
     - belt
   - type: Item
     size: Huge # DeltaV: Was Ginormous, lets it fit in conscription bag
