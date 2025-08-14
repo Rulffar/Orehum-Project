@@ -35,8 +35,8 @@ trait-description-HeavyweightDrunk =
 trait-name-LiquorLifeline = Алкоголь — жизнь
 trait-description-LiquorLifeline =
     Забудьте про врача — просто загляните в бар за «этанольным рецептом»!
-    Пока вы пьяны, вы медленно восстанавливаете [color=red]ушибы[/color], [color=orange]термические[/color],
-    [color=orange]электрические[/color] и [color=orange]обмораживающие[/color] повреждения. Эффект усиливается с ростом опьянения. Вы также получаете преимущества [color=lightblue]алкогольной выносливости[/color].
+    Пока вы пьяны, вы медленно восстанавливаете [color=red]ушибы[/color], [color=orange]термические[/color], [color=orange]электрические[/color]
+    и [color=orange]обмораживающие[/color] повреждения. Эффект усиливается с ростом опьянения. Вы также получаете преимущества [color=lightblue]алкогольной выносливости[/color].
 
 trait-name-Muted = Немота
 trait-description-Muted =
