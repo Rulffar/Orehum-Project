@@ -1,1 +1,1 @@
-station-event-rampant-intelligence-announcement = Rampant brand intelligence has been detected board your station. Please inspect any vendors for aggressive marketing tactics, and reboot them if necessary.
+station-event-rampant-intelligence-announcement = На борту вашей станции обнаружен вышедший из‑под контроля маркетинговый ИИ. Проверьте торговые автоматы на предмет агрессивных маркетинговых приёмов и при необходимости перезагрузите их.
