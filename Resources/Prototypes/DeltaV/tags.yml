@@ -66,4 +66,7 @@
   id: HudMedicalSecurity #Craftable Corpsman Glasses
 
 - type: Tag
+  id: Sunglasses # Orehum - фикс солнцезащитных очков
+
+- type: Tag
   id: Skirt
