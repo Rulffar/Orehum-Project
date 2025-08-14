@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseResearchAndDevelopmentPointSource
   id: GlimmerProber
-  name: glimmer prober
-  description: Probes the noösphere to generate research points. Might be worth turning off if glimmer is a problem.
+  name: Зонд сияния
+  description: Исследует ноосферу для получения исследовательских очков. Возможно, стоит отключить зонд, если возникают проблемы.
   components:
   - type: Psionic
     removable: false
