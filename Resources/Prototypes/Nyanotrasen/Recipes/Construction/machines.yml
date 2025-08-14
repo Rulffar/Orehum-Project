@@ -1,7 +1,7 @@
 - type: construction
   id: GlimmerProber
-  name: глиммер зонд
-  description: Увеличивает глиммер и очки исследования.
+  name: устройство для вывода мерцания
+  description: Увеличивает мерцание и очки исследования.
   graph: GlimmerDevices
   startNode: start
   targetNode: glimmerProber
