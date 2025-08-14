@@ -1,5 +1,5 @@
 ## Phrases used for where central command got this information.
-
+random-sentience-event-data-0 = наши данные переданные клоунским сквадом
 random-sentience-event-data-1 = сканирование сенсорами дальнего действия
 random-sentience-event-data-2 = наши сложные статистические модели вероятности
 random-sentience-event-data-3 = наше всемогущество
@@ -8,7 +8,7 @@ random-sentience-event-data-5 = обнаруженные нами энергет
 random-sentience-event-data-6 = [УДАЛЕНО]
 
 ## Phrases used to describe the level of intelligence, though it doesn't actually affect anything.
-
+random-sentience-event-strength-0 = ксено
 random-sentience-event-strength-1 = человека
 random-sentience-event-strength-2 = обезьяны
 random-sentience-event-strength-3 = среднего
