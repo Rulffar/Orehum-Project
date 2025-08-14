@@ -1,7 +1,5 @@
 uplink-gloves-knuckleduster-name = Кастет Синдиката
 uplink-gloves-knuckleduster-desc = Пара пластитановых кастетов, которые позволяет вам бить достаточно сильно, чтоб разнести в кровавую кашу лицо капитана.
-uplink-supermatter-grenade-name = Граната Суперматерии
-uplink-supermatter-grenade-desc = Граната, имитирующая расслоение генератора на основе Суперматерии, притягивает всё в кучу и через некоторое время взрывается.
 #Misc
 
 uplink-clothing-eyes-hud-syndicate-agent-name = Визор агента Синдиката
