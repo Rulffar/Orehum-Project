@@ -5,3 +5,4 @@ construction-menu-place-ghost = Место строительства призр
 construction-menu-clear-all = Очистить все
 construction-menu-eraser-mode = Режим ластика
 construction-menu-craft = Крафт
+construction-menu-grid-view = Вид плиткой

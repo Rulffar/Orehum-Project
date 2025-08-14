@@ -1,10 +1,15 @@
+guide-entry-space-law = Космический закон
+guide-entry-medpatches = Медицинские пластыри
+guide-entry-rules-nrp = НРП правила
 # Goob SOP
 # - Main Directories
 guide-entry-sop = СРП
+guide-entry-sm = Двигатель Суперматерии
+guide-entry-automation = Автоматизация
 guide-entry-sop-alert-levels = Коды Опасности
 guide-entry-sop-emergencies = Чрезвычайные Ситуации
-guide-entry-sop-jobs = Работа
-guide-entry-sop-legal = Законный
+guide-entry-sop-jobs = Профессии
+guide-entry-sop-legal = Закон
 guide-entry-sop-standards = Стандартные Процедуры
 # - Sub/Nested Directories
 guide-entry-sop-cargo = Снабжение
@@ -12,6 +17,7 @@ guide-entry-sop-command = Командование
 guide-entry-sop-dignitary = Высокопоставленные Люди
 guide-entry-sop-engineering = Инженерия
 guide-entry-sop-epistemics = Эпистемология
+guide-entry-sop-science = Научный отдел
 guide-entry-sop-medical = Медицина
 guide-entry-sop-security = Охрана
 guide-entry-sop-service = Сервис
@@ -27,8 +33,8 @@ guide-entry-sop-violetalert = Фиолетовый Код
 guide-entry-sop-whitealert = Белый Код
 # - Standard Procedures
 guide-entry-sop-demoting = Увольнение/Повышение
-guide-entry-sop-evacuation = Ранняя Эвакуация
-guide-entry-sop-hiring = Найм/Перевод
+guide-entry-sop-evacuation = Эвакуация
+guide-entry-sop-hiring = Трудоустройство/Перевод
 guide-entry-sop-succession = Иерархия Подчинения
 # - Emergencies
 guide-entry-sop-confirmedrevs = Революция
@@ -43,7 +49,7 @@ guide-entry-sop-zombieoutbreak = Вспышка Зомби
 guide-entry-sop-execution = Казни
 guide-entry-sop-permabrig = Пермабриг
 guide-entry-sop-punishments = Наказания
-guide-entry-sop-searches = Поиски
+guide-entry-sop-searches = Обыски
 # - Cargo
 guide-entry-sop-cargotech = Карго Техника
 guide-entry-sop-salvage = Утилизатор
