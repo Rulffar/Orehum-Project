@@ -17,8 +17,8 @@
 
 - type: construction
   id: GlimmerDrain
-  name: поглотитель глиммера
-  description: Уменьшает глиммер.
+  name: поглотитель мерцание
+  description: Уменьшает мерцание.
   graph: GlimmerDevices
   startNode: start
   targetNode: glimmerDrain
