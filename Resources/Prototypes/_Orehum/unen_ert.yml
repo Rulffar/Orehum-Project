@@ -1970,7 +1970,7 @@
         collection: SoldierDeath
         params:
           volume: -4
-      - ERTEngineer
+    - ERTEngineer
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
