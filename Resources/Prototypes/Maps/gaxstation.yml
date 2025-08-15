@@ -2,7 +2,7 @@
   id: Gax
   mapName: 'NVS Gax'
   mapPath: /Maps/gax.yml
-  minPlayers: 10
+  minPlayers: 25
   maxPlayers: 45
   fallback: true
   stations:
