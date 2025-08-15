@@ -5,14 +5,13 @@
     <GuideEntityEmbed Entity="MobDiona" Caption=""/>
   </Box>
 
-  They can't wear shoes, but are not slowed by Kudzu.
-  They get hungry and thirsty slower.
-  Their "blood" is normal water and can't be metabolised from Iron.
-  Being plants, Weed Killer poisons them, while Robust Harvest heals them (but not without risk when overused!)
+  Они не могут носить обувь, но кудзу их не замедляет.
+  Они медленнее испытывают голод и жажду.
+  Их «кровь» — обычная вода, и её нельзя восполнить за счёт железа.
+  Будучи растениями, они отравляются гербицидом Weed Killer, а Robust Harvest их лечит (но при чрезмерном использовании есть риск!).
 
-  They take [color=#1e90ff]30% less Blunt damage and 20% less Slash damage[/color];
-  but [color=#ffa500]50% more Heat damage, 20% more Shock damage, and they can easily
-  catch on fire when receiving enough Heat damage from *any* source.[/color]
+  Они получают [color=#1e90ff]на 30% меньше урона от тупых ударов и на 20% меньше от рубящих[/color];
+  но [color=#ffa500]на 50% больше урона от тепла, на 20% больше от электричества, и легко воспламеняются при достаточном тепловом воздействии из любого источника.[/color]
 
   ## Сделай Похожим На Дерево И Оставь
   <Box>

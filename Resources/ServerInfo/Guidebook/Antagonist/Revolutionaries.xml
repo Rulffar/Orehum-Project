@@ -1,45 +1,45 @@
 <Document>
-  # Revolutionaries
+  # Революционеры
 
-  - Revolutionaries are antagonists who are sponsored by the Syndicate to take over the station.
+  - Революционеры — антагонисты, которых поддерживает Синдикат для захвата станции.
 
-  ## Head Revolutionaries
-
-  <Box>
-    <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Revolutionary Manifesto"/>
-  </Box>
-
-  [color=#5e9cff]Head Revolutionaries[/color] are chosen at the start of the shift and are tasked with taking over the station by killing, exiling or cuffing all of the Command staff. Head Revolutionaries will be given a [color=#a4885c]Revolutionary Manifesto[/color] to aid them.
-
-  ## Conversion
-
-  <Box>
-    <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Revolutionary Manifesto"/>
-  </Box>
-
-  You can convert crew members by using a [color=#a4885c]Revolutionary Manifesto[/color] clicking someone with it.
+  ## Главари революции
 
 <Box>
-  <GuideEntityEmbed Entity="MindShieldImplanter" Caption="MindShield Implanter"/>
+  <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Манифест революционера"/>
 </Box>
 
-  Beware! A [color=#a4885c]MindShield Implant[/color] will prevent the implanted person from being converted into a revolutionary. Assume all of [color=#a4885c]Security[/color] and [color=#a4885c]Command[/color] are implanted already.
+  [color=#5e9cff]Главари революции[/color] выбираются в начале смены и должны захватить станцию, устранив, сослав или заковав в наручники весь командный состав. В помощь им выдаётся [color=#a4885c]манифест революционера[/color].
 
-  ## Revolutionary
+  ## Конвертация
 
-  A [color=#ff0000]Revolutionary[/color] is the result of being converted by a [color=#5e9cff]Head Revolutionary[/color]. Revolutionaries are underlings of the Head Revolutionaries and should follow orders given by them and prioritize their well-being over anything else because if the [color=#5e9cff]Head Revolutionaries[/color] die the Revolution will fail.
-  Keep in mind that you can't convert others as a regular revolutionary, only your boss can do that.
+  <Box>
+  <GuideEntityEmbed Entity="RevolutionaryManifesto" Caption="Манифест революционера"/>
+</Box>
 
-  ## Objectives
+  Вы можете обращать членов экипажа, используя [color=#a4885c]манифест революционера[/color]: кликните им по цели.
 
-  You must eliminate, exile, or arrest all of the following Command staff on station in no particular order.
-  - Captain
-  - Head of Personnel
-  - Chief Engineer
-  - Mystagogue
-  - Logistics Officer
-  - Head of Security
-  - Chief Medical Officer
+<Box>
+  <GuideEntityEmbed Entity="MindShieldImplanter" Caption="Имплантер MindShield"/>
+</Box>
 
-  Remember, your objective is to take over the station and not to destroy it so try to minimize damage where possible. Viva la revolución!
+  Осторожно! [color=#a4885c]Имплант MindShield[/color] не позволит сделать носителя революционером. Считайте, что у [color=#a4885c]службы безопасности[/color] и [color=#a4885c]командования[/color] импланты уже стоят.
+
+  ## Революционер
+
+  [color=#ff0000]Революционер[/color] — это обращённый [color=#5e9cff]главарём революции[/color] член экипажа. Революционеры подчиняются главарям и должны заботиться об их выживании превыше всего, ведь с их смертью вы проиграете.
+  Помните: обычные революционеры не могут обращать других — это прерогатива их начальства.
+
+  ## Цели
+
+  Необходимо устранить, сослать или арестовать следующих членов командования на станции в любом порядке.
+  - Капитан
+  - Глава персонала
+  - Главный инженер
+  - Мистагог
+  - Офицер логистики
+  - Начальник службы безопасности
+  - Главврач
+
+  Помните: ваша цель — захватить станцию, а не разрушить её, поэтому по возможности минимизируйте ущерб. Viva la revolución!
 </Document>

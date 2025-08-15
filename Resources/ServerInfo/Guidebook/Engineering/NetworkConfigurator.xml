@@ -1,40 +1,40 @@
 <Document>
-  # Network Configurator
-  The network configurator allows you to manipulate device lists, link devices together and configure accesses for airlocks through door electronics.
+  # Сетевой конфигуратор
+  Сетевой конфигуратор позволяет управлять списками устройств, связывать устройства между собой и настраивать доступ для шлюзов через дверную электронику.
   <Box>
     <GuideEntityEmbed Entity="NetworkConfigurator"/>
   </Box>
-  The configurator has two modes: List and Link. You can press [color=gray]Alt+Z[/color] or [color=gray]Alt+Y[/color] to switch between them.
+  У конфигуратора два режима: List и Link. Переключение — [color=gray]Alt+Z[/color] или [color=gray]Alt+Y[/color].
 
-  ## List Mode
-  In list mode you can click on network devices to save them on the configurator and then on a network device that has a device list like the [color=#a4885c]Air Alarm[/color].
+  ## Режим списка (List)
+  В этом режиме можно «сохранить» сетевые устройства в конфигураторе, а затем применить список к устройствам, у которых есть такой список, например к [color=#a4885c]Air Alarm[/color].
 
-  When clicking on a device like the Air Alarm, a UI will open displaying the list currently saved on the device and buttons to manipulate that list.
+  При клике по устройству вроде Air Alarm откроется интерфейс со списком, сохранённым на устройстве, и кнопками для его управления.
 
-  You can:
-  - Replace the current list with the one saved on the configurator
-  - Add the list on the configurator to the current one
-  - Clear the current list
-  - Copy the current list to the configurator
-  - Visualize the connections to the devices on the current list
+  Доступно:
+  - Заменить текущий список на список из конфигуратора
+  - Добавить список из конфигуратора к текущему
+  - Очистить текущий список
+  - Скопировать текущий список в конфигуратор
+  - Визуализировать связи с устройствами из текущего списка
 
-  Pressing [color=gray][keybind="ActivateItemInHand"][/color] opens the list saved on the configurator where you can remove saved devices.
+  Нажатие [color=gray][keybind="ActivateItemInHand"][/color] открывает сохранённый в конфигураторе список, где можно удалять устройства.
 
-  ## Link Mode
-  With link mode, you can click on a device that is capable of device linking and then click on any other device that is either a sink or source.
+  ## Режим связей (Link)
+  В этом режиме кликните по устройству, поддерживающему линковку, а затем — по устройству‑источнику или устройству‑приёмнику.
 
-  For example, first clicking on a source, like a [color=#a4885c]signal button[/color], and then on sink, like a [color=#a4885c]small light[/color], opens a UI that displays the source ports on the left side and the sink ports on the right.
+  Например, сначала выберите источник — [color=#a4885c]кнопку сигнала[/color], затем приёмник — [color=#a4885c]малый светильник[/color]. Откроется интерфейс с портами источника слева и портами приёмника справа.
 
-  Now, you can either click [color=gray]Link Defaults[/color] to link the default ports for a source + sink combination, or press on a source port and then a sink port to connect them.
+  Можно нажать [color=gray]Link Defaults[/color], чтобы связать порты по умолчанию для данной пары, или по одному выбрать порт источника и порт приёмника.
 
-  An example of a default link for the aformentioned combinaton of devices would be:
+  Пример связи по умолчанию для указанной пары:
   <Box>
     [color=cyan]Pressed 🠒 Toggle[/color]
    </Box>
-  When you're done connecting the ports you want you can click on [color=gray]OK[/color] to close the UI.
+  Когда закончите, нажмите [color=gray]OK[/color], чтобы закрыть интерфейс.
 
-  You can quickly link multiple devices to their default port by first clicking on a device that can be linked and then using [color=gray]Alt+Left Mouse button[/color] on the devices you want to link together.
+  Можно быстро связать сразу несколько устройств их портами по умолчанию: сначала кликните по устройству, а затем используйте [color=gray]Alt+ЛКМ[/color] по целевым устройствам.
 
-  ## Airlock Access
-  To configure an airlock's access, simply take the airlock's door electronics and interact with it using a network configurator (or multitool). Select the accesses you want, insert the door electronics into an airlock frame, and construct to finish!
+  ## Доступ для шлюзов
+  Чтобы настроить доступ шлюза, извлеките из него дверную электронику и взаимодействуйте с ней сетевым конфигуратором (или мультитулом). Выберите нужные уровни доступа, затем вставьте электронику обратно в рамку шлюза и завершите сборку.
 </Document>

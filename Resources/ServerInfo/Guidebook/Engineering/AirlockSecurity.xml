@@ -1,13 +1,13 @@
 <Document>
-  # Airlock Upgrades
-  It is not uncommon for plucky individuals to try and bypass an airlock by meddling with its internal wiring.
+  # Модернизация шлюзов
+  Нередко предприимчивые личности пытаются обойти шлюз, ковыряясь в его внутренней проводке.
 
-  Fortunately, certain countermeasures can installed into airlocks to inconvenience any would-be trespassers.
+  К счастью, в шлюзы можно установить меры противодействия, способные сильно осложнить жизнь потенциальным нарушителям.
 
-  ## Medium security airlocks
-  The most basic form of intrusion deterrence is to install a secured steel plating that will prevent access to internal wiring of the airlock.
+  ## Шлюзы средней защиты
+  Самый простой способ защиты — установить стальную панель, перекрывающую доступ к внутренней проводке шлюза.
 
-  To upgrade a basic airlock to a medium security airlock, you will require the following materials:
+  Для апгрейда обычного шлюза до уровня средней защиты понадобятся:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 steel sheets"/>
@@ -20,16 +20,16 @@
 	  </Box>
   </Box>
 
-  To upgrade a basic airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the steel sheets to the airlock.
-  -	Weld the steel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+  Порядок апгрейда базового шлюза:
+  -	Откройте сервисную панель шлюза отвёрткой.
+  -	Добавьте стальные листы в конструкцию шлюза.
+  -	Приварите листы.
+  -	Закройте сервисную панель отвёрткой.
 
-  ## High security airlocks
-  For airlocks leading to the more sensitive areas of the space station, the use of stronger deterrents are advised. High security airlocks have improved armor plating to protect its internal wiring, along with an electrified security grille.
+  ## Шлюзы повышенной защиты
+  Для проходов в критические зоны станции рекомендуется усиленная защита. Такие шлюзы получают улучшённую бронепанель для защиты проводки и дополнительно электрифицированную решётку безопасности.
 
-  To upgrade a medium security airlock to a high security airlock, you will require the following materials:
+  Для апгрейда шлюза средней защиты до повышенной защиты понадобятся:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -45,17 +45,17 @@
 	  </Box>
   </Box>
 
-  To upgrade a medium security airlock:
-  - Use the screwdriver to open the airlock maintenance panel.
-  - Add the plasteel sheets to the airlock.
-  - Weld the plasteel sheets into place.
-  - Add the metal rods to the airlock.
-  - Close the maintenance panel using the screwdriver.
+  Порядок апгрейда шлюза средней защиты:
+  - Откройте сервисную панель отвёрткой.
+  - Установите листы пластали.
+  - Приварите листы пластали.
+  - Добавьте металлические прутья.
+  - Закройте сервисную панель отвёрткой.
 
-  ## Maximum security airlocks
-  You can optionally upgrade a high security airlock to a maximum security airlock. Maximum security airlocks possess an additional layer of plasteel plating on top of its other protections.
+  ## Шлюзы максимальной защиты
+  По желанию шлюз повышенной защиты можно усилить до максимальной защиты. Он получает дополнительный слой пластали поверх остальной защиты.
 
-  To upgrade a high security airlock to a maximum security airlock, you will require the following materials:
+  Для апгрейда шлюза повышенной защиты до максимальной понадобятся:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -68,9 +68,9 @@
 	  </Box>
   </Box>
 
-  To upgrade a high security airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the plasteel sheets to the airlock.
-  -	Weld the plasteel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+  Порядок апгрейда шлюза повышенной защиты:
+  -	Откройте сервисную панель отвёрткой.
+  -	Добавьте листы пластали.
+  -	Приварите листы пластали.
+  -	Закройте сервисную панель отвёрткой.
 </Document>

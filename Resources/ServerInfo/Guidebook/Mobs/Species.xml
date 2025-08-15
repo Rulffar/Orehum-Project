@@ -4,24 +4,26 @@
   В Nanotrasen используются различные разумные расы.
 
   <Box>
-  <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>
-  <GuideEntityEmbed Entity="MobDiona" Caption="Diona"/>
-  <GuideEntityEmbed Entity="MobHuman" Caption="Human"/>
+  <GuideEntityEmbed Entity="MobArachnid" Caption="Арахнид"/>
+  <GuideEntityEmbed Entity="MobDiona" Caption="Диона"/>
+  <GuideEntityEmbed Entity="MobHuman" Caption="Человек"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="MobMoth" Caption="Moth Person"/>
-  <GuideEntityEmbed Entity="MobOni" Caption="Oni"/>
-  <GuideEntityEmbed Entity="MobReptilian" Caption="Reptilian"/>
-  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Slime Person"/>
-  <GuideEntityEmbed Entity="MobShadowkinDummy" Caption="Shadowkin"/>
-  <GuideEntityEmbed Entity="MobThaven" Caption="Thaven"/>
+  <GuideEntityEmbed Entity="MobMoth" Caption="Ниан"/>
+  <GuideEntityEmbed Entity="MobOni" Caption="Они"/>
+  <GuideEntityEmbed Entity="MobReptilian" Caption="Унатхи"/>
+  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
+  <GuideEntityEmbed Entity="MobShadowkinDummy" Caption="Шадовкин"/>
+  <GuideEntityEmbed Entity="MobChitinid" Caption="Хитинид"/>
+  <GuideEntityEmbed Entity="MobThaven" Caption="Тавен"/>
+  <GuideEntityEmbed Entity="MobResomi" Caption="Резоми"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="MobXelthia" Caption="Xelthia"/>
+  <GuideEntityEmbed Entity="MobXelthia" Caption="Кселтия"/>
   </Box>
 
   # Специфические виды парковых станций
   <Box>
-  <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
+  <GuideEntityEmbed Entity="MobIPCDummy" Caption="КПБ"/>
   </Box>
 </Document>

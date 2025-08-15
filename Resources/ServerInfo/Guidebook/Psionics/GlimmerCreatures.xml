@@ -1,87 +1,87 @@
 <Document>
-# Glimmer Creatures
-As glimmer rises higher and higher, there can be occasional disturbances in the [color=#a4885c]noösphere[/color].
-When new psionic signatures are detected Central Command will make an announcement to the station.
-Sometimes these signatures can be the appearance of glimmer creatures!
+# Существа Сияние
+По мере роста Сияния в [color=#a4885c]ноосфере[/color] иногда возникают возмущения.
+При обнаружении новых псионических сигнатур Центральное командование делает объявление по станции.
+Иногда эти сигнатуры означают появление существ Сияния!
 
-Glimmer creatures can appear in numbers as low as 1, or multiple depending on how high glimmer is and how many psionics there are.
+Существа Сияние могут прийти по одному или целыми группами — всё зависит от уровня Сияния и числа псиоников на станции.
 
-These are the entities currently known to NanoTrasen.
-Research is ongoing, more are yet to be discovered.
+Ниже перечислены сущности, известные NanoTrasen на текущий момент.
+Исследования продолжаются, перечень пополняется.
 
-# Glimmer Mite
+# Глиммер‑клещ
 
 <GuideEntityEmbed Entity="MobGlimmerMite"/>
 
-The glimmer mite is a small insect-like being that naturally provokes the noösphere.
+Глиммер‑клещ — небольшое насекомоподобное существо, естественно раздражающее ноосферу.
 
-Minimum glimmer rating: Low
+Минимальный уровень Сияния: низкий
 
-## Assessment
-As long as it is physically intact it will slowly raise glimmer.
+## Оценка
+Пока цел, медленно повышает Сияние.
 
-They show no signs of aggression and are physically harmless.
+Признаков агрессии не проявляет, физически безвреден.
 
-## Procedure
-Kill them as soon as they're spotted, they affect the noösphere and the brooding sound drives crew insane!
+## Порядок действий
+Уничтожайте при первом обнаружении: они влияют на ноосферу, а их гул сводит экипаж с ума!
 
-## Analysis
-You can get liquid [color=#a4885c]Ectoplasm[/color] from blending its body, so they can be a decent source of [color=#a4885c]Normality Crystals[/color].
+## Анализ
+Из их тел можно получить жидкую [color=#a4885c]эктоплазму[/color], поэтому это неплохой источник [color=#a4885c]кристаллов нормальности[/color].
 
-In an emergency the body can be beaten to a pulp which will make it cease raising glimmer, at the cost of not yielding ectoplasm.
+В экстренной ситуации тело можно просто разбить в кашу — тогда оно перестанет повышать Сияние, но эктоплазмы вы не получите.
 
-Overall, a mild help to stopping glimmer, if you can find them.
+В целом, небольшой вклад в снижение Сияния — если удастся их найти.
 
-# Glimmer Wisp
+# Глиммер‑огонёк
 
 <GuideEntityEmbed Entity="MobGlimmerWisp"/>
 
-These wisps are physical manifestations of glimmer that are ghostly in appearance.
+Эти огоньки — физическое воплощение Глиммера, призрачно выглядят.
 
-Minimum glimmer rating: High
+Минимальный уровень Глиммера: высокий
 
-## Assessment
+## Оценка
 
-They don't directly affect the noösphere themselves, the main threat is that they [color=#a4885c]hunt down[/color] any psionics!
+Сами по себе на ноосферу почти не влияют; главная опасность в том, что они [color=#a4885c]выслеживают[/color] псиоников!
 
-Once a psionic is critically injured, they will begin to drain the life out of the body to [color=#a4885c]heal all injuries[/color].
+Если псионик тяжело ранен, они начинают высасывать из тела жизнь, чтобы [color=#a4885c]залечить все раны[/color].
 
-## Procedure
-Most physical attacks pass through them unnoticed, but holy weapons like the Chaplain's [color=#a4885c]Bible[/color] will weaken it.
+## Порядок действий
+Большинство физических атак их не задевает, но священное оружие, например [color=#a4885c]Библия[/color] капеллана, их ослабляет.
 
-Once attacked they will retaliate for some time, so be prepared for a fight!
+После удара они некоторое время отвечают агрессией, будьте готовы к бою!
 
-They can also be dispelled by any gifted psionic.
+Их также может развеять любой одарённый псионик.
 
-## Analysis
-If you manage to kill a wisp, it will leave behind a large amount of ectoplasm which can easily make a drain or two.
+## Анализ
+Если вам удастся уничтожить огонька, он оставит много эктоплазмы — хватит на один‑два слива.
 
-Extremely useful to a trained Epistemics team, but will require coordination to take it down.
+Крайне полезны для подготовленной команды Эпистемики, но для победы потребуется слаженность.
 
-# Revenant
+# Ревенант
 
 <GuideEntityEmbed Entity="MobRevenant"/>
 
-A tortured soul taking revenge on those who wronged them, brought to this plane by the noösphere.
+Замученная душа, мстящая тем, кто причинил ей зло, — приведена в наш мир ноосферой.
 
-Minimum glimmer rating: Dangerous
+Минимальный уровень Глиммера: опасный
 
-## Assessment
+## Оценка
 
-They have no effect on the noösphere but are a serious threat to the station, feeding on the souls of dead crew.
+На ноосферу не влияет, но представляет серьёзную угрозу станции, питаясь душами погибших членов экипажа.
 
-Unlike wisps, revenants cannot be attacked in any way by default.
+В отличие от огоньков, по умолчанию ревенанта нельзя атаковать.
 
-Once a revenant uses their abilities, they can be attacked by any means for a short time.
+После использования способностей на короткое время становится уязвим для любых атак.
 
-## Procedure
-Holy damage from a bible or anti-psionic knife is especially effective at taking down wisps.
+## Порядок действий
+Священный урон от Библии или анти‑псионического ножа особенно эффективен против огоньков.
 
-Assistance from the Security department is usually recommended.
+Обычно рекомендуется помощь Службы безопасности.
 
-Spare no time in putting down a revenant.
+Не медлите с уничтожением ревенанта.
 
-## Analysis
-Mostly annoying to the crew, limited exploitation due to low amount of ectoplasm when killed.
+## Анализ
+В основном досаждает экипажу; пользы мало, так как при смерти оставляет совсем немного эктоплазмы.
 
 </Document>

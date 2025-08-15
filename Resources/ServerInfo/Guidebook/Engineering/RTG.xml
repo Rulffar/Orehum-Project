@@ -1,20 +1,20 @@
 <Document>
-  # Radioisotope Thermoelectric Generator (RTG)
+  # Радиоизотопный термоэлектрический генератор (RTG)
 
   <Box>
     <GuideEntityEmbed Entity="GeneratorRTG" Caption="RTG" />
   </Box>
 
-  Making power using a Radioisotope Thermoelectric Generator (RTG) is similar to making power using solars.
-  RTGs only provide [color=#a4885c]10kW[/color] of power, but they provide it for free and for the entire round.
-  Basically, if you connect an RTG to your power grid, it'll give you [color=#a4885c]free power[/color].
-  However, they're only accessible through salvage finding one on an expedition. Should they bring some in, make sure to thank them!
+  Получение энергии с помощью RTG похоже на использование солнечных панелей.
+  RTG выдаёт всего [color=#a4885c]10 кВт[/color], но делает это бесплатно и на протяжении всего раунда.
+  Проще говоря, подключите RTG к сети — и получите [color=#a4885c]бесплатную энергию[/color].
+  Однако достать RTG можно только через утилизаторов, если те привезут один с экспедиции. Если привезут — не забудьте их поблагодарить!
 
   <Box>
-    <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="Damaged RTG" />
+    <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="Повреждённый RTG" />
   </Box>
-  Sometimes, RTGs appear damaged.
-  Damaged RTGs behave just like regular ones, but they're [color=yellow]radioactive[/color].
-  That means they're more dangerous, but on the bright side, you can put radiation collectors next to them to turn that radiation into more power.
-  This is usually more worthwhile, considering the power is still free, so long as you can find a safe spot to put the RTG(s) in.
+  Иногда RTG попадаются повреждёнными.
+  Работают они как обычные, но [color=yellow]радиоактивны[/color].
+  Это опаснее, зато можно поставить рядом коллекторы радиации и превратить излучение в дополнительную мощность.
+  Обычно это того стоит — энергия всё ещё бесплатна, если найдёте безопасное место для RTG.
 </Document>

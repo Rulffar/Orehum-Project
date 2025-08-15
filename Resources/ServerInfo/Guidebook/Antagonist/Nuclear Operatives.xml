@@ -1,91 +1,86 @@
 <Document>
-  # Nuclear Operatives
+  # Ядерные оперативники
 
-  OPERATIVES STANDBY. YOUR OBJECTIVES ARE SIMPLE. DELIVER THE PAYLOAD AND GET OUT BEFORE THE PAYLOAD DETONATES. BEGIN MISSION.
+  АВТОСООБЩЕНИЕ В РЕЖИМЕ ОЖИДАНИЯ. ВАША ЗАДАЧА ПРОСТА: ДОСТАВИТЬ ЗАРЯД И УЙТИ ДО ТОГО, КАК ОН ВЗОРВЁТСЯ. НАЧАТЬ ОПЕРАЦИЮ.
 
-  If you hear this message then congratulations! You have just been chosen to be a nuclear operative for the syndicate. You have one goal, to blow up the space station with a nuclear fission explosive.
+  Если вы слышите это сообщение — поздравляем! Вас выбрали ядерным оперативником Синдиката. Ваша цель одна: взорвать космическую станцию с помощью ядерного делящегося заряда.
 
-  ## Operatives
+  ## Состав отряда
 
-  Your team may contain varying amounts of three different roles:
-  - The [color=#a4885c]Syndicate Commander[/color] wears the unique commander’s hardsuit and will create or approve of the battle plan.
+  В команде могут быть разные роли в различных сочетаниях:
+  - [color=#a4885c]Командир «нюкеров»[/color] носит уникальный скафандр командира и разрабатывает или утверждает план боя.
   <Box>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieCommander" Caption="Commander Hardsuit"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieCommander" Caption="Скафандр командира"/>
   </Box>
 
-  - The [color=#a4885c]Syndicate Agent[/color] wears the blood-red medic hardsuit and can act as a combat medic for the mission.
+  - [color=#a4885c]Агент «нюкеров»[/color] носит кроваво-красный медицинский скафандр и может исполнять роль полевого медика.
   <Box>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieMedic" Caption="Blood-Red Medic Hardsuit"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndieMedic" Caption="Кроваво‑красный мед. скафандр"/>
   </Box>
 
-  - Regular [color=#a4885c]Nuclear Operatives[/color] who have the normal blood red hardsuit.
+  - Обычные [color=#a4885c]ядерные оперативники[/color] в стандартных кроваво‑красных скафандрах.
   <Box>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie" Caption="Blood Red Hardsuit"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSyndie" Caption="Кроваво‑красный скафандр"/>
   </Box>
 
-  If you have been selected for either of these special roles but don't feel ready, one of your teammates can take responsibility.
+  Если вам досталась одна из специальных ролей, но вы не чувствуете готовности, ответственность может взять напарник.
 
-  ## Preparation
+  ## Подготовка
 
-  Taking on a whole station in a fight is a difficult job, luckily you are well prepared for the job. Every operative has an [color=#a4885c]Uplink[/color]. It comes with 40 [color=#a4885c]Telecrystals[/color], which you can use to purchase gear. What you get depends on the strategy picked by your commander or voted for by the team. Only your commander and agent will have passenger access, but no external airlock access. This means you will need something to hack or blast your way onto the station.  In general, you will need some weapons to protect yourself and kill the crew, something to breach doors to get where you need to go, utility items to make your job easier, and healing to not die.
-
-  <Box>
-    <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="The Uplink"/>
-  </Box>
-
-  ## Getting to the Station
-
-  After gearing up and creating a plan, grab a jetpack from your armory and go with your other operatives to the [color=#a4885c]Syndicate Shuttle[/color]. Here you will find some extra explosives and tools, as well as your nuke and nuke codes.
-  You will find an [color=#a4885c]IFF Console[/color] on the shuttle, it allows you to hide from other ships and mass scanners. Make sure that [color=#a4885c]Show IFF[/color] and [color=#a4885c]Show Vessel[/color] are toggled off to hide your shuttle from the crew. When everyone is ready, FTL to the station and fly to it with a jetpack. Don't forget the nuclear fission explosive on your ship if you are going to use it, and definitely don't forget the nuke codes or pinpointer.
+  Сразиться со всей станцией — задача непростая, к счастью, вы хорошо экипированы. У каждого оперативника есть [color=#a4885c]аплинк[/color]. В нём 40 [color=#a4885c]телекристаллов[/color], за которые покупается снаряжение. Набор зависит от выбранной командиром стратегии или общего голосования. Только командир и агент имеют доступ пассажира, но не к внешним шлюзам — потребуется инструмент для взлома или подрыва. В целом вам понадобятся оружие, средства для преодоления дверей и утилиты/лечение.
 
   <Box>
-    <GuideEntityEmbed Entity="JetpackBlack" Caption="A Jetpack"/>
-    <GuideEntityEmbed Entity="ComputerIFFSyndicate" Caption="The IFF Console"/>
+    <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="Аплинк"/>
   </Box>
 
-  ## The Disk
+  ## Добираемся до станции
 
-  You will notice that each operative starts with a [color=#a4885c]Pinpointer[/color]. This device is one of the most important items to the mission, and you should keep it with you at all times. Turn on the pinpointer when you arrive at the station and it will always point to the [color=#a4885c]Nuke Disk[/color], your next objective.
-  The nuke disk belongs to the captain, who will almost always have it on them. Follow the direction of the arrow on the pinpointer to the disk, and do whatever it takes to get it.
+  Оснастившись и составив план, возьмите ранцы‑реактивы в оружейной и вместе с напарниками отправляйтесь к [color=#a4885c]шаттлу «нюкеров»[/color]. Там вы найдёте дополнительные взрывчатки и инструменты, а также саму бомбу и коды.
+  На борту есть [color=#a4885c]консоль IFF[/color], позволяющая скрыться от кораблей и масс‑сканеров. Убедитесь, что [color=#a4885c]Show IFF[/color] и [color=#a4885c]Show Vessel[/color] выключены, чтобы скрыть шаттл от экипажа. Когда все готовы, прыгайте к станции на FTL и подлетайте на ранцах. Не забудьте ядерный заряд, если собираетесь его использовать, и уж точно не забывайте коды и пинпоинтер.
+
+  ## Диск
+
+  У каждого оперативника есть [color=#a4885c]пинпоинтер[/color]. Это один из важнейших предметов миссии — держите его при себе. Включите его по прибытии: стрелка всегда укажет на [color=#a4885c]ядерный диск[/color] — вашу следующую цель.
+  Диск обычно у капитана: следуйте за стрелкой и добывайте его любой ценой.
 
 
   <Box>
-    <GuideEntityEmbed Entity="PinpointerNuclear" Caption="The Pinpointer"/>
-    <GuideEntityEmbed Entity="NukeDisk" Caption="The Nuke Disk"/>
+    <GuideEntityEmbed Entity="PinpointerNuclear" Caption="Пинпоинтер"/>
+    <GuideEntityEmbed Entity="NukeDisk" Caption="Ядерный диск"/>
   </Box>
 
-  ## The Nuke
+  ## Бомба
 
-  On your shuttle, you will find one of two [color=#a4885c]Nuclear Fission Explosives[/color] and a paper with the nuke codes. The paper will tell you which explosive it corresponds to. If the ID is the same as the one on your nuke, the codes will only work for it. If it is not, then they will only work for the explosive in the station's vault.
+  На шаттле находится один из двух [color=#a4885c]ядерных делящихся зарядов[/color] и бумага с кодами. На бумаге указано, к какому заряду относятся коды. Если ID совпадает с вашим зарядом — коды сработают только на нём; если нет — только на заряде в хранилище станции.
 
-  Once you acquire the nuke disk, put it into the nuke and use the code to arm it. It takes 30 seconds for a crewmember to disarm it, and it will count down from 300. Be prepared to defend the nuke for as long as possible, remember that escaping alive isn't necessary, but recommended.
+  Получив диск, вставьте его в бомбу и введите код для активации. На обезвреживание у экипажа 30 секунд, обратный отсчёт — с 300. Будьте готовы защищать бомбу как можно дольше: выживание не обязательно, но желательно.
 
   <Box>
-    <GuideEntityEmbed Entity="NuclearBomb" Caption="The Nuclear Fission Explosive"/>
+    <GuideEntityEmbed Entity="NuclearBomb" Caption="Ядерный делящийся заряд"/>
   </Box>
 
-  ## Victories
+  ## Победы
 
-  The “victor” of the round is announced on the round end screen, as well as by how much they won by. The scale of the victory depends on the circumstances at the end of the round.
+  «Победитель» раунда объявляется на итоговом экране вместе с масштабом победы — он зависит от обстоятельств к концу раунда.
 
-  [color=#a4885c]Syndicate Major Victory[/color]
-  - The nuke detonates on the station
-  - The crew escapes on the evac shuttle, but the nuke is still armed
-  - The nuke is armed and delivered to central command on the evac shuttle
+  [color=#a4885c]Крупная победа Синдиката[/color]
+  - Бомба взрывается на станции
+  - Экипаж эвакуируется, но бомба была активирована
+  - Активированная бомба доставлена на Центральное командование на эвак‑шаттле
 
-  [color=#a4885c]Syndicate Minor Victory[/color]
-  - The crew escapes on evac, but every nuclear operative survives
-  - The crew escapes and some nuclear operatives die, but the crew loses the disk
+  [color=#a4885c]Малая победа Синдиката[/color]
+  - Экипаж эвакуируется, но все «нюкеры» выжили
+  - Экипаж эвакуируется и часть «нюкеров» погибает, но экипаж теряет диск
 
-  [color=#a4885c]Neutral Victory[/color]
-  - The nuke detonates off the station
+  [color=#a4885c]Ничья[/color]
+  - Бомба взрывается вне станции
 
-  [color=#a4885c]Crew Minor Victory[/color]
-  - The crew escapes on evac and some nuclear operatives die, but the crew keeps the disk
+  [color=#a4885c]Малая победа экипажа[/color]
+  - Экипаж эвакуируется, часть «нюкеров» погибает, и диск остаётся у экипажа
 
-  [color=#a4885c]Crew Major Victory[/color]
-  - All nuclear operatives die
-  - The crew blow up the nuclear operative outpost with the nuke
+  [color=#a4885c]Крупная победа экипажа[/color]
+  - Все ядерные оперативники погибают
+  - Экипаж подрывает аванпост «нюкеров» их же бомбой
 
-  If you feel that you won't be able to completely win as Crew or Nuclear Operatives, consider these options for a compromise.
+  Если чувствуете, что полной победы не добиться ни экипажу, ни «нюкерам», рассмотрите компромиссные варианты.
 </Document>

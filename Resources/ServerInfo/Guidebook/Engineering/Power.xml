@@ -1,49 +1,49 @@
 <Document>
-  # Power
+  # Электроснабжение
 
-  SS14 has a fairly in-depth power system through which all devices on the station receive electricity. It's divided into three main powernets; High Voltage, Medium Voltage, and Low Voltage.
+  В SS14 система питания достаточно детально смоделирована: все устройства станции получают электричество через три основные сети — высоковольтную, средневольтную и низковольтную.
   <Box>
   <GuideEntityEmbed Entity="CableHVStack"/>
   <GuideEntityEmbed Entity="CableMVStack"/>
   <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
 
-  ## Cabling
-  The three major cable types (HV, MV, and LV) can be used to form independent powernets. Examine them for a description of their uses.
+  ## Кабели
+  Три основных типа кабелей (HV, MV и LV) позволяют создавать независимые энергосети. Осматривайте их в игре, чтобы увидеть подробности применения.
   <Box>
   <GuideEntityEmbed Entity="CableHV"/>
   <GuideEntityEmbed Entity="CableMV"/>
   <GuideEntityEmbed Entity="CableApcExtension"/>
   </Box>
 
-  ## Power storage
-  Each power storage device presented functions as the transformer for its respective power level (HV, MV, and LV), and also provides a fairly sizable backup battery to help flatten out spikes and dips in power usage.
+  ## Накопители энергии
+  Каждый из устройств накопления энергии одновременно играет роль «трансформатора» для своего уровня напряжения (HV, MV и LV) и предоставляет ёмкий резервный аккумулятор для сглаживания провалов и всплесков потребления.
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  ## Ramping
-  Contrary to what one might expect from a video game electrical simulation, power is not instantly provided upon request. Generators and batteries take time to ramp up to match the draw imposed on them, which leads to brownouts when there are large changes in current draw all at once; for example, when batteries run out.
+  ## Рамп‑ап
+  Вопреки ожиданиям от «игровой электрички», мощность не подаётся мгновенно по требованию. Генераторам и батареям требуется время, чтобы нарастить отдачу под возросшую нагрузку, из‑за чего при резких скачках потребления возможны просадки напряжения, например, когда батареи опустошаются.
 
-  ## Installing power storage
-  Substations are the most self-explanatory. Simply install the machine on top of an MV and HV cable; it will draw power from the HV cable to provide to MV.
+  ## Установка накопителей
+  Подстанции — самые понятные: установите машину поверх кабелей MV и HV; она будет брать мощность из HV и подавать в MV.
 
-  Installing APCs is similarly simple, except APCs are exclusively wallmounted machinery and cannot be installed on the floor. Make sure it has both MV and LV connections.
+  APC ставятся похоже, но это строго настенные устройства — на пол их не поставить. Убедитесь, что подключены и MV, и LV.
 
-  Installing a SMES requires you construct a cable terminal to use as the input. The SMES will draw power from the terminal and send power out from underneath. The terminal will ensure that the HV input and HV output do not connect. Avoid connecting a SMES to itself; this will result in a short circuit, which can result in power flickering or outages depending on severity.
+  Для SMES требуется построить клемму ввода. SMES берёт питание с клеммы и выдаёт вниз. Клемма гарантирует, что вход HV и выход HV не соединяются напрямую. Не подключайте SMES к самому себе: это короткое замыкание, чреватое мерцанием питания или отключениями.
 
-  ## APC breaking
-  Currently the only power storage device that has a limit to its power to the network is the APC. As soon as all connected devices and machinery demand more than [color=#a4885c]24kW[/color] of power, its breaker will pop and everything will turn off. In the case that you are not an engineer, call an engineer (or cyborg) to re-enable it, after reducing the load back down to [color=#a4885c]below[/color] 24kW.
+  ## Отсечка APC
+  Сейчас только APC ограничивает мощность, которую отдаёт в сеть: если суммарное потребление подключённых устройств превысит [color=#a4885c]24 кВт[/color], автомат выбьет и всё отключится. Если вы не инженер — вызовите инженера (или киборга), чтобы включить обратно, снизив нагрузку [color=#a4885c]ниже[/color] 24 кВт.
   <Box>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  ## Checking the power grid
-  1. Use the [color=#a4885c]t-ray scanner[/color] in order to locate cables that are hidden under tiles. (skip this step if cables aren't hidden)
-  2. Pry open the tile that is blocking your access to the cable with a [color=#a4885c]crowbar[/color]. (skip this step if cables aren't hidden)
-  3. Equip your trusty [color=#a4885c]Multitool[/color] and click on any cable to see the power-grid stats.
+  ## Проверка энергосети
+  1. Используйте [color=#a4885c]t‑ray сканер[/color], чтобы находить кабели под плиткой. (пропустите, если кабели не скрыты)
+  2. Подденьте плитку [color=#a4885c]ломом[/color], чтобы открыть доступ к кабелю. (пропустите, если кабели не скрыты)
+  3. Возьмите [color=#a4885c]мультитул[/color] и кликните по любому кабелю, чтобы увидеть параметры сети.
   <Box>
   <GuideEntityEmbed Entity="Multitool"/>
   <GuideEntityEmbed Entity="Crowbar"/>
