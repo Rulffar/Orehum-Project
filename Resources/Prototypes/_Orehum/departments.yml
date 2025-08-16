@@ -1,5 +1,6 @@
-#- type: department
-#  id: Orehum
-#  description: Особый допуск
-#  color: "#800080"
-#  надо LocId добавить
+- type: department
+  id: Orehum
+  name: department-Orehum
+  description: department-Orehum-description
+  color: "#800080"
+  editorHidden: true
