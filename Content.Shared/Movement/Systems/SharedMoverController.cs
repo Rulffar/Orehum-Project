@@ -77,6 +77,10 @@ public abstract partial class SharedMoverController : VirtualController
     /// </summary>
     public Dictionary<EntityUid, bool> UsedMobMovement = new();
 
+    private float _minDamping;
+    private float _airDamping;
+    private float _offGridDamping;
+
     public override void Initialize()
     {
         UpdatesBefore.Add(typeof(TileFrictionController));
@@ -355,7 +359,7 @@ public abstract partial class SharedMoverController : VirtualController
         }
     }
 
-    private void Friction(float minimumFrictionSpeed, float frameTime, float friction, ref Vector2 velocity)
+    public void Friction(float minimumFrictionSpeed, float frameTime, float friction, ref Vector2 velocity)
     {
         var speed = velocity.Length();
 
