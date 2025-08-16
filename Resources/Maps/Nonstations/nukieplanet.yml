@@ -1635,7 +1635,11 @@ entities:
     - type: MetaData
     - type: Transform
     - type: Map
-    - type: PhysicsMap
+    - type: GridTree
+    - type: FTLDestination
+      whitelist:
+        tags:
+        - Syndicate
     - type: Broadphase
     - type: OccluderTree
     - type: Parallax

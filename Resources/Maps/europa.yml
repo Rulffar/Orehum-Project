@@ -48,7 +48,9 @@ entities:
     - type: MetaData
       name: Ghetto
     - type: Transform
-      parent: 77
+    - type: Map
+      mapPaused: True
+    - type: GridTree
     - type: Broadphase
     - type: OccluderTree
     - type: MapGrid
