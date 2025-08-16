@@ -18,9 +18,6 @@
   <GuideEntityEmbed Entity="MobThaven" Caption="Тавен"/>
   <GuideEntityEmbed Entity="MobResomi" Caption="Резоми"/>
   </Box>
-  <Box>
-  <GuideEntityEmbed Entity="MobXelthia" Caption="Кселтия"/>
-  </Box>
 
   # Специфические виды парковых станций
   <Box>
