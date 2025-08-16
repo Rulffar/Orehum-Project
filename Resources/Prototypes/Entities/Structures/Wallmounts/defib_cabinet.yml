@@ -7,28 +7,25 @@
   placement:
     mode: SnapgridCenter
   components:
-    - type: WallMount
-      arc: 175
-    - type: Transform
-      anchored: true
-    - type: Clickable
-    - type: InteractionOutline
-    - type: Sprite
-      sprite: Structures/Wallmounts/defib_cabinet.rsi
-      noRot: false
-      layers:
-      - state: frame
-      - state: fill
-        map: ["enum.ItemCabinetVisualLayers.ContainsItem"]
-        visible: true
-      - state: closed
-        map: ["enum.ItemCabinetVisualLayers.Door"]
-      # Corvax-DefibrillatorCabinetResprite-start
-      - state: light
-        shader: unshaded
-      # Corvax-DefibrillatorCabinetResprite-end
-    - type: ItemCabinet
-      cabinetSlot:
+  - type: WallMount
+    arc: 175
+  - type: Transform
+    anchored: true
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: Structures/Wallmounts/defib_cabinet.rsi
+    noRot: false
+    layers:
+    - state: frame
+    - state: fill
+      map: ["enum.ItemCabinetVisuals.Layer"]
+      visible: true
+    - state: closed
+      map: ["enum.OpenableVisuals.Layer"]
+  - type: ItemSlots
+    slots:
+      ItemCabinet:
         ejectOnInteract: true
         whitelist:
           components:

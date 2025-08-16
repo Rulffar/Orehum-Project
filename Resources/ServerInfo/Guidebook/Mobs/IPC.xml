@@ -44,23 +44,9 @@
    Стеклянные листы используются для устранения [color=yellow]слепоты[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
-<<<<<<< HEAD:Resources/ServerInfo/Guidebook/Mobs/IPC.xml
-<<<<<<< HEAD:Resources/ServerInfo/Guidebook/Mobs/IPC.xml
-    <GuideEntityEmbed Entity="N14MaterialCircuitry10" Caption="Circuitry"/>
-    Circuitry can be used to repair [color=yellow]Brute[/color], [color=yellow]Burns[/color], and [color=yellow]Radiation[/color] damage.
-  </Box>
-  <Box HorizontalAlignment="Stretch">
-    In the event an IPC dies, after being fully repaired, it should be restarted using the [color=yellow]"Restart"[/color] button (located by right-clicking).
-=======
     В случае выхода из строя КПБ после полного восстановления его следует перезапустить с помощью кнопки [color=yellow] "Перезапустить"[/color] (которую можно щелкнуть правой кнопкой мыши).
->>>>>>> c9d8431a6e (Перевод рас в guidebook):Resources/ServerInfo/Guidebook/Mobs/IPCs.xml
 
     [color=красный]НИКОГДА НЕ ПЫТАЙТЕ КПБ электрическим током с помощью дефибриллятора или каким-либо другим способом, пока он не заряжен, так как это приведет к выбросу энергии из аккумулятора наружу![/color]
-=======
-    В случае выхода из строя КПБ после полного восстановления его следует перезапустить с помощью кнопки [color=yellow]«Перезапустить»[/color] (ПКМ).
-    
-    [color=red]НИКОГДА не пропускайте ток через КПБ (дефибриллятором или иным способом), пока он не заряжен — это приведёт к выбросу энергии из батареи![/color]
->>>>>>> fe8fa7ae3b (ПЕРЕВОД ГАЙД БУКОВ АНТАГОВ, ПСИОНИКИ, СРП ПЕРЕВЕДЕНО ПОЛНОСТЬЮ, ЛОР РАС, ГАЙД БУКИ НА ВСЕ ОТДЕЛЫ):Resources/ServerInfo/Guidebook/Mobs/IPCs.xml
   </Box>
 
 </Document>
