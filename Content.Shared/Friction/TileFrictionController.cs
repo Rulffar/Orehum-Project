@@ -50,32 +50,28 @@ namespace Content.Shared.Friction
         {
             base.UpdateBeforeSolve(prediction, frameTime);
 
-            foreach (var ent in PhysicsSystem.AwakeBodies)
+            foreach (var body in PhysicsSystem.AwakeBodies)
             {
-                var uid = ent.Owner;
-                var body = ent.Comp1;
+                var uid = body.Owner;
 
                 // Only apply friction when it's not a mob (or the mob doesn't have control)
-                if (prediction && !body.Predict ||
-                    body.BodyStatus == BodyStatus.InAir ||
+                if (prediction && !body.Comp1.Predict ||
+                    body.Comp1.BodyStatus == BodyStatus.InAir ||
                     _mover.UseMobMovement(uid))
                 {
                     continue;
                 }
 
-                if (body.LinearVelocity.Equals(Vector2.Zero) && body.AngularVelocity.Equals(0f))
+                if (body.Comp1.LinearVelocity.Equals(Vector2.Zero) && body.Comp1.AngularVelocity.Equals(0f))
                     continue;
 
-                var xform = ent.Comp2;
-                float friction;
+                if (!_xformQuery.TryGetComponent(uid, out var xform))
+                {
+                    Log.Error($"Unable to get transform for {ToPrettyString(uid)} in tilefrictioncontroller");
+                    continue;
+                }
 
-                // If we're not touching the ground, don't use tileFriction.
-                // TODO: Make IsWeightless event-based; we already have grid traversals tracked so just raise events
-                if (body.BodyStatus == BodyStatus.InAir || _gravity.IsWeightless(uid, body, xform) || !xform.Coordinates.IsValid(EntityManager))
-                    friction = xform.GridUid == null || !_gridQuery.HasComp(xform.GridUid) ? _offGridDamping : _airDamping;
-                else
-                    friction = _frictionModifier * GetTileFriction(uid, body, xform);
-
+                var surfaceFriction = GetTileFriction(uid, body, xform);
                 var bodyModifier = 1f;
 
                 if (_frictionQuery.TryGetComponent(uid, out var frictionComp))
