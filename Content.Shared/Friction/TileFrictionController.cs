@@ -46,23 +46,23 @@ namespace Content.Shared.Friction
             _gridQuery = GetEntityQuery<MapGridComponent>();
         }
 
-        public override void UpdateBeforeMapSolve(bool prediction, PhysicsMapComponent mapComponent, float frameTime)
+        public override void UpdateBeforeSolve(bool prediction, float frameTime)
         {
-            base.UpdateBeforeMapSolve(prediction, mapComponent, frameTime);
+            base.UpdateBeforeSolve(prediction, frameTime);
 
-            foreach (var body in mapComponent.AwakeBodies)
+            foreach (var body in PhysicsSystem.AwakeBodies)
             {
                 var uid = body.Owner;
 
                 // Only apply friction when it's not a mob (or the mob doesn't have control)
-                if (prediction && !body.Predict ||
-                    body.BodyStatus == BodyStatus.InAir ||
+                if (prediction && !body.Comp1.Predict ||
+                    body.Comp1.BodyStatus == BodyStatus.InAir ||
                     _mover.UseMobMovement(uid))
                 {
                     continue;
                 }
 
-                if (body.LinearVelocity.Equals(Vector2.Zero) && body.AngularVelocity.Equals(0f))
+                if (body.Comp1.LinearVelocity.Equals(Vector2.Zero) && body.Comp1.AngularVelocity.Equals(0f))
                     continue;
 
                 if (!_xformQuery.TryGetComponent(uid, out var xform))

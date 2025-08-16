@@ -174,7 +174,17 @@ entities:
     - type: MetaData
       name: Atmos
     - type: Transform
-      pos: -0.5,-3.5
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: OccluderTree
+- proto: AirlockEngineeringLocked
+  entities:
+  - uid: 68
+    components:
+    - type: Transform
+      pos: 5.5,-3.5
       parent: 1
 - proto: AirlockCargo
   entities:

@@ -77,8 +77,13 @@ public abstract partial class SharedMoverController : VirtualController
     /// </summary>
     public Dictionary<EntityUid, bool> UsedMobMovement = new();
 
+    private float _minDamping;
+    private float _airDamping;
+    private float _offGridDamping;
+
     public override void Initialize()
     {
+        UpdatesBefore.Add(typeof(TileFrictionController));
         base.Initialize();
 
         MoverQuery = GetEntityQuery<InputMoverComponent>();
@@ -98,8 +103,9 @@ public abstract partial class SharedMoverController : VirtualController
         InitializeRelay();
         InitializeCVars();
         Subs.CVar(_configManager, CCVars.RelativeMovement, value => _relativeMovement = value, true);
-        Subs.CVar(_configManager, CCVars.StopSpeed, value => _stopSpeed = value, true);
-        UpdatesBefore.Add(typeof(TileFrictionController));
+        Subs.CVar(_configManager, CCVars.MinFriction, value => _minDamping = value, true);
+        Subs.CVar(_configManager, CCVars.AirFriction, value => _airDamping = value, true);
+        Subs.CVar(_configManager, CCVars.OffgridFriction, value => _offGridDamping = value, true);
     }
 
     public override void Shutdown()
@@ -353,7 +359,7 @@ public abstract partial class SharedMoverController : VirtualController
         }
     }
 
-    private void Friction(float minimumFrictionSpeed, float frameTime, float friction, ref Vector2 velocity)
+    public void Friction(float minimumFrictionSpeed, float frameTime, float friction, ref Vector2 velocity)
     {
         var speed = velocity.Length();
 

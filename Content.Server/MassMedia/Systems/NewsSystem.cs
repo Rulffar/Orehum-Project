@@ -3,6 +3,7 @@ using Content.Server.Administration.Logs;
 using Content.Server.CartridgeLoader;
 using Content.Server.CartridgeLoader.Cartridges;
 using Content.Server.Chat.Managers;
+using Content.Server.Discord;
 using Content.Server.GameTicking;
 using Content.Server.MassMedia.Components;
 using Content.Server.Popups;
@@ -11,6 +12,7 @@ using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.CartridgeLoader;
 using Content.Shared.CartridgeLoader.Cartridges;
+using Content.Shared.CCVar;
 using Content.Shared.Database;
 using Content.Shared.IdentityManagement;
 using Content.Shared.MassMedia.Components;
@@ -18,6 +20,7 @@ using Content.Shared.MassMedia.Systems;
 using Content.Shared.Popups;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.Configuration;
 using Robust.Shared.Timing;
 
 namespace Content.Server.MassMedia.Systems;
@@ -34,6 +37,10 @@ public sealed class NewsSystem : SharedNewsSystem
     [Dependency] private readonly StationSystem _station = default!;
     [Dependency] private readonly GameTicker _ticker = default!;
     [Dependency] private readonly IChatManager _chatManager = default!;
+    [Dependency] private readonly IConfigurationManager _configurationManager = default!; // Orehum
+    [Dependency] private readonly DiscordWebhook _discord = default!; // Orehum
+
+    private WebhookIdentifier? _webhookIdentifier; // Orehum
 
     public override void Initialize()
     {
@@ -57,6 +64,19 @@ public sealed class NewsSystem : SharedNewsSystem
         SubscribeLocalEvent<NewsReaderCartridgeComponent, NewsArticleDeletedEvent>(OnArticleDeleted);
         SubscribeLocalEvent<NewsReaderCartridgeComponent, CartridgeMessageEvent>(OnReaderUiMessage);
         SubscribeLocalEvent<NewsReaderCartridgeComponent, CartridgeUiReadyEvent>(OnReaderUiReady);
+
+        // Orehum start
+        Subs.CVar(_configurationManager,
+            CCVars.DiscordNewNewsletterWebhook,
+            value =>
+            {
+                if (!string.IsNullOrWhiteSpace(value))
+                {
+                    _discord.GetWebhook(value, data => _webhookIdentifier = data.ToIdentifier());
+                }
+            },
+            true);
+        // Orehum end
     }
 
     public override void Update(float frameTime)
@@ -175,7 +195,42 @@ public sealed class NewsSystem : SharedNewsSystem
         }
 
         UpdateWriterDevices();
+
+        // можно отправить структуру, но произойдет лишнее копирование
+        PublishMessageToDiscord(article.Title, article.Content, article.Author, article.ShareTime); // Orehum
     }
+
+    // Orehum start
+    private async void PublishMessageToDiscord(string title, string content, string? author, TimeSpan shareTime)
+    {
+        try
+        {
+            if (_webhookIdentifier == null)
+                return;
+
+            var embed = new WebhookEmbed()
+            {
+                Title = title,
+                Color = 0x4169e1, // royal blue
+                Description = content,
+                Footer = new()
+                {
+                    Text = $"{(author ?? "Неизвестно")} | {shareTime.Hours:00}:{shareTime.Minutes:00}:{shareTime.Seconds:00}"
+                }
+            };
+
+            await _discord.CreateMessage(_webhookIdentifier.Value,
+                new()
+                {
+                    Embeds = [embed]
+                });
+        }
+        catch(Exception e)
+        {
+            Log.Error($"Ошибка при отправке новости в дискорд:\n{e}");
+        }
+    }
+    // Orehum end
     #endregion
 
     #region Reader Event Handlers

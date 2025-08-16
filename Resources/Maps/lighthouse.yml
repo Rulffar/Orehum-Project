@@ -7728,10 +7728,17 @@ entities:
     - type: GridPathfinding
     - type: GasTileOverlay
     - type: SpreaderGrid
-    - type: GravityShake
-      shakeTimes: 10
-    - type: NavMap
-    - type: TradeStation
+    - type: GridPathfinding
+    - type: ImplicitRoof
+  - uid: 5350
+    components:
+    - type: MetaData
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: OccluderTree
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 3

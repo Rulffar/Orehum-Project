@@ -3402,10 +3402,17 @@ entities:
     - type: BecomesStation
       id: Shoukou
     - type: SpreaderGrid
-    - type: GravityShake
-      shakeTimes: 10
-    - type: NavMap
-- proto: ActionToggleLight
+    - type: ImplicitRoof
+  - uid: 126
+    components:
+    - type: MetaData
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: OccluderTree
+- proto: AccordionInstrument
   entities:
   - uid: 4
     components:
