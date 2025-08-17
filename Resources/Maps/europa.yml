@@ -48,9 +48,7 @@ entities:
     - type: MetaData
       name: Ghetto
     - type: Transform
-    - type: Map
-      mapPaused: True
-    - type: GridTree
+      parent: 77
     - type: Broadphase
     - type: OccluderTree
     - type: MapGrid
@@ -4706,9 +4704,7 @@ entities:
     - type: Transform
     - type: Map
       mapPaused: True
-    - type: PhysicsMap
     - type: GridTree
-    - type: MovedGrids
     - type: Parallax
       parallax: Desert
     - type: Gravity
