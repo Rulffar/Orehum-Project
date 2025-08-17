@@ -4,6 +4,17 @@
   description: job-description-hos
   playTimeTracker: JobHeadOfSecurity
   requirements:
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobWarden
+    min: 18000 # Goob MRP - 5 Hours
+  - !type:CharacterDepartmentTimeRequirement # Goob MRP - Command Dept Time Requirement
+    department: Command
+    min: 18000 # Goob MRP - 5 Hours
+  - !type:CharacterDepartmentTimeRequirement # Goob MRP - Command Dept Time Requirement
+    department: Security
+    min: 36000 # 10 hours
+  - !type:CharacterOverallTimeRequirement
+    min: 90000 # DeltaV - 25 hours
   - !type:CharacterTraitRequirement
     inverted: true
     traits:

@@ -4,6 +4,8 @@
   description: job-description-prosecutor
   playTimeTracker: JobProsecutor
   requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 18000 # 5 hrs
     - !type:CharacterEmployerRequirement
       employers:
       - NanoTrasen

@@ -11,6 +11,8 @@
   - Engineering
   - External
   requirements:
+  - !type:CharacterOverallTimeRequirement # DeltaV - to prevent griefers from taking the role.
+      min: 7200 # Goob MRP - 2 Hours (Prevent Raiders and ensure gameplay.)
   - !type:CharacterEmployerRequirement
     employers:
     - HephaestusIndustries

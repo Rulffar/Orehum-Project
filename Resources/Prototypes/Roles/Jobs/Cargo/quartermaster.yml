@@ -4,6 +4,17 @@
   description: job-description-qm
   playTimeTracker: JobQuartermaster
   requirements:
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobSalvageSpecialist
+    min: 10800 #3 hrs
+  - !type:CharacterPlaytimeRequirement # DeltaV - Courier role time requirement
+    tracker: JobMailCarrier
+    min: 7200 # 2 hours
+  - !type:CharacterDepartmentTimeRequirement
+    department: Logistics # DeltaV - Logistics Department replacing Cargo
+    min: 36000 # Goob MRP - 10 Hours
+  - !type:CharacterOverallTimeRequirement
+    min: 108000 # Goob MRP - 30 Hours
   - !type:CharacterTraitRequirement
     inverted: true
     traits:

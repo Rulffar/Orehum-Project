@@ -4,6 +4,20 @@
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
   requirements:
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobChef
+    min: 7200 # Goob MRP - 2 Hours
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobBartender
+    min: 7200 # Goob MRP - 2 Hours
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobJanitor
+    min: 7200 # Goob MRP - 2 Hours
+  - !type:CharacterDepartmentTimeRequirement # DeltaV - Civilian dept time requirement
+    department: Civilian
+    min: 36000 # Goob MRP - 10 Hours
+  - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
+    min: 72000 # Goob MRP - 20 Hours
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
