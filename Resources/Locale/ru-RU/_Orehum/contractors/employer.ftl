@@ -32,6 +32,14 @@ employer_description_idrisincorporated = Межзвёздный корпорат
 employer_name_orionexpress = Orion Express
 employer_description_orionexpress = Крупная логистическая мегакорпорация, созданная для решения транспортного кризиса, вызванного дефицитом форона и запутыванием торговых маршрутов. Основное направление деятельности — грузоперевозки и транспортировка, но компания также развивает собственное робототехническое подразделение, ориентированное на промышленных синтетиков для помощи в логистических операциях.
 
+employer_name_eastorioncompany = East-Orion Company
+employer_name_eastorioncompany_command = East-Orion Company Command
+employer_description_eastorioncompany = Нидерландская инициатива по освоению неиспользованного рынка в 2157 году, United East-Orion Company была старой идеей, сделанной новой. Опираясь на многовековую традицию, две крупные сельскохозяйственные корпорации - производитель сельскохозяйственной техники New-Nederic и Гражданский союз фермеров - объединились под одним флагом, чтобы предложить планетарные навыки растущему числу корпоративных космических станций.
+
 employer_name_pmcg = PMCG
 employer_name_pmcg_command = PMCG Command
 employer_description_pmcg = Коалиция частных охранных подрядчиков на службе у Межзвёздного Корпоративного Конгломерата. Private Military Contracting Group была создана из необходимости защищать постоянно расширяющуюся корпоративную империю. Нанимая наёмников со всей галактики, PMCG развёртывает разнообразные силы в любой точке, где требуется их присутствие.
+
+employer_name_zavodskoiinterstellar = Zavodskoi Interstellar
+employer_name_zavodskoiinterstellar_command = Zavodskoi Interstellar Command
+employer_description_zavodskoiinterstellar = Zavodskoi Interstellar, бывшая Necropolis Industries, является конгломератом производства и развития оружия и аэрокосмической техники. Zavodskoi распространяет все, от легких до тяжелых вооружений, оружие космических кораблей, кораблестроение, самолеты, наземные транспортные средства, боевые космические костюмы и военное программное обеспечение. Они также производят линию Z.I. позитроники, используемые для частной безопасности и военных контрактов.
