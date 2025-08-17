@@ -123,7 +123,6 @@ public abstract class SharedStationSpawningSystem : EntitySystem
         if (startingGear.Storage.Count > 0)
         {
             var coords = _xformSystem.GetMapCoordinates(entity);
-            var ents = new ValueList<EntityUid>();
             _inventoryQuery.TryComp(entity, out var inventoryComp);
 
             foreach (var (slot, entProtos) in startingGear.Storage)
@@ -137,12 +136,8 @@ public abstract class SharedStationSpawningSystem : EntitySystem
                 {
                     foreach (var ent in entProtos)
                     {
-                        ents.Add(Spawn(ent, coords));
-                    }
-
-                    foreach (var ent in ents)
-                    {
-                        _storage.Insert(slotEnt.Value, ent, out _, storageComp: storage, playSound: false);
+                        var spawned = Spawn(ent, coords);
+                        _storage.Insert(slotEnt.Value, spawned, out _, storageComp: storage, playSound: false);
                     }
                 }
             }
