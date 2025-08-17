@@ -1,5 +1,6 @@
 - type: department
   id: Orehum
-  name: department-orehum
-  description: department-orehum-description 
+  name: department-Orehum
+  description: department-Orehum-description
   color: "#800080"
+  editorHidden: true
