@@ -176,7 +176,11 @@ namespace Content.Client.Lobby.UI
                     _preferencesManager.Preferences?.SelectedCharacterIndex);
             };
 
-            SaveButton.OnPressed += args => { Save?.Invoke(); };
+            SaveButton.OnPressed += args =>
+            {
+                Save?.Invoke();
+                IsDirty = false;
+            };
 
             #region Left
 
@@ -360,7 +364,7 @@ namespace Content.Client.Lobby.UI
                 if (Profile is null)
                     return;
                 Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithHairStyleName(newStyle.id));
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -371,7 +375,7 @@ namespace Content.Client.Lobby.UI
                 Profile = Profile.WithCharacterAppearance(
                     Profile.Appearance.WithHairColor(newColor.marking.MarkingColors[0]));
                 UpdateCMarkingsHair();
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -381,7 +385,7 @@ namespace Content.Client.Lobby.UI
                     return;
                 Profile = Profile.WithCharacterAppearance(
                     Profile.Appearance.WithFacialHairStyleName(newStyle.id));
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -392,7 +396,7 @@ namespace Content.Client.Lobby.UI
                 Profile = Profile.WithCharacterAppearance(
                     Profile.Appearance.WithFacialHairColor(newColor.marking.MarkingColors[0]));
                 UpdateCMarkingsFacialHair();
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -405,7 +409,7 @@ namespace Content.Client.Lobby.UI
                 );
                 UpdateHairPickers();
                 UpdateCMarkingsHair();
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -418,7 +422,7 @@ namespace Content.Client.Lobby.UI
                 );
                 UpdateHairPickers();
                 UpdateCMarkingsFacialHair();
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -439,7 +443,7 @@ namespace Content.Client.Lobby.UI
 
                 UpdateHairPickers();
                 UpdateCMarkingsHair();
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -460,7 +464,7 @@ namespace Content.Client.Lobby.UI
 
                 UpdateHairPickers();
                 UpdateCMarkingsFacialHair();
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -488,7 +492,7 @@ namespace Content.Client.Lobby.UI
                 Profile = Profile.WithCharacterAppearance(
                     Profile.Appearance.WithEyeColor(newColor));
                 Markings.CurrentEyeColor = Profile.Appearance.EyeColor;
-                IsDirty = true;
+                SetDirty();
                 ReloadProfilePreview();
             };
 
@@ -515,7 +519,7 @@ namespace Content.Client.Lobby.UI
             {
                 PreferenceUnavailableButton.SelectId(args.Id);
                 Profile = Profile?.WithPreferenceUnavailable((PreferenceUnavailableMode) args.Id);
-                IsDirty = true;
+                SetDirty();
             };
 
             _jobCategories = new Dictionary<string, BoxContainer>();
@@ -592,6 +596,7 @@ namespace Content.Client.Lobby.UI
             UpdateSpeciesGuidebookIcon();
 
             ReloadPreview();
+            SetProfile(Profile, this.CharacterSlot);
             IsDirty = false;
         }
 
@@ -1133,6 +1138,7 @@ namespace Content.Client.Lobby.UI
 
                         UpdateJobPriorities();
                         SetDirty();
+                        SetProfile(Profile, CharacterSlot);
                     };
 
                     _jobPriorities.Add((job.ID, selector));
@@ -1268,7 +1274,7 @@ namespace Content.Client.Lobby.UI
         {
             Profile = Profile?.WithAge(newAge);
             ReloadPreview();
-            IsDirty = true;
+            SetDirty();
         }
 
         private void SetSex(Sex newSex)
@@ -1298,7 +1304,7 @@ namespace Content.Client.Lobby.UI
         {
             Profile = Profile?.WithGender(newGender);
             ReloadPreview();
-            IsDirty = true;
+            SetDirty();
         }
 
         private void SetDisplayPronouns(string? displayPronouns)
@@ -1308,21 +1314,21 @@ namespace Content.Client.Lobby.UI
 
             Profile = Profile?.WithDisplayPronouns(displayPronouns);
             ReloadPreview();
-            IsDirty = true;
+            SetDirty();
         }
 
         private void SetStationAiName(string? stationAiName)
         {
             Profile = Profile?.WithStationAiName(stationAiName);
             ReloadPreview();
-            IsDirty = true;
+            SetDirty();
         }
 
         private void SetCyborgName(string? cyborgName)
         {
             Profile = Profile?.WithCyborgName(cyborgName);
             ReloadPreview();
-            IsDirty = true;
+            SetDirty();
         }
 
         private string GetFormattedPronounsFromGender()
@@ -1384,33 +1390,33 @@ namespace Content.Client.Lobby.UI
         private void SetName(string newName)
         {
             Profile = Profile?.WithName(newName);
-            IsDirty = true;
+            SetDirty();
             _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, newName);
         }
 
         private void SetCustomSpecieName(string customname)
         {
             Profile = Profile?.WithCustomSpeciesName(customname);
-            IsDirty = true;
+            SetDirty();
         }
 
         private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority)
         {
             Profile = Profile?.WithSpawnPriorityPreference(newSpawnPriority);
-            IsDirty = true;
+            SetDirty();
         }
 
         private void SetProfileHeight(float height)
         {
             Profile = Profile?.WithHeight(height);
-            IsDirty = true;
+            SetDirty();
             ReloadProfilePreview();
         }
 
         private void SetProfileWidth(float width)
         {
             Profile = Profile?.WithWidth(width);
-            IsDirty = true;
+            SetDirty();
             ReloadProfilePreview();
         }
 
@@ -1973,7 +1979,7 @@ namespace Content.Client.Lobby.UI
                     .Count(t => !t.Value)));
             AdminUIHelpers.RemoveConfirm(TraitsRemoveUnusableButton, _confirmationData);
 
-            IsDirty = true;
+            SetDirty();
             ReloadProfilePreview();
         }
 
@@ -2185,7 +2191,7 @@ namespace Content.Client.Lobby.UI
 
                     // Update Preferences
                     Profile = Profile?.WithTraitPreference(selector.Trait.ID, preference);
-                    IsDirty = true;
+                    SetDirty();
                     UpdateTraitPreferences();
                     SetProfile(Profile, CharacterSlot);
                 };
@@ -2309,7 +2315,7 @@ namespace Content.Client.Lobby.UI
                         || !_loadoutPreferences.First(lps => lps.Loadout == l.Key).Wearable)));
             AdminUIHelpers.RemoveConfirm(LoadoutsRemoveUnusableButton, _confirmationData);
 
-            IsDirty = true;
+            SetDirty();
             ReloadProfilePreview();
         }
 
@@ -2560,7 +2566,7 @@ namespace Content.Client.Lobby.UI
                         preference.CustomDescription,
                         preference.CustomColorTint,
                         preference.CustomHeirloom);
-                    IsDirty = true;
+                    SetDirty();
                     UpdateLoadoutPreferences();
                     SetProfile(Profile, CharacterSlot);
                 };
