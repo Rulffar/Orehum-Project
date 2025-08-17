@@ -1,0 +1,11 @@
+- type: soundCollection
+  id: LobbyMusic
+  files:
+    - /Audio/Lobby/moon-dust.ogg
+    - /Audio/Lobby/rayman-first-flight.ogg
+    - /Audio/Lobby/space2.ogg
+    - /Audio/Lobby/gregory-semenov-fei-theme.ogg
+    - /Audio/Lobby/nikinit-flight.ogg
+    - /Audio/Lobby/nikinit-illusion.ogg
+    - /Audio/Lobby/zakker-aka-santilo-robot-force.ogg
+    - /Audio/Lobby/korzhavin-denis-thelongwayballad.ogg
