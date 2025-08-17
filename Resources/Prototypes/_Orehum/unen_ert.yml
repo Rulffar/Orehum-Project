@@ -473,7 +473,7 @@
     eyes: ClothingEyesNightVisionMedicalGoggles
     head: ClothingHeadHelmetERTMedic
     gloves: ClothingHandsGlovesNitrile
-    outerClothing: ClothingOuterVestArmorSwat
+    outerClothing: ClothingOuterArmorSwat
     id: ERTMedicPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltMedicalFilled
