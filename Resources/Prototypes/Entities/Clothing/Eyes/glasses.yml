@@ -243,6 +243,10 @@
       coefficients:
         Heat: 0.95
   - type: GroupExamine
+  - type: ThermalVision
+    isEquipment: true
+    pulseTime: 3 # на 1 ед. реже чем thermal vision goggles
+    toggleAction: PulseThermalVision
   - type: IdentityBlocker
     coverage: EYES
 

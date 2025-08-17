@@ -166,7 +166,7 @@ public sealed class DrainSystem : SharedDrainSystem
             puddles.Clear();
 
             var coords = _transform.GetMapCoordinates(uid, xform);
-            foreach (var entity in _lookup.GetEntitiesInRange(coords.MapId, coords.Position, drain.Range, LookupFlags.Static))
+            foreach (var entity in _lookup.GetEntitiesInRange(_transform.GetMapCoordinates(uid, xform), drain.Range))
             {
                 // No InRangeUnobstructed because there's no collision group that fits right now
                 // and these are placed by mappers and not buildable/movable so shouldnt really be a problem...
