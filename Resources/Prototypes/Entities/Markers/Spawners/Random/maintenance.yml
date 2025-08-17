@@ -120,6 +120,7 @@
       - id: BalloonCorgi
       - id: MysteryFigureBox
       - id: RubberChicken
+      - id: RubberPig
       # Cult
       - !type:AllSelector
         children:
