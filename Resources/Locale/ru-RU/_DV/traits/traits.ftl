@@ -1,8 +1,8 @@
-trait-ultravision-name = Ультрафиолетовое зрение
-trait-ultravision-desc =
+trait-name-UltraVision = Ультрафиолетовое зрение
+trait-description-UltraVision =
     Благодаря бионическим глазам, случайной мутации,
     или будучи гарпией, вы воспринимаете мир с помощью ультрафиолетового света.
-trait-deuteranopia-name = Дейтеранопия
-trait-deuteranopia-desc =
+trait-name-DogVision = Дейтеранопия
+trait-description-DogVision =
     Благодаря бионическим глазам, случайной мутации,
     или будучи Вульпканином, вы страдаете красно-зеленой дальтонизмом.

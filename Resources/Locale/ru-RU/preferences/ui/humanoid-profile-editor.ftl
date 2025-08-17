@@ -61,3 +61,4 @@ trait-category-disabilities = Ограничения
 trait-category-speech = Черты речи
 trait-category-quirks = Причуды
 trait-category-religion = Religion
+humanoid-profile-editor-loadouts-show-unusable-button = Показать неипользуемые лодауты

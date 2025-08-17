@@ -44,6 +44,48 @@ trait-description-Muted =
     Это может затруднить общение с другими или использование радиосвязи.
     В качестве компенсации вы владеете Галактическим Языком Жестов.
 
+trait-name-Manic = Маниакальный психоз
+trait-description-Manic = Ваше восприятие мира подвержено различным интенсивностям. Всё, что влияет на ваше настроение, будет иметь эффект в 0,7-1,3.
+
+trait-name-Mercurial = Переменчивый
+trait-description-Mercurial = Ваше настроение колеблется регулярно, в результате чего у вас есть случайный модификатор настроения, который всегда находится где-то между -10 и +10.
+
+trait-name-DeadEmotions = Безэмоционален
+trait-description-DeadEmotions = Вы ничего не чувствуете, и совершенно не затронуты всеми положительными или отрицательными модификаторами настроения.
+
+trait-name-IPCFragileCircuits = Хрупкие схемы
+trait-description-IPCFragileCircuits =
+    Ваше шасси особенно плохо справляется с электрическими разрядами.
+    Вы немедленно отключаетесь при повреждении [color=orange]электрические[/color] и должны быть перезагружены.
+fragileCircuits-kill-popup = {$name}'s выключены из-за короткого замыкания!
+
+trait-name-CyberneticLeftLeg = Кибернетическая левая нога
+trait-description-CyberneticLeftLeg =
+    Ваша левая нога была заменена базовой кибернетической.
+    Это не стоит никаких отборов.
+
+trait-name-CyberneticRightLeg = Кибернетическая правая нога
+trait-description-CyberneticRightLeg =
+    Ваша правая нога была заменена базовой кибернетической.
+    Это не стоит никаких отборов.
+
+trait-name-ForkedTongue = Раздвоенный языкe
+trait-description-ForkedTongue =
+    Вы имеете более развитый вилчатый язык, который позволяет вам отслеживать и различать объекты по их запаху.
+
+trait-name-IPCFaultyWaterproofing = Некачественная гидроизоляция
+trait-description-IPCFaultyWaterproofing =
+    Либо из-за повреждения или дешевой конструкции, ваш шасси не водонепроницаемый.
+    Вы получаете [color=orange]электрические[/color] повреждение каждый раз, когда вы брызгаетесь водой.
+faultyWaterproofing-damage-popup = Вода вызывает короткое замыкание ваших схем.
+
+trait-name-StuntedSnout = Низкорослая морда
+trait-description-StuntedSnout =
+    Ваше обоняние ограничено по той или иной причине. Вам не хватает способности принимать запахи.
+
+trait-name-Uncloneable = Неклонируемый
+trait-description-Uncloneable = Вы не можете быть клонированым.
+
 trait-name-BloodDeficiency = Дефицит крови
 trait-description-BloodDeficiency =
     Ваш организм теряет больше крови, чем способен восполнить.
@@ -277,6 +319,36 @@ trait-description-SnailPaced =
 trait-name-LightStep = Лёгкая поступь
 trait-description-LightStep =
     Вы ступаете мягко, из-за чего ваши шаги тише, если вы не носите обувь.
+
+trait-name-Shell = Обмен: Киборг
+trait-description-Shell =
+    Вы становитесь похожим на киборга, как в фильме "Терминатор".
+
+trait-name-Dwarf = Обмен: Дворф
+trait-description-Dwarf =
+    Вы не просто невысокий и толстый... Вы дворф.
+    Алкоголь лечит вас, вы устойчивы к ядам, а также вас не тошнит, когда вы пьяны.
+
+trait-name-Kobold = Обмен: Кобольд
+trait-description-Kobold =
+    Ты не просто короткий и здоровый... Ты кобольд.
+    Вы получаете исцеление от алкоголя, вы устойчивы к яду, вы также не блевотите, когда пьяны.
+
+trait-name-SuperiorRadiationShielding = Превосходная радиационная защита
+trait-description-SuperiorRadiationShielding =
+    Ваш шасси оснащен превосходной радиационной защитой, защищая ваши схемы от всех, кроме самых экстремальных источников излучения.
+    Уменьшенное количество урона, нанесенного вам [color=yellow]Радиацией[/color], увеличено с [color=green]1[/color] до [color=blue]5[/color].
+
+trait-name-G2Chassis = Шасси G2
+trait-description-G2Chassis =
+    Ваш шасси был изготовлен по военным спецификациям.
+    Вы обладаете врожденным [color=blue]7%[/color] шансом на то, что входящие снаряды свернут с вашего бронированного корпуса.
+
+trait-name-HardenedCircuits = Усиленные схемы
+trait-description-HardenedCircuits =
+    Ваши внутренние компоненты были усилены с амортизирующей металл-пена.
+    Вы получаете [color=blue]20%[/color] сопротивление взрывному повреждению.
+    Ваша [color=red]слабость[/color] к [color=yellow]электрическому[/color] урону была обращена в [color=green]сопротивление[/color]
 
 trait-name-Swashbuckler = Фехтовальщик
 trait-description-Swashbuckler =

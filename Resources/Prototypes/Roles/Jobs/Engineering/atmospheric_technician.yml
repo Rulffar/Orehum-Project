@@ -12,6 +12,7 @@
     - HephaestusIndustries
     - EinsteinEngines
     - NanoTrasen
+    - ZavodskoiInterstellar
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce
