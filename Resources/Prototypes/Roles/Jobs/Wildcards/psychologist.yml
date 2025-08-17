@@ -13,6 +13,11 @@
   extendedAccess:
   - Chemistry
   requirements:
+  - !type:CharacterOverallTimeRequirement
+    min: 18000 # Goob MRP - 5 Hours
+  - !type:CharacterDepartmentTimeRequirement
+    department: Medical
+    min: 7200 # Goob MRP - 2 Hours
   - !type:CharacterEmployerRequirement
     employers:
     - Interdyne
