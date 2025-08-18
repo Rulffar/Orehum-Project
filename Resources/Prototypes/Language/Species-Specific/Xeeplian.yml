@@ -3,7 +3,7 @@
   id: Xeeplian
   speech:
     color: "#a4bb98"
-    fontId: YoureGone
+    #fontId: YoureGone # Orehum убран шрифт, т.к не поддерживает русский
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1

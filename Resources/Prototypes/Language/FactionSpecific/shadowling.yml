@@ -4,7 +4,7 @@
   isVisibleLanguage: true
   speech:
     color: "#ad69e8"
-    fontId: Aliensatemymum
+    #fontId: Aliensatemymum # Orehum убран шрифт, т.к не поддерживает русский
     fontSize: 16
   obfuscation:
     !type:SyllableObfuscation
