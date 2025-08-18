@@ -5,7 +5,7 @@
   isVisibleLanguage: true
   speech:
     color: "#ce5e14dd"
-    fontId: Noganas
+    #fontId: Noganas # Orehum убран шрифт, т.к не поддерживает русский
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1

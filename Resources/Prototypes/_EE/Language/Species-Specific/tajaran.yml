@@ -6,7 +6,7 @@
   isVisibleLanguage: true
   speech:
     color: "#da954bee"
-    fontId: Noganas # Rugged, like the people and the land
+    #fontId: Noganas # Rugged, like the people and the land # Orehum убран шрифт, т.к не поддерживает русский
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2 # this is mostly based on the name generator, 2-4 is there so it goes here too
@@ -117,7 +117,7 @@
   isVisibleLanguage: true
   speech:
     color: "#f58c9aee" # Bright red, to push this energy through
-    fontId: Sriracha # relatively energetic, portraying the body movement I suppose
+    #fontId: Sriracha # relatively energetic, portraying the body movement I suppose # Orehum убран шрифт, т.к не поддерживает русский
     allowRadio: true # It's actually ok, since message wrap overrides are broken for radio, yipee?
     requireSpeech: false
     messageWrapOverrides:
@@ -211,7 +211,7 @@
   isVisibleLanguage: true
   speech:
     color: "#9a69f5ee" # More or less the color of nobility
-    fontId: GrenzeGotisch # Old and distinguished, but not unreadable
+    #fontId: GrenzeGotisch # Old and distinguished, but not unreadable  # Orehum убран шрифт, т.к не поддерживает русский
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 3 
