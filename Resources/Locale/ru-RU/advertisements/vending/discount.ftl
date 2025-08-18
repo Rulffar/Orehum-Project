@@ -15,3 +15,4 @@ thankyou-discount-5 = Пожалуйста, не подавайте на нас 
 thankyou-discount-6 = При загрузке оно так и выглядело, клянёмся!
 thankyou-discount-7 = Ага, удачи с этим.
 thankyou-discount-8 = Наслаждайтесь своими, ээ... "снеками".
+thankyou-discount-0 = Теперь это ваша проблема!

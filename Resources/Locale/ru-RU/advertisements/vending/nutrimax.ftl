@@ -7,3 +7,4 @@ advertisement-nutrimax-6 = Теперь и с вёдрами!
 advertisement-nutrimax-7 = Чем больше растение, тем лучше!
 thankyou-nutrimax-1 = Пора сажать!
 thankyou-nutrimax-2 = Заройтесь в земле!
+thankyou-nutrimax-0 = Спасибо что воспользовались { $name }!

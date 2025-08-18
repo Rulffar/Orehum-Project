@@ -8,3 +8,4 @@ thankyou-donut-1 = Наслаждайтесь пончиком!
 thankyou-donut-2 = Ещё один проданный пончик!
 thankyou-donut-3 = Хорошего дня, офицер!
 thankyou-donut-4 = Надеюсь, вы станете зависимыми!
+thankyou-donut-0 = Наслаждайтесь пончиком!

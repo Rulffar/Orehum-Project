@@ -34,3 +34,4 @@ thankyou-syndiedrobe-2 = Смерть NT!
 thankyou-syndiedrobe-3 = Продемонстрируйте им силу стиля.
 thankyou-syndiedrobe-4 = Счастливых убийств!
 thankyou-syndiedrobe-5 = Наслаждайтесь резнёй!
+thankyou-syndiedrobe-0 = Слава Горлексу!
