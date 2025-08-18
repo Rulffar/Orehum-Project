@@ -27,43 +27,43 @@ public sealed partial class ShadowlingCollectiveMindComponent : Component
     {
         new ShadowlingActionData
         {
-            UnlockAtThralls = 3,
+            UnlockAtThralls = 2,
             ActionPrototype = "ActionSonicScreech",
             ActionComponentName = "ShadowlingSonicScreech"
         },
         new ShadowlingActionData
         {
-            UnlockAtThralls = 10,
+            UnlockAtThralls = 3,
             ActionPrototype = "ActionBlindnessSmoke",
             ActionComponentName = "ShadowlingBlindnessSmoke"
         },
         new ShadowlingActionData
         {
-            UnlockAtThralls = 5,
+            UnlockAtThralls = 4,
             ActionPrototype = "ActionNullCharge",
             ActionComponentName = "ShadowlingNullCharge"
         },
         new ShadowlingActionData
         {
-            UnlockAtThralls = 7,
+            UnlockAtThralls = 5,
             ActionPrototype = "ActionBlackRecuperation",
             ActionComponentName = "ShadowlingBlackRecuperation"
         },
         new ShadowlingActionData
         {
-            UnlockAtThralls = 12,
+            UnlockAtThralls = 7,
             ActionPrototype = "ActionEmpoweredEnthrall",
             ActionComponentName = "ShadowlingEmpoweredEnthrall"
         },
         new ShadowlingActionData()
         {
-            UnlockAtThralls = 15,
+            UnlockAtThralls = 8,
             ActionPrototype = "ActionNoxImperii",
             ActionComponentName = "ShadowlingNoxImperii"
         },
         new ShadowlingActionData()
         {
-            UnlockAtThralls = 20,
+            UnlockAtThralls = 10,
             ActionPrototype = "ActionAscendance",
             ActionComponentName = "ShadowlingAscendance"
         }
