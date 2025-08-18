@@ -16,3 +16,4 @@ thankyou-coffee-1 = Наслаждайтесь!
 thankyou-coffee-2 = Пейте пока горячее!
 thankyou-coffee-3 = Приготовление завершено.
 thankyou-coffee-4 = Напиток подан.
+thankyou-coffee-0 = Спасибо что воспользовались { $name }!

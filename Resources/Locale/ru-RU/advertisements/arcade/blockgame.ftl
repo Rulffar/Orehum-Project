@@ -23,3 +23,4 @@ thankyou-block-game-9 = Всегда найдётся время для ново
 thankyou-block-game-10 = Не сдавайтесь!
 thankyou-block-game-11 = Всегда найдутся новые блоки!
 thankyou-block-game-12 = Блоки ждут вашего возвращения!
+thankyou-block-game-0 = Спасибо за игру!

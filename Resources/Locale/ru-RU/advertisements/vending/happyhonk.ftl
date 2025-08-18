@@ -12,3 +12,4 @@ thankyou-happyhonk-1 = Хонк!
 thankyou-happyhonk-2 = Хонк хонк!
 thankyou-happyhonk-3 = Поделитесь весельем! Хонк!
 thankyou-happyhonk-4 = Идите и подскользните кого-нибудь! Хонк!
+thankyou-happyhonk-0 = Хонк хонк хонк!
