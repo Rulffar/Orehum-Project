@@ -21,14 +21,14 @@ character-mindshield-requirement = Вам необходимо{$inverted ->
     *[other]{""}
 } иметь чип защиты разума
 
-character-timer-department-insufficient = Требуется ещё [color=yellow]{ $time }[/color] минут игры за [color={ $departmentColor }]{ $department }[/color].
-character-timer-department-too-high = Требуется на [color=yellow]{ $time }[/color] меньше минут игры за [color={ $departmentColor }]{ $department }[/color]. (Вы пытаетесь играть за роль для новичков?)
+character-timer-department-insufficient = Требуется ещё [color=yellow]{TOSTRING($time, "0")}[/color] минут игры за [color={ $departmentColor }]{ $department }[/color].
+character-timer-department-too-high = Требуется на [color=yellow]{TOSTRING($time, "0")}[/color] меньше минут игры за [color={ $departmentColor }]{ $department }[/color]. (Вы пытаетесь играть за роль для новичков?)
 
-character-timer-overall-insufficient = Требуется ещё [color=yellow]{ $time }[/color] минут общего игрового времени.
-character-timer-overall-too-high = Требуется на [color=yellow]{ $time }[/color] меньше минут общего игрового времени. (Вы пытаетесь играть за роль для новичков?)
+character-timer-overall-insufficient = Требуется ещё [color=yellow]{TOSTRING($time, "0")}[/color] минут общего игрового времени.
+character-timer-overall-too-high = Требуется на [color=yellow]{TOSTRING($time, "0")}[/color] меньше минут общего игрового времени. (Вы пытаетесь играть за роль для новичков?)
 
-character-timer-role-insufficient = Требуется ещё [color=yellow]{ $time }[/color] минут игры в качестве [color={ $departmentColor }]{ $job }[/color] для этой роли.
-character-timer-role-too-high = Требуется на [color=yellow]{ $time }[/color] меньше минут игры в качестве [color={ $departmentColor }]{ $job }[/color] для этой роли. (Вы пытаетесь играть за роль для новичков?)
+character-timer-role-insufficient = Требуется ещё [color=yellow]{TOSTRING($time, "0")}[/color] минут игры в качестве [color={ $departmentColor }]{ $job }[/color] для этой роли.
+character-timer-role-too-high = Требуется на [color=yellow]{TOSTRING($time, "0")}[/color] меньше минут игры в качестве [color={ $departmentColor }]{ $job }[/color] для этой роли. (Вы пытаетесь играть за роль для новичков?)
 
 
 ## Logic
