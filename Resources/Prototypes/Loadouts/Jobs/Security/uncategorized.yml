@@ -373,7 +373,6 @@
         - Warden
         - HeadOfSecurity
         - BlueshieldOfficer
-        - SeniorOfficer
   items:
     - ClothingMaskGasSwat
 
@@ -392,6 +391,7 @@
         - Brigmedic
         - PrisonGuard
         - SecurityCadet
+        - SeniorOfficer
   items:
     - ClothingMaskGasSwat
 
