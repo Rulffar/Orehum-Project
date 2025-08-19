@@ -119,8 +119,6 @@
   cost: 10000
   recipeUnlocks:
   - ClothingEyesThermalVisionGoggles
-  - ClothingEyesMinerVisionGoggles # Orehum
-  - ClothingEyesMesonVisionGoggles # Orehum
 
 # Tier 3
 

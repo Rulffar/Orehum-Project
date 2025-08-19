@@ -46,3 +46,15 @@
     Glass: 100
     Plasma: 100
     Uranium: 100
+
+- type: technology
+  id: MinerVisionTech
+  name: research-technology-miner-vision
+  icon:
+    sprite: Clothing/Eyes/Goggles/thermal.rsi
+    state: icon
+  discipline: Industrial
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - ClothingEyesMinerVisionGoggles

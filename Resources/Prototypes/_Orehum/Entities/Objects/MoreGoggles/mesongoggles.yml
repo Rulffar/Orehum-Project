@@ -35,3 +35,15 @@
     Steel: 200
     Glass: 100
     Uranium: 300
+
+- type: technology
+  id: MesonVisionTech
+  name: research-technology-meson-vision
+  icon:
+    sprite: _Orehum/Clothing/Eyes/Goggles/meson.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - ClothingEyesMesonVisionGoggles
