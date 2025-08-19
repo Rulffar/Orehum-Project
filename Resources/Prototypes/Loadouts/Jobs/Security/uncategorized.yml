@@ -373,6 +373,7 @@
         - Warden
         - HeadOfSecurity
         - BlueshieldOfficer
+        - SeniorOfficer
   items:
     - ClothingMaskGasSwat
 
