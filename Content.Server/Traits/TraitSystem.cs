@@ -162,7 +162,7 @@ public sealed class TraitSystem : EntitySystem
     {
         _adminSystem.Erase(targetPlayer.UserId);
 
-        var feedbackMessage = $"[font size=24][color=#ff0000]{"Вы появились с недопустимым количеством очков черт персонажа. Если это произошло из-за использования читов - ваша несуществующая жизнь это ваша проблема. В противном случае нажмите "Вернуться в лобби" и исправьте выбор черт."}[/color][/font]";
+        var feedbackMessage = $"[font size=24][color=#ff0000]{"Вы появились с недопустимым количеством очков черт персонажа. Если это произошло из-за использования читов - ваша несуществующая жизнь это ваша проблема. В противном случае нажмите 'Вернуться в лобби' и исправьте выбор черт."}[/color][/font]";
         _chatManager.ChatMessageToOne(
             ChatChannel.Emotes,
             feedbackMessage,
