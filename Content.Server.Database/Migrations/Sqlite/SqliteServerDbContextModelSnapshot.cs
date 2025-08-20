@@ -1296,6 +1296,18 @@ namespace Content.Server.Database.Migrations.Sqlite
                     b.ToTable("uploaded_resource_log", (string)null);
                 });
 
+            modelBuilder.Entity("Content.Server.Database.WhiteListedPreset", b =>
+                {
+                    b.Property<string>("PresetId")
+                        .HasColumnType("TEXT")
+                        .HasColumnName("preset_id");
+
+                    b.HasKey("PresetId")
+                        .HasName("PK_white_listed_presets");
+
+                    b.ToTable("white_listed_presets", (string)null);
+                });
+
             modelBuilder.Entity("Content.Server.Database.Whitelist", b =>
                 {
                     b.Property<Guid>("UserId")
