@@ -1,0 +1,67 @@
+# BII Agents start load.
+- type: startingGear
+  id: BIIAgent
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitLawyerBlack
+    back: ClothingBackpackERTSecurity
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesSunglasses
+    outerClothing: ClothingOuterArmorBasic
+    neck: ClothingNeckLawyerbadge
+    gloves: ClothingHandsGlovesForensic
+    id: CentcomPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurity
+    pocket1: TelescopicBaton
+    pocket2: WeaponTaser
+  storage:
+    belt:
+    - Handcuffs
+    - Handcuffs
+    - MagazinePistol
+    - MagazinePistol
+    - WeaponPistolMk58
+  inhand:
+  - BriefcaseBrownFilled
+
+- type: startingGear
+  id: BIIEcho
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitSuitBlackAlt
+    head: ClothingHeadHatTCFLBeretSentinel
+    back: ClothingModsuitEcho
+    shoes: ClothingShoesSwat
+    mask: ClothingMaskNeckGaiter
+    eyes: ClothingEyesGlassesSunglasses
+    outerClothing: ClothingOuterArmorBasicSlim
+    neck: ClothingNeckMantleHOS
+    gloves: ClothingHandsGlovesCombat
+    id: CentcomPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurity
+    pocket1: WeaponDisabler
+    pocket2: DoorRemoteCommand
+  storage:
+    back:
+    - Tourniquet
+    - HoloprojectorSecurity
+    - RegenerativeMesh
+    - PhoneInstrument
+    - AirTankFilled
+    - JawsOfLife
+    - CombatMedipen
+    - MedicatedSuture
+    - BluespaceLifelineImplanter
+    - BSOManual
+    belt:
+    - Truncheon
+    - MagazineRifle
+    - MagazineRifle
+    - TearGasGrenade
+    - TearGasGrenade
+    - Zipties
+    - Zipties
+    - Zipties
+    - Zipties
+  inhand:
+  - WeaponRifleM90
