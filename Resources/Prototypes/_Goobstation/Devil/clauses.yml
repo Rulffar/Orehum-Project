@@ -9,6 +9,7 @@
 
 - type: clause
   id: soulownership
+  name: Владение душой # CorvaxGoob devil fix
   clauseWeight: 25
   event: !type:DevilContractSoulOwnershipEvent
 
@@ -21,22 +22,26 @@
 
 - type: clause
   id: weakness
+  name: Слабость # CorvaxGoob devil fix
   clauseWeight: -35
   damageModifierSet: DevilDealPositive
 
 - type: clause
   id: fearoffire
+  name: Страх огня
   clauseWeight: -20
   damageModifierSet: HellSpawn
 
 - type: clause
   id: brokeness
+  name: Сломленность
   clauseWeight: -20
   spawnedItems:
   - ClothingShoesRealJordansAutographed
 
 - type: clause
   id: fearofspace
+  name: Страх космоса
   clauseWeight: -30
   addedComponents:
   - type: BreathingImmunity
@@ -45,6 +50,7 @@
 
 - type: clause
   id: fearofdeath
+  name: Страх смерти # CorvaxGoob devil fix
   clauseWeight: -25
   addedComponents:
   - type: MobThresholds
@@ -55,18 +61,21 @@
 
 - type: clause
   id: fearoflight
+  name: Страх света # CorvaxGoob devil fix
   clauseWeight: -15
   addedComponents:
   - type: FlashImmunity
 
 - type: clause
   id: fearofelectricity
+  name: Страх электричества # CorvaxGoob devil fix
   clauseWeight: -15
   addedComponents:
   - type: Insulated
 
 - type: clause
   id: gluttony
+  name: Обжорство # CorvaxGoob devil fix
   clauseWeight: -15
   removedComponents:
   - type: Hunger
@@ -74,15 +83,17 @@
 
 - type: clause
   id: greed
+  name: Жадность # CorvaxGoob devil fix
   clauseWeight: -10
   spawnedItems:
   - SpaceCash30000
 
 - type: clause
   id: pain
+  name: Боль # CorvaxGoob devil fix
   clauseWeight: -5
   addedComponents:
-#  - type: PainNumbness
+  #- type: PainNumbness
   - type: SlowOnDamage
     speedModifierThresholds:
       60: 1
@@ -90,11 +101,13 @@
 
 - type: clause
   id: chance
+  name: Удача # CorvaxGoob devil fix
   clauseWeight: -20
   event: !type:DevilContractChanceEvent
 
 - type: clause
   id: shadows
+  name: Тени # CorvaxGoob devil fix
   clauseWeight: -25
   addedComponents:
   - type: Stealth
@@ -102,28 +115,33 @@
 
 - type: clause
   id: humanity
+  name: Человечность # CorvaxGoob devil fix
   clauseWeight: 25
   polymorph: MobFrogPolymorph
 
 - type: clause
   id: strength
+  name: Сила # CorvaxGoob devil fix
   clauseWeight: 30
   damageModifierSet: DevilDealNegative
 
 - type: clause
   id: willtofight
+  name: Воля к борьбе # CorvaxGoob devil fix
   clauseWeight: 60
   addedComponents:
   - type: Pacified
 
 - type: clause
   id: sight
+  name: Зрение # CorvaxGoob devil fix
   clauseWeight: 60
   addedComponents:
   - type: PermanentBlindness
 
 - type: clause
   id: coherence
+  name: Связность # CorvaxGoob devil fix
   clauseWeight: 30
   addedComponents:
   - type: BackwardsAccent
@@ -131,22 +149,26 @@
 
 - type: clause
   id: voice
+  name: Голос # CorvaxGoob devil fix
   clauseWeight: 20
   addedComponents:
   - type: Muted
 
 - type: clause
   id: aleg
+  name: Нога # CorvaxGoob devil fix
   clauseWeight: 30
   event: !type:DevilContractLoseLegEvent
 
 - type: clause
   id: ahand
+  name: Рука # CorvaxGoob devil fix
   clauseWeight: 30
   event: !type:DevilContractLoseHandEvent
 
 - type: clause
   id: awake
+  name: Бодрость # CorvaxGoob devil fix
   clauseWeight: 40
   addedComponents:
   - type: Narcolepsy
@@ -155,23 +177,20 @@
 
 - type: clause
   id: anorgan
+  name: Орган # CorvaxGoob devil fix
   clauseWeight: 45
   event: !type:DevilContractLoseOrganEvent
 
 - type: clause
   id: legs
+  name: Ноги # CorvaxGoob devil fix
   clauseWeight: 40
   addedComponents:
   - type: LegsParalyzed
 
-#- type: clause
-#  id: innerpeace
-#  clauseWeight: 5
-#  addedComponents:
-#  - type: TileMovement
-
 - type: clause
   id: death
+  name: Смерть # CorvaxGoob devil fix
   clauseWeight: -25
   addedComponents:
   - type: CheatDeath
@@ -179,6 +198,7 @@
 
 - type: clause
   id: mortality
+  name: Смертность # CorvaxGoob devil fix
   clauseWeight: -135
   addedComponents:
   - type: CheatDeath
@@ -186,6 +206,7 @@
 
 - type: clause
   id: time
+  name: Время # CorvaxGoob devil fix
   clauseWeight: 150
   addedComponents:
   - type: DelayedDeath

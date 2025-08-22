@@ -1,5 +1,5 @@
-devil-contract-contractee = исполнитель
-devil-contract-contractor = получатель
+devil-contract-contractee = получатель
+devil-contract-contractor = исполнитель
 devil-contract-early-sign-failed = Получатель должен сначала дождаться подписания контракта!
 devil-contract-no-soul-sign-failed = У вас нет души на продажу!
 devil-sign-invalid-user = У вас нет полномочий для выполнения этого контракта!
