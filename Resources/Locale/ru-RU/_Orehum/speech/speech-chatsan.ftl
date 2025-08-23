@@ -23,22 +23,13 @@ orehum-chatsan-word-8 = кепа
 orehum-chatsan-replacement-8 = кэпа
 
 orehum-chatsan-word-9 = увы
-orehum-chatsan-replacement-9 = опять вселенная поржала...
+orehum-chatsan-replacement-9 = к сожалению
 
-orehum-chatsan-word-10 = пупупу
-orehum-chatsan-replacement-10 = пых-пых-пых...
+orehum-chatsan-word-10 = окак
+orehum-chatsan-replacement-12 = вот как
 
-orehum-chatsan-word-10 = пу-пу-пу
-orehum-chatsan-replacement-10 = пых-пых-пых...
-
-orehum-chatsan-word-11 = ужасы
-orehum-chatsan-replacement-11 = триллер без попкорна
-
-orehum-chatsan-word-12 = окак
-orehum-chatsan-replacement-12 = ничосебешеньки
-
-orehum-chatsan-word-13 = о как
+orehum-chatsan-word-11 = о как
 orehum-chatsan-replacement-13 = вот как
 
-orehum-chatsan-word-14 = уээ
-orehum-chatsan-replacement-14 = ой, гадосики подъехали
+orehum-chatsan-word-12 = пж
+orehum-chatsan-replacement-12 = пожалуйста
