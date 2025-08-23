@@ -431,6 +431,16 @@
     orehum-chatsan-word-3: orehum-chatsan-replacement-3
     orehum-chatsan-word-4: orehum-chatsan-replacement-4
     orehum-chatsan-word-5: orehum-chatsan-replacement-5
+    orehum-chatsan-word-6: orehum-chatsan-replacement-6
+    orehum-chatsan-word-7: orehum-chatsan-replacement-7
+    orehum-chatsan-word-8: orehum-chatsan-replacement-8
+    orehum-chatsan-word-9: orehum-chatsan-replacement-9
+    orehum-chatsan-word-10: orehum-chatsan-replacement-10
+    orehum-chatsan-word-11: orehum-chatsan-replacement-11
+    orehum-chatsan-word-12: orehum-chatsan-replacement-12
+    orehum-chatsan-word-13: orehum-chatsan-replacement-13
+    orehum-chatsan-word-14: orehum-chatsan-replacement-14
+
 
 - type: accent
   id: liar

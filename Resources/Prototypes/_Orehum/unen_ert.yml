@@ -2099,7 +2099,7 @@
   components:
     - type: Sprite
       sprite: Markers/jobs.rsi
-      state: ertmedicaleva
+      state: cburn
     - type: RandomMetadata
       nameSegments:
       - NamesFirstMilitary
