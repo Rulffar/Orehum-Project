@@ -1,6 +1,5 @@
 using Content.Server.Administration.Logs;
 using Content.Shared._DV.CustomObjectiveSummary;
-using Content.Shared._DV.FeedbackOverwatch;
 using Content.Shared.Database;
 using Content.Shared.GameTicking;
 using Content.Shared.Mind;
@@ -13,7 +12,6 @@ public sealed class CustomObjectiveSummarySystem : EntitySystem
     [Dependency] private readonly IServerNetManager _net = default!;
     [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly IAdminLogManager _adminLog = default!;
-    [Dependency] private readonly SharedFeedbackOverwatchSystem _feedback = default!;
 
     public override void Initialize()
     {
@@ -58,6 +56,7 @@ public sealed class CustomObjectiveSummarySystem : EntitySystem
 
     private void OnRoundEnd(RoundEndMessageEvent ev)
     {
+        /* Orehum - No feedback no fun
         var allMinds = _mind.GetAliveHumans();
 
         foreach (var mind in allMinds)
@@ -67,5 +66,6 @@ public sealed class CustomObjectiveSummarySystem : EntitySystem
 
             _feedback.SendPopupMind(mind, "RemoveGreentextPopup");
         }
+        */
     }
 }
