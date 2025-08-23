@@ -28,7 +28,7 @@
   - !type:CharacterSpeciesRequirement
     inverted: true
     species:
-      - IPC
+      - Felinid
   - !type:CharacterEmployerRequirement
     employers:
     - ZavodskoiInterstellar

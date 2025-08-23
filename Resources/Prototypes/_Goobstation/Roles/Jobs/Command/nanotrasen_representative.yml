@@ -16,7 +16,7 @@
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - IPC
+        - Felinid
     - !type:CharacterEmployerRequirement
       inverted: true
       employers:
