@@ -569,7 +569,10 @@
   id: ShuttleGunSvalinnMachineGunCircuitboard
   result: ShuttleGunSvalinnMachineGunCircuitboard
   completetime: 6
-
+  materials:
+     Steel: 100
+     Glass: 900
+     
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
   id: ShuttleGunPerforatorCircuitboard
@@ -581,13 +584,20 @@
   id: ShuttleGunKineticCircuitboard
   result: ShuttleGunKineticCircuitboard
   completetime: 6
-
+  materials:
+     Steel: 100
+     Glass: 900
+     
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
   id: ShuttleGunFriendshipCircuitboard
   result: ShuttleGunFriendshipCircuitboard
   completetime: 8
-
+  materials:
+     Steel: 100
+     Glass: 900
+     Gold: 50
+     
 - type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
   id: ShuttleGunDusterCircuitboard
