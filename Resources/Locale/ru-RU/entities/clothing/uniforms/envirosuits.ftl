@@ -95,9 +95,9 @@ ent-ClothingUniformEnvirosuitAdminAssistant = Защитный костюм по
 ent-ClothingUniformEnvirosuitBlackPink = черно-розовый Защитный костюм
      .desc = Черно-розовый защитный костюм в вашем районе!
 ent-ClothingUniformEnvirosuitBlackPinkAlt = Альтернативный черно-розовый Защитный костюм
-     .desc Альтернативный черно-розовый защитный костюм в вашем районе!
+     .desc = Альтернативный черно-розовый защитный костюм в вашем районе!
 ent-ClothingUniformEnvirosuitTrans = Трансильванский защитный костюм
-     .desc Фирменный защитный костюм трансильванского плазмаменщика.
+     .desc = Фирменный защитный костюм трансильванского плазмаменщика.
 ent-ClothingUniformEnvirosuitPrisonGuard = Защитный костюм тюремного охранника
      .desc = Удобный, прочный, защитный костюм, созданный для обеспечения комфорта и безопасности тюремного персонала.
 ent-ClothingUniformEnvirosuitBrigmedic = Защитный костюм санитара
