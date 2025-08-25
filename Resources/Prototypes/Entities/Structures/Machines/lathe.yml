@@ -1604,6 +1604,7 @@
     - BioGenLeft4Zed
     - BioGenEZNutrient
     - BioGenRobustHarvest
+    - BioGenMutagen # Orehum add mutagen to biogen
 
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
