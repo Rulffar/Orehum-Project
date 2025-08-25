@@ -330,6 +330,9 @@
   description: A sleek energy weapon, its blade hums with volatile plasma, expertly contained to cut through nearly any material. The serial number on the hilt marks this gun as belonging to an NT Security Officer. # how do I make the text blue
   suffix: Security Loadouts
   components:
+  - type: Reflect
+    spread: 25
+    reflectProb: 0.15
   - type: MeleeWeapon
     attackRate: 1.25
   - type: ItemToggleMeleeWeapon

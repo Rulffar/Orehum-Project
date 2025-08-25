@@ -4,8 +4,8 @@ meta:
   engineVersion: 261.2.0
   forkId: ""
   forkVersion: ""
-  time: 08/24/2025 09:54:40
-  entityCount: 13634
+  time: 08/25/2025 13:24:01
+  entityCount: 13635
 maps:
 - 1
 grids:
@@ -6032,6 +6032,16 @@ entities:
     - type: Transform
       pos: -35.42793,1.7643127
       parent: 2
+- proto: AntieMeteorShieldGenerator
+  entities:
+  - uid: 9500
+    components:
+    - type: Transform
+      anchored: False
+      pos: -32.5,-33.5
+      parent: 2
+    - type: Physics
+      bodyType: Dynamic
 - proto: APCBasic
   entities:
   - uid: 314

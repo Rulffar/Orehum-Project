@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Numerics;
+using Content.Server._Orehum.AntiMeteorShield;
 using Content.Server.Administration.Logs;
 using Content.Server.Atmos.Components;
 using Content.Server.Chat.Managers;
@@ -57,6 +58,8 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
     [Dependency] private readonly SharedMapSystem _map = default!;
     [Dependency] private readonly MapSystem _mapSystem = default!;
 
+    private AntiMeteorShieldSystem _antiMeteorShieldSystem = null!; // Orehum
+
     private EntityQuery<FlammableComponent> _flammableQuery;
     private EntityQuery<PhysicsComponent> _physicsQuery;
     private EntityQuery<ProjectileComponent> _projectileQuery;
@@ -82,6 +85,8 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
     public override void Initialize()
     {
         base.Initialize();
+
+        _antiMeteorShieldSystem = EntityManager.System<AntiMeteorShieldSystem>(); // Orehum
 
         DebugTools.Assert(_prototypeManager.HasIndex<ExplosionPrototype>(DefaultExplosionPrototypeId));
 

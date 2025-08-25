@@ -1,0 +1,11 @@
+- type: latheRecipe
+  id: BioGenMutagen
+  resultReagents:
+    UnstableMutagen: 10
+  category: Chemicals
+  icon:
+    sprite: Objects/Specific/Chemistry/bottle.rsi
+    state: bottle-1
+  completetime: 1
+  materials:
+    Biomass: 25
