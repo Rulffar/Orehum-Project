@@ -33,6 +33,8 @@ using Content.Shared.Mobs.Components;
 using Robust.Shared.Prototypes;
 using Content.Server.Heretic.EntitySystems;
 using Content.Server._Goobstation.Heretic.EntitySystems.PathSpecific;
+using Content.Shared.Chat;
+
 
 namespace Content.Server.Heretic.Abilities;
 

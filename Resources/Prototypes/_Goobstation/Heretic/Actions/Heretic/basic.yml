@@ -3,7 +3,7 @@
   id: ActionHereticOpenStore
   name: action-heretic-store-name
   description: action-heretic-store-desc
-  noSpawn: true
+  #noSpawn: true
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -19,7 +19,7 @@
   id: ActionHereticMansusGrasp
   name: action-heretic-grasp-name
   description: action-heretic-grasp-desc
-  noSpawn: true
+  #noSpawn: true
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -52,7 +52,7 @@
   id: ActionHereticMansusLink
   name: action-heretic-link-name
   description: action-heretic-link-desc
-  noSpawn: true
+  #noSpawn: true
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction

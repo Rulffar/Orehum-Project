@@ -20,8 +20,8 @@
       max: 5
       playerRatio: 15
       lateJoinAdditional: true
-      mindComponents:
-      - type: HereticRole
+      #mindComponents:
+      #- type: HereticRole
       startingGear: HereticGear # see Roles/Antags/heretic.yml
 
 # changeling

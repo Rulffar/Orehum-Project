@@ -182,16 +182,13 @@
   id: Mask
 
 - type: Tag
-  id: Organ
-
-- type: Tag
   id: Stomach
-
-- type: Tag
-  id: Stunbaton
 
 - type: Tag
   id: Table
 
 - type: Tag
   id: Tongue
+
+- type: Tag
+  id: Poppy
