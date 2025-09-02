@@ -19,7 +19,7 @@
   alias:
   - heretic
   name: heretic-title
-  minPlayers: 25
+  minPlayers: 20
   showInVote: true
   description: heretic-title
   rules:

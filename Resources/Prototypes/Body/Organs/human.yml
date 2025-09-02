@@ -82,7 +82,7 @@
 
 - type: entity
   id: OrganHumanEyes
-  parent: BaseHumanOrgan
+  parent: [BaseHumanOrgan, OrganEyesTag] # fix heretic
   name: eyes
   description: "I see you!"
   components:
@@ -126,7 +126,7 @@
 
 - type: entity
   id: OrganHumanLungs
-  parent: BaseHumanOrgan
+  parent: [BaseHumanOrgan, OrganLungsTag] # fix heretic
   name: lungs
   description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
   components:
@@ -162,7 +162,7 @@
 
 - type: entity
   id: OrganHumanHeart
-  parent: BaseHumanOrgan
+  parent: [BaseHumanOrgan, OrganHeartTag] # fix heretic
   name: heart
   description: "I feel bad for the heartless bastard who lost this."
   components:
@@ -184,7 +184,7 @@
 
 - type: entity
   id: OrganHumanStomach
-  parent: BaseHumanOrgan
+  parent: [BaseHumanOrgan, OrganStomachTag] # fix heretic
   name: stomach
   description: "Gross. This is hard to stomach."
   components:
@@ -215,7 +215,7 @@
 
 - type: entity
   id: OrganHumanLiver
-  parent: BaseHumanOrgan
+  parent: [BaseHumanOrgan, OrganLiverTag] # fix heretic
   name: liver
   description: "Pairing suggestion: chianti and fava beans."
   components:
@@ -233,7 +233,7 @@
 
 - type: entity
   id: OrganHumanKidneys
-  parent: BaseHumanOrgan
+  parent: [BaseHumanOrgan, OrganKidneysTag] # fix heretic
   name: kidneys
   description: "Filters toxins from the bloodstream."
   components:
@@ -248,8 +248,3 @@
     maxReagents: 5
     metabolizerTypes: [Human]
     removeEmpty: true
-  - type: Tag # goob edit
-    tags:
-    - Meat
-    - Organ
-    - Kidneys
