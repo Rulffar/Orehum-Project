@@ -7,8 +7,8 @@
 
 - type: department
   id: Exclusive
-  name: Эксклюзив
-  description: Для нубасиков
+  name: department-Exclusive
+  description: department-Exclusive-description
   color: "#82CAFF"
   editorHidden: true
   roles:

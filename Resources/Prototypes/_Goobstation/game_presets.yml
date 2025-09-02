@@ -13,3 +13,18 @@
     - SpaceTrafficControlEventScheduler
     - BasicRoundstartVariation
     - LavalandStormScheduler
+
+- type: gamePreset
+  id: Heretic
+  alias:
+  - heretic
+  name: heretic-title
+  minPlayers: 20
+  showInVote: true
+  description: heretic-title
+  rules:
+  - Heretic
+  - BasicRoundstartVariation
+  - SubGamemodesRule
+  - BasicStationEventScheduler
+  - MeteorSwarmScheduler

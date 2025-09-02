@@ -24,6 +24,10 @@
   - type: FlavorProfile
     flavors:
       - people
+  - type: Tag # goob edit
+    tags:
+    - Meat
+    - Organ
 
 - type: entity
   id: BaseDionaOrgan
@@ -65,7 +69,7 @@
 
 - type: entity
   id: OrganDionaEyes
-  parent: BaseDionaOrgan
+  parent: [BaseDionaOrgan, OrganEyesTag] # fix heretic
   name: eyes
   description: "I see you!"
   components:
@@ -79,7 +83,7 @@
 
 - type: entity
   id: OrganDionaStomach
-  parent: BaseDionaOrgan
+  parent: [BaseDionaOrgan, OrganStomachTag] # fix heretic
   name: stomach
   description: "The diona's equivalent of a stomach, it reeks of asparagus and vinegar."
   components:
@@ -109,10 +113,13 @@
       - id: Narcotic
       - id: Alcohol
         rateModifier: 0.1
+  - type: Item
+    size: Small
+    heldPrefix: stomach
 
 - type: entity
   id: OrganDionaLungs
-  parent: BaseDionaOrgan
+  parent: [BaseDionaOrgan, OrganLungsTag] # fix heretic
   name: lungs
   description: "A spongy mess of slimy, leaf-like structures. Capable of breathing both carbon dioxide and oxygen."
   components:
@@ -158,7 +165,7 @@
 
 - type: entity
   id: OrganDionaStomachNymph
-  parent: OrganDionaStomach
+  parent: [OrganDionaStomach, OrganStomachTag] # fix heretic
   categories: [ HideSpawnMenu ]
   name: stomach
   description: "Gross. This is hard to stomach."
