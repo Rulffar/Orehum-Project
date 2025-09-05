@@ -127,9 +127,9 @@
       weight: 4.0
     # orehum start new effects
     - id: XenoArtifactIncreaseGlimmer
-      weight: 0.7
+      weight: 4.0
     - id: XenoArtifactDecreaseGlimmer
-      weight: 0.7
+      weight: 4.0
     # orehum end new effects
 
 - type: entityTable
