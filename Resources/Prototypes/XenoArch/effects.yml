@@ -127,9 +127,9 @@
       weight: 4.0
     # orehum start new effects
     - id: XenoArtifactIncreaseGlimmer
-      weight: 4.0
+      weight: 0.9
     - id: XenoArtifactDecreaseGlimmer
-      weight: 4.0
+      weight: 0.9
     # orehum end new effects
 
 - type: entityTable
@@ -1010,6 +1010,8 @@
     - Kelotane
     - Dexalin
     - Omnizine
+    - PsionicRegenerationEssence # orehum
+    - LotophagoiOil # orehum
 
 - type: entity
   id: XenoArtifactFoamDangerous
@@ -1032,6 +1034,8 @@
     - ChloralHydrate
     - Mold
     - Amatoxin
+    - OusianaDust # orehum
+    - SoulbreakerToxin # orehum
 
 - type: entity
   id: XenoArtifactPuddleRare
