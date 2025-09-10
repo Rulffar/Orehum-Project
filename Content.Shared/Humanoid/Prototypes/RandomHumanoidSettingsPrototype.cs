@@ -36,4 +36,12 @@ public sealed partial class RandomHumanoidSettingsPrototype : IPrototype, IInher
     [DataField]
     [AlwaysPushInheritance]
     public ComponentRegistry? Components { get; private set; }
+
+    // Orehum Start
+    /// <summary>
+    ///     Расы, которые будут выбраны
+    /// </summary>
+    [DataField("speciesWhitelist")]
+    public HashSet<string> SpeciesWhitelist { get; private set; } = new();
+    // Orehum End
 }

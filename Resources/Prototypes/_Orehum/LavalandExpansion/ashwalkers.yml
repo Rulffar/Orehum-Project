@@ -1,0 +1,68 @@
+- type: entity
+  id: LavalandTendrilAshWalkers
+  parent: LavalandTendrilBase
+  name: Гнездо Некрополя
+  description: Щупальце искажённой злобы. Вокруг него обустроено гнездо, полное быстро растущих яиц...
+  suffix: Legion
+  components:
+  - type: Sprite
+    state: ash_walker_nest
+  - type: Tendril # no spawn no fun
+    spawns: []
+    maxSpawns: 0
+    mobsToDefeat: 0
+  - type: AshWalkersNest
+  - type: Strap
+    whitelist:
+      components:
+      - MobState
+
+- type: entity
+  id: RandomAshWalkerEmptySpawn
+  name: Пеплоходец новорожденный
+  components:
+  - type: Sprite
+    sprite: Markers/cross.rsi
+    state: green
+  - type: RandomMetadata
+    nameSegments:
+    - names_reptilian_male
+    - names_shadowkin # sounds fun
+  - type: RandomHumanoidSpawner
+    settings: AshWalkerEmptySettings
+
+- type: randomHumanoidSettings
+  id: AshWalkerEmptySettings
+  speciesWhitelist:
+  - AshWalker
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: GhostRole
+    name: ghost-role-information-ashwalker-name
+    description: ghost-role-information-ashwalker-desc
+    rules: ghost-role-information-ashwalker-rules
+    raffle:
+      settings: short
+  - type: GhostTakeoverAvailable
+  - type: RandomMetadata
+    nameSegments:
+    - names_reptilian_male
+    - names_shadowkin # sounds fun
+
+- type: entity
+  id: RandomAshWalkerSpawn
+  parent: RandomAshWalkerEmptySpawn
+  name: Пеплоходец
+  components:
+  - type: RandomHumanoidSpawner
+    settings: AshWalkerSettings
+
+- type: randomHumanoidSettings
+  id: AshWalkerSettings
+  parent: AshWalkerEmptySettings
+  speciesWhitelist:
+  - AshWalker
+  components:
+  - type: Loadout
+    prototypes: [ AshWalker ]
