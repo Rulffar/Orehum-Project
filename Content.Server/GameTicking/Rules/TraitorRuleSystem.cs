@@ -135,7 +135,8 @@ public sealed class TraitorRuleSystem : GameRuleSystem<TraitorRuleComponent>
         //_npcFaction.RemoveFaction(traitor, component.NanoTrasenFaction, false);
         //_npcFaction.AddFaction(traitor, component.SyndicateFaction);
 
-        RaiseLocalEvent(traitor, new MoodEffectEvent("TraitorFocused"));
+        var ev = new MoodEffectEvent("TraitorFocused");
+        RaiseLocalEvent(traitor, ref ev);
         return true;
     }
 

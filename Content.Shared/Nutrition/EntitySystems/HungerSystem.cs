@@ -159,7 +159,7 @@ public sealed class HungerSystem : EntitySystem
             else if (_net.IsServer)
             {
                 var ev = new MoodEffectEvent("Hunger" + component.CurrentThreshold);
-                RaiseLocalEvent(uid, ev);
+                RaiseLocalEvent(uid, ref ev);
             }
         }
 

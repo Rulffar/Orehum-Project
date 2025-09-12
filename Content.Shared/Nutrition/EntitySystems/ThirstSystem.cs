@@ -178,7 +178,7 @@ public sealed class ThirstSystem : EntitySystem
         DirtyField(uid, component, nameof(ThirstComponent.ActualDecayRate));
 
         var ev = new MoodEffectEvent("Thirst" + component.CurrentThirstThreshold);
-        RaiseLocalEvent(uid, ev);
+        RaiseLocalEvent(uid, ref ev);
 
         switch (component.CurrentThirstThreshold)
         {
