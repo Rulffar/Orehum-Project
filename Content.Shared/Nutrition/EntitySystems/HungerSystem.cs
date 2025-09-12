@@ -39,6 +39,8 @@ public sealed class HungerSystem : EntitySystem
     [ValidatePrototypeId<SatiationIconPrototype>]
     private const string HungerIconStarvingId = "HungerIconStarving";
 
+    private bool _moodEnabled = false;
+
     public override void Initialize()
     {
         base.Initialize();
@@ -47,7 +49,11 @@ public sealed class HungerSystem : EntitySystem
         SubscribeLocalEvent<HungerComponent, ComponentShutdown>(OnShutdown);
         SubscribeLocalEvent<HungerComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshMovespeed);
         SubscribeLocalEvent<HungerComponent, RejuvenateEvent>(OnRejuvenate);
+
+        Subs.CVar(_config, CCVars.MoodEnabled, OnMoodChanged, true);
     }
+
+    private void OnMoodChanged(bool val) => _moodEnabled = val;
 
     private void OnMapInit(EntityUid uid, HungerComponent component, MapInitEvent args)
     {
@@ -64,7 +70,7 @@ public sealed class HungerSystem : EntitySystem
 
     private void OnRefreshMovespeed(EntityUid uid, HungerComponent component, RefreshMovementSpeedModifiersEvent args)
     {
-        if (_config.GetCVar(CCVars.MoodEnabled)
+        if (_moodEnabled
             || component.CurrentThreshold > HungerThreshold.Starving
             || _jetpack.IsUserFlying(uid))
             return;
@@ -154,11 +160,20 @@ public sealed class HungerSystem : EntitySystem
 
         if (GetMovementThreshold(component.CurrentThreshold) != GetMovementThreshold(component.LastThreshold))
         {
-            if (!_config.GetCVar(CCVars.MoodEnabled))
+            if (!_moodEnabled)
                 _movementSpeedModifier.RefreshMovementSpeedModifiers(uid);
             else if (_net.IsServer)
             {
-                var ev = new MoodEffectEvent("Hunger" + component.CurrentThreshold);
+                var ev = new MoodEffectEvent(
+                    component.CurrentThreshold switch
+                {
+                    HungerThreshold.Overfed => "HungerOverfed",
+                    HungerThreshold.Okay => "HungerOkay",
+                    HungerThreshold.Peckish => "HungerPeckish",
+                    HungerThreshold.Starving => "HungerStarving",
+                    HungerThreshold.Dead => "HungerDead",
+                    _ => "Hunger"
+                });
                 RaiseLocalEvent(uid, ref ev);
             }
         }

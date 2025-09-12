@@ -36,6 +36,8 @@ public sealed class ThirstSystem : EntitySystem
     [ValidatePrototypeId<SatiationIconPrototype>]
     private const string ThirstIconParchedId = "ThirstIconParched";
 
+    private bool _moodEnabled = false;
+
     public override void Initialize()
     {
         base.Initialize();
@@ -43,7 +45,11 @@ public sealed class ThirstSystem : EntitySystem
         SubscribeLocalEvent<ThirstComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshMovespeed);
         SubscribeLocalEvent<ThirstComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<ThirstComponent, RejuvenateEvent>(OnRejuvenate);
+
+        Subs.CVar(_config, CCVars.MoodEnabled, OnMoodChanged, true);
     }
+
+    private void OnMoodChanged(bool val) => _moodEnabled = val;
 
     private void OnMapInit(EntityUid uid, ThirstComponent component, MapInitEvent args)
     {
@@ -71,7 +77,7 @@ public sealed class ThirstSystem : EntitySystem
     private void OnRefreshMovespeed(EntityUid uid, ThirstComponent component, RefreshMovementSpeedModifiersEvent args)
     {
         // TODO: This should really be taken care of somewhere else
-        if (_config.GetCVar(CCVars.MoodEnabled)
+        if (_moodEnabled
             || _jetpack.IsUserFlying(uid))
             return;
 
@@ -157,7 +163,7 @@ public sealed class ThirstSystem : EntitySystem
 
     private void UpdateEffects(EntityUid uid, ThirstComponent component)
     {
-        if (!_config.GetCVar(CCVars.MoodEnabled)
+        if (!_moodEnabled
             && IsMovementThreshold(component.LastThirstThreshold) != IsMovementThreshold(component.CurrentThirstThreshold)
             && TryComp(uid, out MovementSpeedModifierComponent? movementSlowdownComponent))
         {
@@ -177,7 +183,16 @@ public sealed class ThirstSystem : EntitySystem
         DirtyField(uid, component, nameof(ThirstComponent.LastThirstThreshold));
         DirtyField(uid, component, nameof(ThirstComponent.ActualDecayRate));
 
-        var ev = new MoodEffectEvent("Thirst" + component.CurrentThirstThreshold);
+        var ev = new MoodEffectEvent(
+            component.CurrentThirstThreshold switch
+        {
+            ThirstThreshold.Dead => "ThirstDead",
+            ThirstThreshold.Parched => "ThirstParched",
+            ThirstThreshold.Thirsty => "ThirstThirsty",
+            ThirstThreshold.Okay => "ThirstOkay",
+            ThirstThreshold.OverHydrated => "ThirstOverHydrated",
+            _ => "Thirst"
+        });
         RaiseLocalEvent(uid, ref ev);
 
         switch (component.CurrentThirstThreshold)
