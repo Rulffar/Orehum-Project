@@ -1733,6 +1733,7 @@
     - !type:TileNotBlocked
 
 - type: construction
+  name: fungal soil
   id: FungalSoil
   graph: Soil
   startNode: start
@@ -1741,5 +1742,8 @@
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
+  icon:
+    sprite: Structures/Hydroponics/misc.rsi
+    state: fungal_soil
   conditions:
     - !type:TileNotBlocked
