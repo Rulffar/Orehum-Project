@@ -20,8 +20,8 @@ using Content.Shared.Inventory.Events;
 using Content.Shared.Inventory.VirtualItem;
 using Content.Shared.Item;
 using Content.Shared.Movement.Events;
-using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Movement.Pulling.Events;
+using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Popups;
 using Content.Shared.Pulling.Events;
 using Content.Shared.Rejuvenate;
@@ -188,13 +188,15 @@ namespace Content.Shared.Cuffs
             if (component.CanStillInteract)
             {
                 _alerts.ClearAlert(uid, component.CuffedAlert);
-                RaiseLocalEvent(uid, new MoodRemoveEffectEvent("Handcuffed"));
+                var moodEv = new MoodRemoveEffectEvent("Handcuffed");
+                RaiseLocalEvent(uid, ref moodEv);
             }
 
             else
             {
                 _alerts.ShowAlert(uid, component.CuffedAlert);
-                RaiseLocalEvent(uid, new MoodEffectEvent("Handcuffed"));
+                var moodEv = new MoodEffectEvent("Handcuffed");
+                RaiseLocalEvent(uid, ref moodEv);
             }
 
             var ev = new CuffedStateChangeEvent();

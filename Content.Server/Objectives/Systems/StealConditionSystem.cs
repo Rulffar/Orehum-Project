@@ -26,7 +26,7 @@ public sealed class StealConditionSystem : EntitySystem
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
 
     private EntityQuery<ContainerManagerComponent> _containerQuery;
-
+    private EntityQuery<MetaDataComponent> _metaQuery;
     private HashSet<Entity<TransformComponent>> _nearestEnts = new();
     private HashSet<EntityUid> _countedItems = new();
 
@@ -35,6 +35,7 @@ public sealed class StealConditionSystem : EntitySystem
         base.Initialize();
 
         _containerQuery = GetEntityQuery<ContainerManagerComponent>();
+        _metaQuery = GetEntityQuery<MetaDataComponent>();
 
         SubscribeLocalEvent<StealConditionComponent, ObjectiveAssignedEvent>(OnAssigned);
         SubscribeLocalEvent<StealConditionComponent, ObjectiveAfterAssignEvent>(OnAfterAssign);
