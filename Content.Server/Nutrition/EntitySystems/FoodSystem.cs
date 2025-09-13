@@ -342,7 +342,10 @@ public sealed class FoodSystem : EntitySystem
                     args.User, args.User, PopupType.MediumCaution);
 
             foreach (var mood in entity.Comp.MoodletsOnEat)
-                RaiseLocalEvent(args.User, new MoodEffectEvent(mood));
+            {
+                var ev = new MoodEffectEvent(mood);
+                RaiseLocalEvent(args.User, ref ev);
+            }
 
             // log successful voluntary eating
             _adminLogger.Add(LogType.Ingestion, LogImpact.Low, $"{ToPrettyString(args.User):target} ate {ToPrettyString(entity.Owner):food}");

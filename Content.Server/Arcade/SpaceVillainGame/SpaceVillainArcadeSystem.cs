@@ -78,7 +78,8 @@ public sealed partial class SpaceVillainArcadeSystem : EntitySystem
         if (!TryComp<ApcPowerReceiverComponent>(uid, out var power) || !power.Powered)
             return;
 
-        RaiseLocalEvent(EntityManager.GetEntity(msg.Entity), new MoodEffectEvent("ArcadePlay"));
+        var ev = new MoodEffectEvent("ArcadePlay");
+        RaiseLocalEvent(EntityManager.GetEntity(msg.Entity), ref ev);
 
         switch (msg.PlayerAction)
         {

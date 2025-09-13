@@ -14,6 +14,7 @@ namespace Content.Shared.Rotatable
     {
         [Dependency] private readonly SharedPopupSystem _popup = default!;
         [Dependency] private readonly INetManager _net = default!;
+        [Dependency] private readonly SharedTransformSystem _transform = default!;
 
         public override void Initialize()
         {
@@ -111,12 +112,12 @@ namespace Content.Shared.Rotatable
                 return;
             }
 
-            var oldTransform = EntityManager.GetComponent<TransformComponent>(uid);
-            var entity = EntityManager.SpawnEntity(component.MirrorEntity, oldTransform.Coordinates);
-            var newTransform = EntityManager.GetComponent<TransformComponent>(entity);
-            newTransform.LocalRotation = oldTransform.LocalRotation;
-            newTransform.Anchored = false;
-            EntityManager.DeleteEntity(uid);
+            var oldTransform = Comp<TransformComponent>(uid);
+            var entity = PredictedSpawnAtPosition(component.MirrorEntity, oldTransform.Coordinates);
+            var newTransform = Comp<TransformComponent>(entity);
+            _transform.SetLocalRotation(entity, oldTransform.LocalRotation);
+            _transform.Unanchor(entity, newTransform);
+            PredictedDel(uid);
         }
     }
 }

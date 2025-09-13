@@ -124,3 +124,10 @@
   name: lavaland-ruin-unknown
   path: /Maps/_Lavaland/Lavaland/common_ruin_5x5.yml
   priority: 20 # lowest possible
+
+# orehum ruins
+- type: lavalandRuin
+  id: AshWalkersBase
+  name: lavaland-ruin-ashwalkers
+  path: /Maps/_Orehum/lavaland/ashwalkersbase.yml
+  priority: -1 # highest priority

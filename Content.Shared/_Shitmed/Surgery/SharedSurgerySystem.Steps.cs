@@ -167,8 +167,12 @@ public abstract partial class SharedSurgerySystem
         }
 
 
-        if (!HasComp<ForcedSleepingComponent>(args.Body) && !HasComp<NoScreamComponent>(args.Body) && !HasComp<SiliconComponent>(args.Body)) // Orehum fix silicons
-            RaiseLocalEvent(args.Body, new MoodEffectEvent("SurgeryPain"));
+        if (!HasComp<ForcedSleepingComponent>(args.Body) && !HasComp<NoScreamComponent>(args.Body) &&
+            !HasComp<SiliconComponent>(args.Body)) // Orehum fix silicons
+        {
+            var moodEv = new MoodEffectEvent("SurgeryPain");
+            RaiseLocalEvent(args.Body, ref moodEv);
+        }
         // Morphine - reenable this :)
         if (!_inventory.TryGetSlotEntity(args.User, "gloves", out var _)
             || !_inventory.TryGetSlotEntity(args.User, "mask", out var _))

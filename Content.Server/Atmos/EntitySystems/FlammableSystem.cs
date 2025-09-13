@@ -447,7 +447,8 @@ namespace Content.Server.Atmos.EntitySystems
                     if (air == null || air.GetMoles(Gas.Oxygen) < 1f)
                     {
                         Extinguish(uid, flammable);
-                        RaiseLocalEvent(uid, new MoodRemoveEffectEvent("OnFire"));
+                        var moodEv = new MoodRemoveEffectEvent("OnFire");
+                        RaiseLocalEvent(uid, ref moodEv);
                         RemCompDeferred<OnFireComponent>(uid);
                         continue;
                     }

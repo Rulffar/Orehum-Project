@@ -327,7 +327,9 @@ public sealed partial class AnchorableSystem : EntitySystem
         {
             // If we find another unstackable here, return true.
             if (_tagSystem.HasTag(entity.Value, Unstackable))
+            {
                 return true;
+            }
         }
 
         return false;
