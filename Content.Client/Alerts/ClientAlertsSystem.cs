@@ -28,6 +28,7 @@ public sealed class ClientAlertsSystem : AlertsSystem
         SubscribeLocalEvent<AlertsComponent, LocalPlayerAttachedEvent>(OnPlayerAttached);
         SubscribeLocalEvent<AlertsComponent, LocalPlayerDetachedEvent>(OnPlayerDetached);
 
+        SubscribeLocalEvent<AlertsComponent, ComponentHandleState>(OnHandleState); // what the fuck
         SubscribeLocalEvent<AlertsComponent, AfterAutoHandleStateEvent>(ClientAlertsHandleState);
     }
     protected override void LoadPrototypes()
@@ -49,6 +50,32 @@ public sealed class ClientAlertsSystem : AlertsSystem
                 : null;
         }
     }
+
+    private void OnHandleState(Entity<AlertsComponent> alerts, ref ComponentHandleState args)  // what the fuck
+    {  // what the fuck
+        if (args.Current is not AlertComponentState cast)  // what the fuck
+            return;  // what the fuck
+
+        // Save all client-sided alerts to later put back in  // what the fuck
+        var clientAlerts = new Dictionary<AlertKey, AlertState>();  // what the fuck
+        foreach (var alert in alerts.Comp.Alerts)  // what the fuck
+        {  // what the fuck
+            if (alert.Key.AlertType != null && TryGet(alert.Key.AlertType.Value, out var alertProto))  // what the fuck
+            {  // what the fuck
+                if (alertProto.ClientHandled)  // what the fuck
+                    clientAlerts[alert.Key] = alert.Value;  // what the fuck
+            }  // what the fuck
+        }  // what the fuck
+
+        alerts.Comp.Alerts = new(cast.Alerts);  // what the fuck
+
+        foreach (var alert in clientAlerts)  // what the fuck
+        {  // what the fuck
+            alerts.Comp.Alerts[alert.Key] = alert.Value;  // what the fuck
+        } // what the fuck
+
+        UpdateHud(alerts);  // what the fuck
+    }  // what the fuck
 
     protected override void AfterShowAlert(Entity<AlertsComponent> alerts)
     {
