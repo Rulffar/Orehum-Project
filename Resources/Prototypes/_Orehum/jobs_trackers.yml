@@ -3,3 +3,6 @@
 
 - type: playTimeTracker
   id: JobBestyExclusive
+
+- type: playTimeTracker
+  id: JobME4TAExclusive
