@@ -76650,9 +76650,6 @@ entities:
   entities:
   - uid: 11846
     components:
-    - type: MetaData
-      desc: Shitai ni kiru no yō...
-      name: the mortician's scalpel
     - type: Transform
       pos: 9.741736,-40.32208
       parent: 2
