@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 261.2.0
+  engineVersion: 263.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/04/2025 14:25:11
-  entityCount: 13106
+  time: 09/17/2025 17:08:15
+  entityCount: 13109
 maps:
 - 1
 grids:
@@ -4050,6 +4050,8 @@ entities:
     - type: GasTileOverlay
     - type: RadiationGridResistance
     - type: NavMap
+    - type: SupermatterSpreaderGrid
+    - type: ImplicitRoof
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 3
@@ -5497,7 +5499,7 @@ entities:
       pos: -16.5,2.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -271.79523
+      secondsUntilStateChange: -625.5486
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6036,7 +6038,7 @@ entities:
       pos: -16.5,-3.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -274.69522
+      secondsUntilStateChange: -628.4486
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -35054,6 +35056,11 @@ entities:
     - type: Transform
       pos: 8.5,26.5
       parent: 2
+  - uid: 13107
+    components:
+    - type: Transform
+      pos: 0.5,11.5
+      parent: 2
 - proto: DonkpocketBoxSpawner
   entities:
   - uid: 5637
@@ -50685,8 +50692,6 @@ entities:
       parent: 2
     - type: GasThermoMachine
       targetTemperature: 73.15
-    - type: ApcPowerReceiver
-      powerDisabled: False
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 7756
@@ -50710,8 +50715,6 @@ entities:
       parent: 2
     - type: GasThermoMachine
       targetTemperature: 73.15
-    - type: ApcPowerReceiver
-      powerDisabled: False
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 7759
@@ -50722,8 +50725,6 @@ entities:
       parent: 2
     - type: GasThermoMachine
       targetTemperature: 73.15
-    - type: ApcPowerReceiver
-      powerDisabled: False
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 7760
@@ -67610,6 +67611,20 @@ entities:
     - type: Transform
       pos: 49.5,4.5
       parent: 2
+- proto: SpawnMobPlantbot
+  entities:
+  - uid: 13109
+    components:
+    - type: Transform
+      pos: -19.5,-0.5
+      parent: 2
+- proto: SpawnMobSecDogLaika
+  entities:
+  - uid: 13108
+    components:
+    - type: Transform
+      pos: 0.5,11.5
+      parent: 2
 - proto: SpawnMobShiva
   entities:
   - uid: 10495
@@ -81277,13 +81292,13 @@ entities:
     - type: Transform
       pos: 39.5,-13.5
       parent: 2
+- proto: WaterTankHighCapacity
+  entities:
   - uid: 12871
     components:
     - type: Transform
       pos: -21.5,-2.5
       parent: 2
-- proto: WaterTankHighCapacity
-  entities:
   - uid: 12872
     components:
     - type: Transform
