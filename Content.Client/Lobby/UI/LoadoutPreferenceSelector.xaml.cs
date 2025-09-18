@@ -230,9 +230,9 @@ public sealed partial class LoadoutPreferenceSelector : Control
 
         // Update prefs cache when something changes
         NameEdit.OnTextChanged += _ =>
-            _preference.CustomName = Content.Shared.Clothing.Loadouts.Systems.Loadout.Sanitize(string.IsNullOrEmpty(NameEdit.Text) ? null : NameEdit.Text);
+            _preference.CustomName = string.IsNullOrEmpty(NameEdit.Text) ? null : NameEdit.Text;
         DescriptionEdit.OnTextChanged += _ =>
-            _preference.CustomDescription = Content.Shared.Clothing.Loadouts.Systems.Loadout.Sanitize(string.IsNullOrEmpty(Rope.Collapse(DescriptionEdit.TextRope)) ? null : Rope.Collapse(DescriptionEdit.TextRope));
+            _preference.CustomDescription = string.IsNullOrEmpty(Rope.Collapse(DescriptionEdit.TextRope)) ? null : Rope.Collapse(DescriptionEdit.TextRope);
         SpecialColorTintToggle.OnToggled += args =>
             ColorEdit.Visible = args.Pressed;
         ColorEdit.OnColorChanged += _ =>

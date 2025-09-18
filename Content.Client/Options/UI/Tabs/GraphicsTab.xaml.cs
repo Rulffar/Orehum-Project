@@ -32,7 +32,6 @@ namespace Content.Client.Options.UI.Tabs
 
             VSyncCheckBox.OnToggled += OnCheckBoxToggled;
             FullscreenCheckBox.OnToggled += OnCheckBoxToggled;
-            AmbientOcclusionCheckBox.OnToggled += OnCheckBoxToggled;
 
             LightingPresetOption.AddItem(Loc.GetString("ui-options-lighting-very-low"));
             LightingPresetOption.AddItem(Loc.GetString("ui-options-lighting-low"));
@@ -82,7 +81,6 @@ namespace Content.Client.Options.UI.Tabs
             ApplyButton.OnPressed += OnApplyButtonPressed;
             VSyncCheckBox.Pressed = _cfg.GetCVar(CVars.DisplayVSync);
             FullscreenCheckBox.Pressed = ConfigIsFullscreen;
-            AmbientOcclusionCheckBox.Pressed = _cfg.GetCVar(CCVars.AmbientOcclusion);
             LightingPresetOption.SelectId(GetConfigLightingQuality());
             UIScaleOption.SelectId(GetConfigUIScalePreset(ConfigUIScale));
             ViewportScaleSlider.Value = _cfg.GetCVar(CCVars.ViewportFixedScaleFactor);
@@ -117,8 +115,6 @@ namespace Content.Client.Options.UI.Tabs
 
             _cfg.SetCVar(CVars.DisplayWindowMode,
                          (int) (FullscreenCheckBox.Pressed ? WindowMode.Fullscreen : WindowMode.Windowed));
-            _cfg.SetCVar(CCVars.AmbientOcclusion, AmbientOcclusionCheckBox.Pressed);
-            _cfg.SetCVar(CVars.DisplayUIScale, UIScaleOptions[UIScaleOption.SelectedId]);
             _cfg.SetCVar(CVars.DisplayUIScale, UIScaleOptions[UIScaleOption.SelectedId]);
             _cfg.SetCVar(CCVars.ViewportStretch, ViewportStretchCheckBox.Pressed);
             _cfg.SetCVar(CCVars.ViewportFixedScaleFactor, (int) ViewportScaleSlider.Value);
@@ -150,7 +146,6 @@ namespace Content.Client.Options.UI.Tabs
         {
             var isVSyncSame = VSyncCheckBox.Pressed == _cfg.GetCVar(CVars.DisplayVSync);
             var isFullscreenSame = FullscreenCheckBox.Pressed == ConfigIsFullscreen;
-            var isAOSame = AmbientOcclusionCheckBox.Pressed == _cfg.GetCVar(CCVars.AmbientOcclusion);
             var isLightingQualitySame = LightingPresetOption.SelectedId == GetConfigLightingQuality();
             var isUIScaleSame = MathHelper.CloseToPercent(UIScaleOptions[UIScaleOption.SelectedId], ConfigUIScale);
             var isVPStretchSame = ViewportStretchCheckBox.Pressed == _cfg.GetCVar(CCVars.ViewportStretch);
@@ -164,7 +159,6 @@ namespace Content.Client.Options.UI.Tabs
 
             ApplyButton.Disabled = isVSyncSame &&
                                    isFullscreenSame &&
-                                   isAOSame &&
                                    isLightingQualitySame &&
                                    isUIScaleSame &&
                                    isVPStretchSame &&

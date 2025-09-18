@@ -8,8 +8,6 @@ using Content.Server.Station.Systems;
 using Content.Server.Stunnable;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Damage;
-using Content.Shared.GameTicking;
-using Content.Shared.Light.Components;
 using Content.Shared.Inventory;
 using Content.Shared.Salvage;
 using Content.Shared.Shuttles.Systems;
@@ -117,8 +115,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
         if (HasComp<MapComponent>(ev.EntityUid))
             return;
 
-        EnsureComp<ShuttleComponent>(ev.EntityUid);
-        EnsureComp<ImplicitRoofComponent>(ev.EntityUid);
+        EntityManager.EnsureComponent<ShuttleComponent>(ev.EntityUid);
     }
 
     private void OnShuttleStartup(EntityUid uid, ShuttleComponent component, ComponentStartup args)
