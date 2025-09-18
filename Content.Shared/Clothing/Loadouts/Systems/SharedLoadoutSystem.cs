@@ -191,19 +191,10 @@ public abstract partial class Loadout
     )
     {
         LoadoutName = loadoutName;
-        CustomName = Sanitize(customName);
-        CustomDescription = Sanitize(customDescription);
-        CustomColorTint = Sanitize(customColorTint);
+        CustomName = customName;
+        CustomDescription = customDescription;
+        CustomColorTint = customColorTint;
         CustomHeirloom = customHeirloom;
-    }
-
-    public static string? Sanitize(string? text)
-    {
-        if (text == null)
-            return text;
-        if (text.Length <= 255)
-            return text;
-        return text[..255];
     }
 }
 

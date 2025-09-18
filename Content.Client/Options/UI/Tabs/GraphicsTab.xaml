@@ -41,7 +41,6 @@
                       ToolTip="{Loc 'ui-options-vp-vertical-fit-tooltip'}" />
             <CheckBox Name="ViewportLowResCheckBox" Text="{Loc 'ui-options-vp-low-res'}" />
             <CheckBox Name="ParallaxLowQualityCheckBox" Text="{Loc 'ui-options-parallax-low-quality'}" />
-            <CheckBox Name="AmbientOcclusionCheckBox" Text="{Loc 'ui-options-ambient-occlusion'}" />
             <CheckBox Name="FpsCounterCheckBox" Text="{Loc 'ui-options-fps-counter'}" />
             <CheckBox Name="MoodVisualEffectsCheckBox" Text="{Loc 'ui-options-mood-visual-effects'}" />
         </BoxContainer>
