@@ -13,10 +13,10 @@ using Robust.Shared.Random;
 using System.Linq;
 using System.Text;
 using Content.Server.Objectives.Commands;
+using Content.Shared.Prototypes;
 using Content.Shared._DV.CCVars;
 using Content.Shared._DV.CustomObjectiveSummary; // DeltaV
 using Content.Shared.CCVar;
-using Content.Shared.Prototypes;
 using Content.Shared.Roles.Jobs;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
@@ -39,6 +39,8 @@ public sealed class ObjectivesSystem : SharedObjectivesSystem
     private bool _showGreentext;
 
     private int _maxLengthSummaryLength; // DeltaV
+
+    private IEnumerable<string>? _objectives;
 
     public override void Initialize()
     {
