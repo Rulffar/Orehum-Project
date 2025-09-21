@@ -115,13 +115,6 @@ namespace Content.Shared.Rotatable
         /// </summary>
         public void Flip(EntityUid uid, FlippableComponent component)
         {
-            if (EntityManager.TryGetComponent(uid, out PhysicsComponent? physics) &&
-                physics.BodyType == BodyType.Static)
-            {
-                _popup.PopupPredicted(Loc.GetString("flippable-component-try-flip-is-stuck"), uid, user);
-                return;
-            }
-
             var oldTransform = Comp<TransformComponent>(uid);
             var entity = PredictedSpawnAtPosition(component.MirrorEntity, oldTransform.Coordinates);
             var newTransform = Comp<TransformComponent>(entity);

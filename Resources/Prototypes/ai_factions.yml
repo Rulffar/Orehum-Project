@@ -155,25 +155,6 @@
   - SAN
 
 - type: npcFaction
-  id: AllHostile
-  hostile:
-  - NanoTrasen
-  - Dragon
-  - Mouse
-  - Passive
-  - PetsNT
-  - SimpleHostile
-  - SimpleNeutral
-  - Syndicate
-  - Xeno
-  - Zombie
-  - Revolutionary
-  - Wizard
-  - Shadowling
-  - Changeling # goob edit - changelings
-  - Blob # Goobstation - Blob
-
-- type: npcFaction
   id: Wizard
   hostile:
   - NanoTrasen

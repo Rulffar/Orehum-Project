@@ -19,7 +19,7 @@ public sealed partial class SponsorRequirement : CharacterRequirement
     public override bool IsValid(
         JobPrototype job,
         HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes,
+        IReadOnlyDictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,
         IEntityManager entityManager,
@@ -27,7 +27,8 @@ public sealed partial class SponsorRequirement : CharacterRequirement
         IConfigurationManager configManager,
         out string? reason,
         int depth = 0,
-        MindComponent? mind = null)
+        MindComponent? mind = null
+    )
     {
         reason = null;
 

@@ -1643,37 +1643,6 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
         #endregion
         // Orehum end
 
-        // SQLite returns DateTime as Kind=Unspecified, Npgsql actually knows for sure it's Kind=Utc.
-        // Normalize DateTimes here so they're always Utc. Thanks.
-        protected abstract DateTime NormalizeDatabaseTime(DateTime time);
-
-        [return: NotNullIfNotNull(nameof(time))]
-        protected DateTime? NormalizeDatabaseTime(DateTime? time)
-        {
-            return time != null ? NormalizeDatabaseTime(time.Value) : time;
-        }
-
-        public async Task<bool> HasPendingModelChanges()
-        {
-            await using var db = await GetDb();
-            return db.DbContext.Database.HasPendingModelChanges();
-        }
-
-        protected abstract Task<DbGuard> GetDb(
-            CancellationToken cancel = default,
-            [CallerMemberName] string? name = null);
-
-        protected void LogDbOp(string? name)
-        {
-            _opsLog.Verbose($"Running DB operation: {name ?? "unknown"}");
-        }
-
-        protected abstract class DbGuard : IAsyncDisposable
-        {
-            public abstract ServerDbContext DbContext { get; }
-
-            public abstract ValueTask DisposeAsync();
-        }
 
         #region Job Whitelists
 

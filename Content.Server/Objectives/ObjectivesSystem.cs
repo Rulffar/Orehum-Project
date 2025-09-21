@@ -40,8 +40,6 @@ public sealed class ObjectivesSystem : SharedObjectivesSystem
 
     private int _maxLengthSummaryLength; // DeltaV
 
-    private IEnumerable<string>? _objectives;
-
     public override void Initialize()
     {
         base.Initialize();
