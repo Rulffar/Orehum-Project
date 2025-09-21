@@ -2,6 +2,7 @@ using System.Numerics;
 using Content.Shared.Administration;
 using Content.Shared.Administration.Managers;
 using Content.Shared.Camera;
+using Content.Shared.CCVar;
 using Content.Shared.Ghost;
 using Content.Shared.Input;
 using Content.Shared.Movement.Components;
@@ -21,9 +22,11 @@ public abstract class SharedContentEyeSystem : EntitySystem
     // Admin flags required to ignore normal eye restrictions.
     public const AdminFlags EyeFlag = AdminFlags.Debug;
 
-    public const float ZoomMod = 1.5f;
-    public static readonly Vector2 DefaultZoom = Vector2.One;
-    public static readonly Vector2 MinZoom = DefaultZoom * (float)Math.Pow(ZoomMod, -3);
+    // Will be overridden according to config.
+    public readonly Vector2 DefaultZoom = Vector2.One;
+    public float ZoomMod { get; private set; } = 1f;
+    public int ZoomLevels { get; private set; } = 1;
+    public Vector2 MinZoom { get; private set; } = Vector2.One;
 
     [Dependency] private readonly SharedEyeSystem _eye = default!;
 

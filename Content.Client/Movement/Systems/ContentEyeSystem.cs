@@ -1,6 +1,7 @@
 using System.Numerics;
 using Content.Shared.Movement.Components;
 using Content.Shared.Movement.Systems;
+using Robust.Client.GameObjects;
 using Robust.Client.Player;
 
 namespace Content.Client.Movement.Systems;
@@ -9,7 +10,7 @@ public sealed class ContentEyeSystem : SharedContentEyeSystem
 {
     [Dependency] private readonly IPlayerManager _player = default!;
 
-    public void RequestZoom(EntityUid uid, Vector2 zoom, bool ignoreLimit, ContentEyeComponent? content = null)
+    public void RequestZoom(EntityUid uid, Vector2 zoom, bool ignoreLimit, bool scalePvs, ContentEyeComponent? content = null)
     {
         if (!Resolve(uid, ref content, false))
             return;
@@ -19,6 +20,14 @@ public sealed class ContentEyeSystem : SharedContentEyeSystem
             TargetZoom = zoom,
             IgnoreLimit = ignoreLimit,
         });
+
+        if (scalePvs)
+            RequestPvsScale(Math.Max(zoom.X, zoom.Y));
+    }
+
+    public void RequestPvsScale(float scale)
+    {
+        RaiseNetworkEvent(new RequestPvsScaleEvent(scale));
     }
 
     public void RequestToggleFov()
